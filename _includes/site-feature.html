@@ -1,0 +1,27 @@
+{% assign feature_text = page.feature_text %}
+{% assign feature_image = page.feature_image %}
+{% if page.collectionpage %}
+  {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+  {% assign feature_text = collectiondata.feature_text %}
+  {% assign feature_image = collectiondata.feature_image %}
+{% endif %}
+
+{% if site.header_left %}
+  <div class="container-fluid">
+    <div class="row equal">
+      <div class="col-xs-6 col-sm-6 vertical-align">
+        {{ site.header_left }}
+      </div>
+      <div class="col-xs-6 col-sm-6 vertical-align">
+        <div class="col-xs-12 col-sm-12 text-right">{{ site.header_right }}</div>
+      </div>
+    </div>
+  </div>
+{% endif %}
+{% if feature_text or feature_image %}
+  <div class="feature"{% if feature_image %} style="background-image: url({{ feature_image }})"{% endif %}>
+      <div class="mycontainer  typeset">
+        {{ feature_text | markdownify }}
+      </div>
+  </div>
+{% endif %}
