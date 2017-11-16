@@ -8,15 +8,18 @@ title: The Microservices Community
 
 ### The aim of Microservices Community is to ... around all aspects of designing and programming microservice architectures.
 
-Activities of Microservices Community comprise:
+The main activities of the Microservices Community currently include, but are not limited to, the following.
 
-- Organise the Microservices conference (http://conf-micro.services) once a year. If possible, have a fund to sponsor the travelling of participants.
+- Organise the International Conference on Microservices once a year ([http://conf-micro.services](http://conf-micro.services)), which acts also as a recurring opportunity for the physical gathering of the community.
 
-- Help in the organisation of more focused workshops and other events. These may range from broad meetups between companies and/or researchers (like the Italian Meeting on Microservices, which was a huge success) to more local and technical workshops (e.g., like the Jolie international meetup, or specific workshops on other technologies like node.js, Erlang, Lambda, ...).
+- Support the organisation of focused events on microservices. Examples include: technical workshops on industrial technologies, national meetings (like the [Italian Meeting on Microservices](http://www.italianasoftware.com/mom2016_eng.html)), and academic forums.
 
-- Publish open access material on microservices, either through the website as informal publications (white papers), or through more formal channels.
+- Provide funding opportunities for travelling and the organisation of events in general.
 
-- Provide hardware resources for the community website.
+- Publish open access material on microservices, either through the website as informal publications (white papers), or through more formal channels (like edited books with chapters from multiple authors, or journals).
+
+- Provide resources for the digital platform of the community, including this website.
+
 
 ## Sponsoring Placeholder
 
