@@ -15,18 +15,18 @@
   },{ 
     "logo": "dtu.png", 
     "link": "http://www.dtu.dk/",
-    "alt": "Denmarks Tekniske Universitet" 
+    "alt": "Technical University of Denmark" 
   },{ 
     "logo": "technology_denmark.png", 
     "link": "https://technologydenmark.dk/",
-    "alt": "Technology Denmark" 
+    "alt": "Technology Denmark"
   },{ 
     "logo": "sdu.png", 
     "link": "https://www.sdu.dk/",
-    "alt": "Syddansk Universitet" 
+    "alt": "University of Southern Denmark" 
   },{ 
     "logo": "unibo.png", 
     "link": "http://www.unibo.it",
-    "alt": "Università di Bologna" 
+    "alt": "University of Bologna"
   }
 ]
