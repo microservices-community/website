@@ -2,9 +2,6 @@
 layout: page
 title: The Microservices Community
 ---
-<link rel="stylesheet" type="text/css" href="/assets/styles/slick.css"/>
-<link rel="stylesheet" type="text/css" href="/assets/styles/slick-theme.css"/>
-
 
 ### The aim of Microservices Community is to ... around all aspects of designing and programming microservice architectures.
 
