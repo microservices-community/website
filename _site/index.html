@@ -127,20 +127,23 @@ Microservices Community</h2></a>
 
 <h3 id="the-aim-of-microservices-community-is-to--around-all-aspects-of-designing-and-programming-microservice-architectures">The aim of Microservices Community is to … around all aspects of designing and programming microservice architectures.</h3>
 
-<p>Activities of Microservices Community comprise:</p>
+<p>The main activities of the Microservices Community currently include, but are not limited to, the following.</p>
 
 <ul>
   <li>
-    <p>Organise the Microservices conference (http://conf-micro.services) once a year. If possible, have a fund to sponsor the travelling of participants.</p>
+    <p>Organise the International Conference on Microservices once a year (<a href="http://conf-micro.services">http://conf-micro.services</a>), which acts also as a recurring opportunity for the physical gathering of the community.</p>
   </li>
   <li>
-    <p>Help in the organisation of more focused workshops and other events. These may range from broad meetups between companies and/or researchers (like the Italian Meeting on Microservices, which was a huge success) to more local and technical workshops (e.g., like the Jolie international meetup, or specific workshops on other technologies like node.js, Erlang, Lambda, …).</p>
+    <p>Support the organisation of focused events on microservices. Examples include: technical workshops on industrial technologies, national meetings (like the <a href="http://www.italianasoftware.com/mom2016_eng.html">Italian Meeting on Microservices</a>), and academic forums.</p>
   </li>
   <li>
-    <p>Publish open access material on microservices, either through the website as informal publications (white papers), or through more formal channels.</p>
+    <p>Provide funding opportunities for travelling and the organisation of events in general.</p>
   </li>
   <li>
-    <p>Provide hardware resources for the community website.</p>
+    <p>Publish open access material on microservices, either through the website as informal publications (white papers), or through more formal channels (like edited books with chapters from multiple authors, or journals).</p>
+  </li>
+  <li>
+    <p>Provide resources for the digital platform of the community, including this website.</p>
   </li>
 </ul>
 
@@ -148,48 +151,40 @@ Microservices Community</h2></a>
 
 <h2 id="references">References</h2>
 
-<div class="panel panel-default">
-  <div class="panel-body">
-    <div class="slideshow">
-      <div><img src="/assets/images/slideshow/1.jpeg" alt=""></div>
-      <div><img src="/assets/images/slideshow/2.jpeg" alt=""></div>
-      <div><img src="/assets/images/slideshow/3.jpeg" alt=""></div>
-      <div><img src="/assets/images/slideshow/4.jpeg" alt=""></div>
-      <div><img src="/assets/images/slideshow/5.jpeg" alt=""></div>
+<style type="text/css" media="screen">
+img.thumbnail {
+  height:115px;
+}
+</style>
+
+<div class="container">
+<div class="row text-center text-lg-left">
+<div class="col-xs-8" id="logo_matrix">
+</div>
+<div class="col-xs-4">
+      <p>Microservices Community comprises N companies, M universities and research centres.</p>
+
+      <hr>
+
+      <p>Other fact</p>
+
+      <hr>
+
+      <p>Other interesting fact</p>
     </div>
-  </div>
+</div>
 </div>
 
-<script type="text/javascript" src="/assets/scripts/slick.min.js"></script>
-
 <script>
-$('.slideshow').slick({
-  centerMode: true,
-  centerPadding: '80px',
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }
-  ]
+$.get( "assets/images/logos/logos.json", function( data ) {
+  itemList = "";
+  $( data ).each( function( index, item ){
+    itemList += "<div class=\"col-lg-3 col-md-4 col-xs-6\"><a href=\"" 
+    + item.link 
+    + "\" class=\"d-block mb-4 h-100\"><img class=\"thumbnail \" src=\"assets/images/logos/" 
+    + item.logo + "\" alt=\"" + item.alt + "\"></a></div>";    
+  });
+  $( "#logo_matrix" ).append( itemList );
 });
 </script>
 
