@@ -1,1 +1,1 @@
-Sitemap: https://microservices.io/sitemap.xml
+Sitemap: http://microservices.sdu.dk/sitemap.xml

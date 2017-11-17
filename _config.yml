@@ -72,7 +72,7 @@ encoding: utf-8 # Make sure the encoding is right
 title: "Microservices Community" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/images/microservices.svg" # Site logo, also used in jekyll-seo-tag
 description: "Academia meets Industry" # Site description and default description, also used in jekyll-seo-tag
-url: "https://microservices.io" # Site url, also used in jekyll-seo-tag
+url: "http://microservices.sdu.dk" # Site url, also used in jekyll-seo-tag
 email: "saverio.giallorenzo@gmail.com"
 disqus: "alembic-1"
 avatarurl: "/assets/images/favicon.ico" # Uses avatars for favicons to get multiple sites, eg Gravatar, Twitter, GitHub
