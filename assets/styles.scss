@@ -30,7 +30,7 @@ body {
 
 // Header, feature and footer
 
-.header{ 
+.header{
   padding-bottom: 60px;
   text-align: left;
   font-size: 1.5rem;
@@ -67,6 +67,12 @@ body {
 
 .footer {
   margin-top: 60px;
+}
+
+.footer {
+	.mycontainer {
+		color: $color__site--captions;
+	}
 }
 
 .feature {

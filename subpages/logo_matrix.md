@@ -9,11 +9,8 @@ img.thumbnail {
 <div class="col-xs-8" id="logo_matrix">
 </div>
 <div class="col-xs-4" markdown="1">
-__Did you know that...__
 
----
-
-Microservices Community comprises N companies, M universities and research centres.
+The community includes more than N companies, M universities and research centres.
 
 ---
 
@@ -22,6 +19,7 @@ Other fact
 ---
 
 Other interesting fact
+
 </div>
 </div>
 </div>

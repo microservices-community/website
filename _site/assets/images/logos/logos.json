@@ -4,6 +4,11 @@
     "link": "http://www.italianasoftware.com/",
     "alt": "italianaSoftware"
   },
+	{
+		"logo": "jolie.png",
+		"link": "http://www.jolie-lang.org/",
+		"alt": "Jolie programming language"
+	},
   {
     "logo": "sirius.png",
     "link": "http://sirius-labs.no",
@@ -21,7 +26,7 @@
     "link": "https://technologydenmark.dk/",
     "alt": "Technology Denmark"
   },{
-    "logo": "sdu.png", 
+    "logo": "sdu.png",
     "link": "https://www.sdu.dk/en",
     "alt": "University of Southern Denmark"
   },{
