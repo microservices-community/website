@@ -10,15 +10,19 @@ img.thumbnail {
 </div>
 <div class="col-xs-4" markdown="1">
 
-The community includes more than N companies, M universities and research centres.
+__Key Facts__
 
 ---
 
-Other fact
+10 Companies
 
 ---
 
-Other interesting fact
+4 Universities
+
+---
+
+4 Public organisations
 
 </div>
 </div>
