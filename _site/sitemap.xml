@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://microservices.io/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>https://microservices.io/include_md.html</loc>
+<loc>http://localhost:4000/include_md.html</loc>
 <lastmod>2017-11-17T07:59:07+01:00</lastmod>
 </url>
 </urlset>
