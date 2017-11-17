@@ -5,20 +5,25 @@ title: false
 // Frameworks & Imports
 @charset "utf-8";
 @import "colors";
-@import "normalize";
-@import "sassline-base";
-@import "syntax";
-@import "flex";
-@import "_bootstrap";
+// @import "normalize";
+// @import "sassline-base";
+// @import "syntax";
+// @import "flex";
+// @import "_bootstrap";
 
 // Structural elements
-body {
-  background: $color__site--background;
-  color: $color__site--body;
-  height: 100%;
-  display: flex;
-  @include flex-direction(column);
-  overflow-x: hidden;
+// body {
+//   background: $color__site--background;
+//   color: $color__site--body;
+//   height: 100%;
+//   display: flex;
+//   // @include flex-direction(column);
+//   overflow-x: hidden;
+// }
+
+
+.layout-page {
+  font-size: 90%;
 }
 
 .mycontainer {
@@ -26,7 +31,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 
 // Header, feature and footer
 
@@ -47,23 +51,23 @@ body {
   background-image: url(/assets/images/bg.png);
 }
 
-.header,
-.footer {
-  .mycontainer {
-    padding: 1rem 0;
-    @include flexbox;
-    @include flex-direction(column);
-    @include align-items(center);
-    text-align: center;
-  }
-  @include breakpoint(break-1) {
-    .mycontainer {
-      @include flex-direction(row);
-      @include justify-content(space-between);
-      text-align: inherit;
-    }
-  }
-}
+// .header,
+// .footer {
+//   .mycontainer {
+//     padding: 1rem 0;
+//     // @include flexbox;
+//     // @include flex-direction(column);
+//     // @include align-items(center);
+//     text-align: center;
+//   }
+//   // @include breakpoint(break-1) {
+//     .mycontainer {
+//       // @include flex-direction(row);
+//       // @include justify-content(space-between);
+//       text-align: inherit;
+//     }
+//   }
+// }
 
 .footer {
   margin-top: 60px;
@@ -82,13 +86,13 @@ body {
   background: white;
   background-size: cover;
   background-position: center;
-  @include flexbox;
-  .mycontainer {
-    min-height: 35vh;
-    max-width: 60%;
-    @include flex-direction(column);
-    @include justify-content(center);
-  }
+  // // @include flexbox;
+  // .mycontainer {
+  //   min-height: 35vh;
+  //   max-width: 60%;
+  //   // @include flex-direction(column);
+  //   // @include justify-content(center);
+  // }
 }
 
 .logo {
@@ -122,8 +126,8 @@ body {
 // Nav and copyright
 .mynav {
   &--paginator {
-    @include flexbox;
-    @include justify-content(space-between);
+    // // @include flexbox;
+    // // @include justify-content(space-between);
     color: $color__site--captions;
     text-align: center;
   }
@@ -136,33 +140,33 @@ body {
   min-width: 20%;
 }
 
-.copyright {
-  @include breakpoint(break-1) {
-    @include order(-1);
-  }
-}
+// .copyright {
+//   // @include breakpoint(break-1) {
+//     // @include order(-1);
+//   }
+// }
 
 
 // Main content
 .main {
-  @include flexbox;
-  @include flex-direction(column);
-  @include flex(1, 0, auto);
+  // // @include flexbox;
+  // @include flex-direction(column);
+  // @include flex(1, 0, auto);
   margin-bottom: 1.6rem;
-  @include breakpoint(break-1) {
-    @include flex-direction(row);
-  }
+  // @include breakpoint(break-1) {
+    // @include flex-direction(row);
+  // }
 }
 
-.header,
-.feature,
-.footer {
-  @include flex(0, 0, auto);
-}
+// .header,
+// .feature,
+// .footer {
+//   // @include flex(0, 0, auto);
+// }
 
 .content {
   width: 100%;
-  @include breakpoint(break-1) {
+  // @include breakpoint(break-1) {
     width: 62%;
     margin-right: 4%;
     &--full {
@@ -175,11 +179,11 @@ body {
     &--aside-left {
       margin-right: 0;
       margin-left: 4%;
-      @include order(2);
-      .figure--full {
-        left: 19.4%;
-      }
-    }
+      // @include order(2);
+      // .figure--full {
+      //   left: 19.4%;
+      // }
+    // }
   }
 }
 
@@ -191,10 +195,10 @@ body {
 
 .aside {
   max-width: 100%;
-  @include breakpoint(break-1) {
+  // @include breakpoint(break-1) {
     max-width: 34%;
-    @include flex(1, 0, auto);
-  }
+    // @include flex(1, 0, auto);
+  // }
 }
 
 .section {
@@ -242,6 +246,10 @@ body {
 }
 
 
+.logo_thumbnail {
+  margin-bottom:20px;
+}
+
 // Links, icons and images
 .link {
   display: inline-block;
@@ -285,7 +293,7 @@ img {
       padding-right: .8rem;
     }
   }
-  @include breakpoint(break-1) {
+  // @include breakpoint(break-1) {
     &--full {
       left: 80.6%;
     }
@@ -296,7 +304,7 @@ img {
     &--right {
       float: right;
       padding-left: .8rem;
-    }
+    // }
   }
 }
 
@@ -403,7 +411,7 @@ textarea {
 }
 
 label {
-  @include baseline($fontsize: zeta, $font: $bodytype, $lineheight: 2, $below: 2, $breakpoint: all);
+  // @include baseline($fontsize: zeta, $font: $bodytype, $lineheight: 2, $below: 2, $breakpoint: all);
 }
 
 code {
@@ -481,15 +489,4 @@ pre code {
 .vertical-align {
     display: flex;
     align-items: center;
-}
-
-.paper {
-  background-image: url(/assets/images/pdf.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 15px;
-  height: 21px;
-  display: inline-block;
-  margin-bottom: -4px;
-  margin-right: 5px;
 }

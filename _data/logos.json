@@ -33,5 +33,9 @@
     "logo": "unibo.png",
     "link": "http://www.unibo.it",
     "alt": "University of Bologna"
+  },{
+    "logo": "estafet.png",
+    "link": "http://www.estafet.com",
+    "alt": "Estafet"
   }
 ]

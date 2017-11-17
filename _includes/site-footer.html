@@ -1,16 +1,28 @@
-<footer class="footer">
-
-	<div class="mycontainer">
-		{% capture contact-footer %}{% include contact-footer.md %}{% endcapture %}
-		{{ contact-footer | markdownify }}
-	</div>
-  <div class="mycontainer">
-    {% include nav-footer.html %}
-
-		<div class="copyright typeset">
-      <small class="small">&copy; {{ site.title }}</small>
-      |
-      <small class="small">Penrose hexagon CC-BY-SA-3.0 <a href="https://en.wikipedia.org/wiki/User:Trilink">Trilink</a></small>
-    </div>
+<div class="row footer">
+  <div class="container-fluid">
+  <div class="row">
+  {% capture contact-footer %}{% include contact-footer.md %}{% endcapture %}
+  {{ contact-footer | markdownify }}
   </div>
-</footer>
+  <div class="row">
+  <div class="offset-1 col-12 small">
+    <div class="copyright typeset">
+      <small>&copy; {{ site.title }}</small>
+      |
+      <small>Penrose hexagon CC-BY-SA-3.0 <a href="https://en.wikipedia.org/wiki/User:Trilink">Trilink</a></small>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+
+<script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+   ga('create', 'UA-102422292-1', 'auto');
+   ga('send', 'pageview');
+
+</script>

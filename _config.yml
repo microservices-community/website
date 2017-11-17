@@ -18,6 +18,8 @@ exclude:
 - Gemfile.lock
 - alembic-jekyll-theme.gemspec
 - sub-pages
+- assets/images/logos/logos.json
+- _sass
 
 # 2. Installed Gems
 plugins:
