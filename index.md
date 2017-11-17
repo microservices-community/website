@@ -3,15 +3,15 @@ layout: page
 title: The Microservices Community
 ---
 
-# The Microservices Community
-
 We are an international community interested in the software paradigm of [Microservices](https://en.wikipedia.org/wiki/Microservices). Our overarching aims are the sharing of knowledge and the fostering of collaborations about microservices. We have a broad composition, including people from research institutions, private companies, universities, and public organisations (like municipalities). We strongly believe in the importance of discussing open issues and solutions from different points of view, to create foundations for both innovation and basic research.
 
 The microservices community was born during the first edition of the [International Conference on Microservices](http://conf-micro.services).
 
-## Join us
+
+# Join us and discuss
 
 Discussions happen through our [mailing list](https://groups.google.com/forum/#!forum/microservices-community). Everybody is welcome to join, by requesting an invitation here: [https://groups.google.com/forum/#!forum/microservices-community](https://groups.google.com/forum/#!forum/microservices-community).
+
 
 # Activities
 
@@ -27,9 +27,16 @@ The main activities of the Microservices Community currently include, but are no
 
 - Provide resources for the digital platform of the community, including this website.
 
+---
 
-## Sponsoring Placeholder
-
-## References
+# Members
 
   {% include_relative include_md.html file="subpages/logo_matrix.md" %}
+
+---
+
+# Sponsors
+
+![My helpful screenshot]({{ "/assets/images/logos/sdu.png" | absolute_url }})
+
+The Microservices Community is hosted and supported by the [Department of Mathematics and Computer Science](https://www.sdu.dk/en/Om_SDU/Institutter_centre/Imada_matematik_og_datalogi) of the [University of Southern Denmark](https://www.sdu.dk/en).

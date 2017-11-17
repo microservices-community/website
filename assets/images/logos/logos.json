@@ -1,31 +1,31 @@
 [
   {
-    "logo": "italianasoftware.png", 
+    "logo": "italianasoftware.png",
     "link": "http://www.italianasoftware.com/",
-    "alt": "italianaSoftware" 
+    "alt": "italianaSoftware"
   },
-  { 
-    "logo": "sirius.png", 
+  {
+    "logo": "sirius.png",
     "link": "http://sirius-labs.no",
-    "alt": "SIRIUS @ University of Oslo" 
-  },{ 
-    "logo": "species360.png", 
+    "alt": "SIRIUS @ University of Oslo"
+  },{
+    "logo": "species360.png",
     "link": "https://www.species360.org/",
-    "alt": "Species360" 
-  },{ 
-    "logo": "dtu.png", 
+    "alt": "Species360"
+  },{
+    "logo": "dtu.png",
     "link": "http://www.dtu.dk/",
-    "alt": "Technical University of Denmark" 
-  },{ 
-    "logo": "technology_denmark.png", 
+    "alt": "Technical University of Denmark"
+  },{
+    "logo": "technology_denmark.png",
     "link": "https://technologydenmark.dk/",
     "alt": "Technology Denmark"
-  },{ 
+  },{
     "logo": "sdu.png", 
-    "link": "https://www.sdu.dk/",
-    "alt": "University of Southern Denmark" 
-  },{ 
-    "logo": "unibo.png", 
+    "link": "https://www.sdu.dk/en",
+    "alt": "University of Southern Denmark"
+  },{
+    "logo": "unibo.png",
     "link": "http://www.unibo.it",
     "alt": "University of Bologna"
   }
