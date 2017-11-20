@@ -37,5 +37,9 @@
     "logo": "estafet.png",
     "link": "http://www.estafet.com",
     "alt": "Estafet"
+  },{
+    "logo": "innopolis.png",
+    "link": "https://university.innopolis.ru/en/",
+    "alt": "Innopolis University"
   }
 ]
