@@ -11,7 +11,7 @@ The microservices community was born during the first edition of the [Internatio
 
 # Join us and discuss
 
-Discussions happen through our [mailing list](https://groups.google.com/forum/#!forum/microservices-community). Everybody is welcome to join, by requesting an invitation here: [https://groups.google.com/forum/#!forum/microservices-community](https://groups.google.com/forum/#!forum/microservices-community).
+Discussions happen through our [mailing list](https://groups.google.com/forum/#!forum/microservices-community). Everybody is welcome to join, by requesting an invitation here: <span style="word-wrap: break-word;"><a href="https://groups.google.com/forum/#!forum/microservices-community">https://groups.google.com/forum/#!forum/microservices-community</a></span>.
 
 ---
 
