@@ -30,6 +30,10 @@
     "link": "https://www.sdu.dk/en",
     "alt": "University of Southern Denmark"
   },{
+    "logo": "unibo.png",
+    "link": "http://www.cse.unibo.it/en",
+    "alt": "University of Bologna - Department of Computer Science and Engineering"
+  },{
     "logo": "estafet.png",
     "link": "http://www.estafet.com",
     "alt": "Estafet"
