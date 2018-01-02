@@ -34,6 +34,10 @@
     "link": "http://www.cse.unibo.it/en",
     "alt": "University of Bologna - Department of Computer Science and Engineering"
   },{
+    "logo": "inria.png",
+    "link": "https://www.inria.fr/en/teams/focus",
+    "alt": "FoCUS - INRIA"
+  },{
     "logo": "estafet.png",
     "link": "http://www.estafet.com",
     "alt": "Estafet"
