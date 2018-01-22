@@ -15,6 +15,30 @@ Discussions happen through our [mailing list](https://groups.google.com/forum/#!
 
 ---
 
+# Events
+
+
+<table class="table" style="margin:25px;">
+  <tbody>
+    <tr><td colspan="2"><strong>Upcoming Events</strong></td></tr>
+    <tr>
+      <td class="table-info">May 21st, 2018</td>
+      <td><a href="https://sites.google.com/view/made18/">International Workshop on Microservices: Agile and DevOps Experience, Second Edition</a></td>
+    </tr>
+    <tr><td colspan="2"><strong>Past Events</strong></td></tr>
+    <tr>
+      <td>October 25th-26th, 2017</td>
+      <td><a href="http://conf-micro.services/">International Conference on Microservices 2017, First Edition</a></td>
+    </tr>
+    <tr>
+      <td>December 20th, 2016</td>
+      <td><a href="http://www.italianasoftware.com/mom2016_eng.html">Meeting on Microservices 2016, First Edition</a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
 # Activities
 
 The main activities of the Microservices Community currently include, but are not limited to, the following.
