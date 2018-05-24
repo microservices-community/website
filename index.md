@@ -13,6 +13,8 @@ The microservices community was born during the first edition of the [Internatio
 
 Discussions happen through our [mailing list](https://groups.google.com/forum/#!forum/microservices-community). Everybody is welcome to join, by requesting an invitation here: <span style="word-wrap: break-word;"><a href="https://groups.google.com/forum/#!forum/microservices-community">https://groups.google.com/forum/#!forum/microservices-community</a></span>.
 
+Many organisations already joined the Microservices Community as [members](#members). If you also want your organisation to become a member or just want more information about the Microservices Community and its activities, please write to <code>microservices[at]lists.sdu.dk</code>.
+
 ---
 
 # Events
@@ -21,11 +23,11 @@ Discussions happen through our [mailing list](https://groups.google.com/forum/#!
 <table class="table" style="margin:25px;">
   <tbody>
     <tr><td colspan="2"><strong>Upcoming Events</strong></td></tr>
+    <tr><td colspan="2"><strong>Past Events</strong></td></tr>
     <tr>
-      <td class="table-info">May 21st, 2018</td>
+      <td>May 21st, 2018</td>
       <td><a href="https://sites.google.com/view/made18/">International Workshop on Microservices: Agile and DevOps Experience, Second Edition</a></td>
     </tr>
-    <tr><td colspan="2"><strong>Past Events</strong></td></tr>
     <tr>
       <td>October 25th-26th, 2017</td>
       <td><a href="http://conf-micro.services/">International Conference on Microservices 2017, First Edition</a></td>
