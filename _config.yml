@@ -20,6 +20,7 @@ exclude:
 - sub-pages
 - assets/images/logos/logos.json
 - _sass
+- docker
 
 # 2. Installed Gems
 plugins:
