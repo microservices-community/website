@@ -11,7 +11,7 @@ FROM jolielang/jolie
 WORKDIR /
 RUN mkdir -p /var/lib/leonardo/www
 COPY --from=Build /var/lib/leonardo/www /var/lib/leonardo/www
-COPY leonardo /
+COPY leonardo /leonardo
 
 WORKDIR /leonardo
 
