@@ -77,7 +77,6 @@ logo: "/assets/images/microservices.svg" # Site logo, also used in jekyll-seo-ta
 description: "Academia meets Industry" # Site description and default description, also used in jekyll-seo-tag
 url: "http://microservices.sdu.dk" # Site url, also used in jekyll-seo-tag
 email: "saverio.giallorenzo@gmail.com"
-disqus: "alembic-1"
 avatarurl: "/assets/images/favicon.ico" # Uses avatars for favicons to get multiple sites, eg Gravatar, Twitter, GitHub
 header_left: |
   <a style="color:inherit; text-decoration: none !important;" href="/"><h2>
