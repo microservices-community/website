@@ -36,7 +36,7 @@ Many organisations already joined the Microservices Community as [members](#memb
     </tr>
     <tr>
       <td>October 25th-26th, 2017</td>
-      <td><a href="http://conf-micro.services/">International Conference on Microservices 2017, First Edition</a></td>
+      <td><a href="http://conf-micro.services/2017/index.html">International Conference on Microservices 2017, First Edition</a></td>
     </tr>
     <tr>
       <td>December 20th, 2016</td>
