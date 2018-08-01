@@ -28,6 +28,10 @@ Many organisations already joined the Microservices Community as [members](#memb
       <td><a href="https://midos2019.sdu.dk">Microservices, DevOps, and Service-Oriented Architecture @ SAC</a>
       <span class="small">MiDOS, continuation of the historic SOAP track.</span>
     </td>
+    <tr>
+      <td>February 19th-21st, 2019</td>
+      <td><a href="https://microservices.fh-dortmund.de/">International Conference on Microservices 2019, Second Edition</a></td>
+    </tr>
     </tr>
     <tr><td colspan="2"><strong>Past Events</strong></td></tr>
     <tr>
