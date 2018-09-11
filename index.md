@@ -38,7 +38,7 @@ Many organisations already joined the Microservices Community as [members](#memb
     </td>
     <tr>
       <td>February 19th-21st, 2019</td>
-      <td><a href="https://microservices.fh-dortmund.de/">International Conference on Microservices 2019, Second Edition</a>
+      <td><a href="http://conf-micro.services/2019/index.html">International Conference on Microservices 2019, Second Edition</a>
       <span class="small">Co-located with the second edition of the Meeting on Microservices.</span>
       </td>
     </tr>
