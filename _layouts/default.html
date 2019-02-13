@@ -1,51 +1,17 @@
 <!DOCTYPE html>
-<html lang="en-GB">
-	<head>
-		<!-- General meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<html class="no-js">
+  <head>
 
-		{% if page.indexing == false %}
-			<meta name="robots" content="noindex">
-		{% endif %}
+    {% include head.html %}
 
-		{% if page.collectionpage %}
-			{% seo title=false %}
+  </head>
+  <body>
 
-			{% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-			<title>{{ collectiondata.title }} - {{ site.title }}</title>
-			<meta property="og:title" content="{{ collectiondata.title }}">
-			<meta name="description" content="{{ collectiondata.description }}">
-			<meta property="og:description" content="{{ collectiondata.description }}">
-		{% else %}
-			{% seo %}
-		{% endif %}
-		
-		<script type="text/javascript" src="{{ "/assets/scripts/jquery.min.js" | relative_url }}"></script>
+    {% include header.html %}
 
-		<link rel="stylesheet" href="/assets/styles/bootstrap.min.css">
-		<script src="/assets/scripts/tether.min.js"></script>
-		<script src="/assets/scripts/bootstrap.min.js"></script>
+    {{ content }}
 
+    {% include footer.html %}
 
-    <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
-
-		{% include site-favicons.html %}
-
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109876857-1"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'UA-109876857-1');
-	</script>
-
-	</head>
-	<body class="layout-{{ page.layout }}  {{ page.title | slugify }}">
-		{% include site-icons.svg %}
-
-		{{ content }}
-
-	</body>
+    </body>
 </html>

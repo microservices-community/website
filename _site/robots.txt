@@ -1,1 +1,0 @@
-Sitemap: http://microservices.sdu.dk/sitemap.xml

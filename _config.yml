@@ -1,111 +1,26 @@
-# Site configuration
-# 1. Files excluded from Jekyll builds
-# 2. Installed Gems
-# 3. Gem settings
-# 4. Jekyll settings
-# 5. Collections
-# 6. Jekyll collections settings
-# 7. Site settings
-# 8. Site navigation
-
-# 1. Files excluded from Jekyll builds
 exclude:
-- README.md
-- screenshot.png
-- LICENSE
-- CNAME
-- Gemfile
-- Gemfile.lock
-- alembic-jekyll-theme.gemspec
-- sub-pages
-- assets/images/logos/logos.json
-- _sass
-- docker
+  - "/vendor/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "LICENSE.md"
+  - "*.gemspec"
+  - "backup"
 
-# 2. Installed Gems
-plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-feed
-- jemoji
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
 
-# 3. Gem settings
-# jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
-# twitter:
-#   username: DavidDarnes # jekyll-seo-tag > Owners twitter username
-# author: DavidDarnes # jekyll-seo-tag > default author
-# social: # jekyll-seo-tag > social overrides
-#   name: David Darnes # jekyll-seo-tag > real name
-#   links:  # jekyll-seo-tag > social aliases (sameAs)
-#     - https://twitter.com/DavidDarnes
-#     - https://www.facebook.com/daviddarnes
-#     - https://www.linkedin.com/in/daviddarnes
-#     - https://plus.google.com/+DavidDarnes
-#     - https://github.com/daviddarnes
+# Site settings
+title: Microservices Community
+url: "https://microservices.sdu.dk/" # the base hostname & protocol for your site
+baseurl: ""
+cover: "/assets/cover.png"
+logo: "/assets/logo.png"
 
-# 4. Jekyll settings
-sass:
-  style: compressed # Style compression
-permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
-excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: Europe/Rome # Timezone for blog posts and alike
+# Build settings
+markdown: kramdown
 
-# 6. Jekyll collections settings
-defaults:
-  -
-    scope:
-      path: ""
-      type: pages
-    values:
-      layout: page # Default layout
-      image: "/assets/placeholder-social.png" # Default image for sharing
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post # Default layout
-      image: "/assets/placeholder-social.png" # Default image for sharing
-
-# 7. Site settings
-encoding: utf-8 # Make sure the encoding is right
-title: "Microservices Community" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/images/microservices.svg" # Site logo, also used in jekyll-seo-tag
-description: "Academia meets Industry" # Site description and default description, also used in jekyll-seo-tag
-url: "http://microservices.sdu.dk" # Site url, also used in jekyll-seo-tag
-email: "saverio.giallorenzo@gmail.com"
-avatarurl: "/assets/images/favicon.ico" # Uses avatars for favicons to get multiple sites, eg Gravatar, Twitter, GitHub
-header_left: |
-  <a style="color:inherit; text-decoration: none !important;" href="/"><h2>
-  <img style="width: 50px; padding-bottom: 5px;" src="/assets/images/microservices.svg" alt="">
-  Microservices Community</h2></a>
-header_right: |
-
-# 8. Site navigation
-navigation_header:
-  Home: /
-
-# navigation_footer:
-#   Created by David Darnes: https://darn.es
-
-# social_links:
-#   Twitter: https://twitter.com/DavidDarnes
-#   LinkedIn: https://www.linkedin.com/in/daviddarnes
-#   Google+: https://plus.google.com/+DavidDarnes
-#   GitHub: https://github.com/daviddarnes
-#   link: https://darn.es
-
-sharing_links:
-  Twitter: "#1DA1F2"
-  facebook: "#3B5998"
-  Google+: "#DC4E41"
-  Pinterest: "#BD081C"
-  LinkedIn: "#0077B5"
-  tumblr: "#36465D"
-  Reddit: "#FF4500"
-  Hacker News: "#ff6600"
-  Designer News: "#2D72D9"
-  Email: ""
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
