@@ -1,17 +1,18 @@
-FROM alpine as Build
+FROM alpine as Source
+
+WORKDIR /
 
 RUN apk update && \
-		apk add git && \
-		mkdir -p /var/lib/leonardo/www
-RUN git clone https://github.com/microservices-community/website.git /var/lib/leonardo/www
+		apk add git
+RUN git clone --depth=1 https://github.com/microservices-community/website.git /git
 
-# Start from scratch, copy the installer, install, remove the installer.
-FROM jolielang/jolie
-WORKDIR /
-RUN mkdir -p /var/lib/leonardo/www
-COPY --from=Build /var/lib/leonardo/www/_site /var/lib/leonardo/www
-COPY leonardo /leonardo
+FROM ruby as Build
+COPY --from=Source /git/web /srv/jekyll
+WORKDIR /srv/jekyll
+RUN bundle install
+RUN bundle exec jekyll build
+RUN mv /srv/jekyll/_site /site
 
-WORKDIR /leonardo
-
-CMD ["jolie","leonardo.ol"]
+FROM jolielang/leonardo
+ENV LEONARDO_WWW /web
+COPY --from=Build /site $LEONARDO_WWW
