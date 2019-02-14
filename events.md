@@ -65,8 +65,7 @@ The main activities of the Microservices Community currently include, but are no
 
 - Provide resources for the digital platform of the community, including this website.
 
-<div id="badge" style="background-color: #deeaff;overflow: auto;padding: 28px;
-    border-radius: 5px;"><img style="float:left;width:130px; padding-right:10px;" src="/assets/images/Badge_MC_Supported_black.png" alt="">
+<div id="badge" style="overflow: auto;padding: 15px;border: 1px solid lightgray;border-radius: 5px; margin-top: 50px;"><img style="float:left;width:130px; padding-right:10px;" src="/assets/images/Badge_MC_Supported_black.png" alt="">
 <div class="pt-2">
 <strong>Microservices Community Collaboration Badge</strong>
 <p>

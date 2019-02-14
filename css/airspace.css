@@ -14,7 +14,7 @@
 	Common Css
 --*/
 body {
-  font-family: 'Open Sans';
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   letter-spacing: 0.02em;
   -webkit-font-smoothing: antialiased;
 }
@@ -35,8 +35,9 @@ h3 {
   font-weight: 300;
 }
 p {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
 }
 a,
 a:active,

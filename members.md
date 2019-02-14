@@ -8,7 +8,6 @@ permalink: /members/
 <div class="container">
 <div class="row">
 <div class="col-xs-12" markdown="1">
-<div class="text-justify col-xs-12">
 
 <div class="section-title" markdown="1">
 ## Become a Member and join the discussion
@@ -22,9 +21,8 @@ Many organisations already joined the Microservices Community as [members](#memb
 
 <style type="text/css">
   .logo_thumbnail {
-    padding: .25rem;
+    padding: .5vw;
     background-color: #fff;
-    border: 1px solid #ddd;
     border-radius: .25rem;
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
@@ -36,7 +34,6 @@ Many organisations already joined the Microservices Community as [members](#memb
 
   {% include_relative include_md.html file="subpages/logo_matrix.md" %}
 
-</div>
 </div>
 </div>
 </div>
