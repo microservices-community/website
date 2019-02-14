@@ -12,10 +12,18 @@ permalink: /members/
 <div class="section-title" markdown="1">
 ## Become a Member and join the discussion
 </div>
+<div class="col-xs-offset-1 col-xs-10" style="margin-bottom:50px;">
 <div markdown="1">
-Discussions within the Community happen through our [mailing list](https://groups.google.com/forum/#!forum/microservices-community). Everybody is welcome to join, by requesting an invitation here: <span style="word-wrap: break-word;"><a href="https://groups.google.com/forum/#!forum/microservices-community">https://groups.google.com/forum/#!forum/microservices-community</a></span>.
+Discussions within the Community happen through our [mailing list](https://groups.google.com/forum/#!forum/microservices-community). Everybody is welcome to join, by requesting an invitation at: 
 
-Many organisations already joined the Microservices Community as [members](#members). If you also want your organisation to become a member or just want more information about the Microservices Community and its activities, please write to <code>microservices[at]lists.sdu.dk</code>.
+<div class="text-center" style="font-size:20px;margin-bottom:25px;margin-top:25px;">
+<a href="https://groups.google.com/forum/#!forum/microservices-community">https://groups.google.com/forum/#!forum/microservices-community</a></div>
+
+Below are listed the organisations that already joined the Microservices Community as members. 
+
+If you also want your organisation to become a member or just want more information about the Microservices Community and its activities, please write to <u>microservices[at]lists.sdu.dk</u>.
+</div>
+</div>
 
 ### Members
 
@@ -34,7 +42,6 @@ Many organisations already joined the Microservices Community as [members](#memb
 
   {% include_relative include_md.html file="subpages/logo_matrix.md" %}
 
-</div>
 </div>
 </div>
 </div>
