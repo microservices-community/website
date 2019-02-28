@@ -22,19 +22,17 @@ permalink: /events/
       <td>April 8th-12th, 2019</td>
       <td><a href="https://midos2019.sdu.dk">Microservices, DevOps, and Service-Oriented Architecture @ SAC</a>
       <span class="small">MiDOS, continuation of the historic SOAP track.</span>
-    </td>
-    <tr>
-      <td>February 19th-21st, 2019</td>
-      <td><a href="http://conf-micro.services/2019/index.html">International Conference on Microservices 2019, Second Edition</a>
-      <span class="small">Co-located with the second edition of the Meeting on Microservices.</span>
       </td>
-    </tr>
     </tr>
   </tbody>
 </table>
 
 <strong>Past Events</strong>
 <ul>
+  <li>
+    <a href="http://conf-micro.services/2019/index.html">International Conference on Microservices 2019, Second Edition</a>
+      <span class="small">Co-located with the second edition of the Meeting on Microservices.</span> - February 19th-21st, 2019
+  </li>
   <li><a href="https://sites.google.com/view/made18/">International Workshop on Microservices: Agile and DevOps Experience, Second Edition</a> - May 21st, 2018</li>
   <li><a href="http://conf-micro.services/2017/index.html">International Conference on Microservices 2017, First Edition</a> - October 25th-26th, 2017</li>
   <li><a href="http://www.italianasoftware.com/mom2016_eng.html">Meeting on Microservices 2016, First Edition</a> - December 20th, 2016</li>
