@@ -18,17 +18,24 @@ permalink: /events/
 
 <table class="table" style="margin:25px;">
   <tbody>
+    {% comment %}
     <tr>
       <td>April 8th-12th, 2019</td>
       <td><a href="https://midos2019.sdu.dk">Microservices, DevOps, and Service-Oriented Architecture @ SAC</a>
       <span class="small">MiDOS, continuation of the historic SOAP track.</span>
       </td>
     </tr>
+    {% endcomment %}
+    <tr><td>-</td><td class="muted">No upcoming events</td></tr>
   </tbody>
 </table>
 
 <strong>Past Events</strong>
 <ul>
+  <li>
+    <a href="https://midos2019.sdu.dk">Microservices, DevOps, and Service-Oriented Architecture @ SAC</a>
+      <span class="small">MiDOS, continuation of the historic SOAP track.</span> - April 8th-12th, 2019
+  </li>
   <li>
     <a href="http://conf-micro.services/2019/index.html">International Conference on Microservices 2019, Second Edition</a>
       <span class="small">Co-located with the second edition of the Meeting on Microservices.</span> - February 19th-21st, 2019
