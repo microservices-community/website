@@ -82,6 +82,18 @@ permalink: /boards/
   </tbody>
 </table>
 
+<h5>Education</h5>
+<table class="table text-left ptb">
+  <thead>
+    <tr>
+      <th scope="col">Member</th>
+      <th scope="col">Organisation</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
 </div>
 </div>
 </div>

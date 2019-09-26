@@ -18,15 +18,10 @@ permalink: /events/
 
 <table class="table" style="margin:25px;">
   <tbody>
-    {% comment %}
     <tr>
-      <td>April 8th-12th, 2019</td>
-      <td><a href="https://midos2019.sdu.dk">Microservices, DevOps, and Service-Oriented Architecture @ SAC</a>
-      <span class="small">MiDOS, continuation of the historic SOAP track.</span>
-      </td>
+      <td>October 22nd-23rd, 2019</td>
+      <td><a href="https://cyberdays2019.sdu.dk">CyberSecurity Days 2019</a></td>
     </tr>
-    {% endcomment %}
-    <tr><td>-</td><td class="muted">No upcoming events</td></tr>
   </tbody>
 </table>
 
