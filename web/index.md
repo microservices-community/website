@@ -17,12 +17,6 @@ We are an international community interested in the software paradigm of [Micros
 
 The microservices community was born during the first edition of the [International Conference on Microservices](http://conf-micro.services).
 
-<div style="margin:50px"><hr></div>
-
-### Community Coordination
-
-[Fabrizio Montesi](https://www.fabriziomontesi.com/) is the coordinator of the Microservices Community until the finalisation of the Microservices Community Steering Committee. The formation of the steering committee will be discussed at the upcoming [Microservices Conference 2019](https://conf-micro.services). 
-
 </div>
 </div>
 </div>
