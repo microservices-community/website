@@ -14,13 +14,20 @@ keep_files:
 
 # Site settings
 title: Microservices Community
-url: "https://microservices.sdu.dk/" # the base hostname & protocol for your site
+url: "https://microservices.community" # the base hostname & protocol for your site
 baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
+
+navigation_header:
+  Home: /
+  Boards and Committees: /boards
+  Events & Activities: /events
+  Join the Community: /join
+  Members: /members
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"

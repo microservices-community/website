@@ -20,14 +20,14 @@
               <div class="col-xs-4 col-lg-3"><img class="img-responsive" style="max-width: 50px;" src="{{ site.baseurl }}/assets/images/microservices.png"></div>
               <div class="col-xs-4 col-lg-4" style="margin-top:2px;">Microservices <br> Community</div></a></div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="col-xs-8 col-md-9">
+            <div class="small col-xs-8 col-md-9">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/boards">Boards and Committees</a></li>
-                <li><a href="{{ site.baseurl }}/events">Events & Activities</a></li>
-                <li><a href="{{ site.baseurl }}/join">Join the Community</a></li>
-                <li><a href="{{ site.baseurl }}/members">Members</a></li>
+              {% for item in site.navigation_header %}
+              <li>
+                <a href="{{ item[1] }}" title="Page - {{ item[0] }}"><small>{{ item[0] }}</small></a>
+              </li>
+              {% endfor %}
               </ul>
             </div><!-- /.navbar-collapse -->
             </div>
