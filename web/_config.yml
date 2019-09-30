@@ -24,10 +24,11 @@ markdown: kramdown
 
 navigation_header:
   Home: /
-  Boards and Committees: /boards
   Events & Activities: /events
   Join the Community: /join
   Members: /members
+  Boards and Committees: /boards
+  Statutes: /statutes
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
