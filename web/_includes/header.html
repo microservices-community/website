@@ -31,7 +31,7 @@
                   <div class="collapse navbar-collapse"
                     id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                      % for item in site.navigation_header %}
+                      {% for item in site.navigation_header %}
                       <li>
                         <a href="{{ item[1] }}" title="Page - {{ item[0] }}"><small>{{ item[0] }}</small></a>
                       </li>
