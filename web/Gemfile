@@ -1,2 +1,5 @@
 source "https://rubygems.org"
 gemspec
+
+# C liquid engine
+gem "liquid-c"
