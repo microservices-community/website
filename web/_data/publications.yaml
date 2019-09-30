@@ -1,0 +1,36 @@
+- thumbnail: midos2019.png
+  link: https://dl.acm.org/citation.cfm?id=3297280
+  title: ACM SAC Microservices, DevOps, and Service-Oriented Architecture
+  description: |
+    For the past thirty years, the ACM Symposium on Applied Computing has been a
+    primary gathering forum for applied computer scientists, computer engineers,
+    software engineers, and application developers from around the world. MiDOS is
+    the first edition focusing on Microservices, DevOps, and Service-Oriented
+    Architecture and it is the natural continuation of the previous
+    Service-Oriented Architecture and Programming (SOAP) track, now discontinued.
+- thumbnail: microservices.png
+  link: https://www.conf-micro.services/2019/program/
+  title: International Conference on Microservices 2019
+  description: |
+    The International Conference on Microservices is a forum for the discussion of
+    all aspects of microservices: their design, programming, and operations. The
+    2019 edition of the conference (Microservices 2019) took place from
+    February 19th to 21st, 2019 at the University of Applied Sciences and Arts
+    Dortmund, Germany.
+- thumbnail: made2018.png
+  link: https://dl.acm.org/citation.cfm?id=3234152
+  title: "International Workshop on Microservices: Agile and DevOps Experience, Second Edition"
+  description: |
+    In this workshop, we propose a follow-up of the first International
+    Workshop on Microservices for Agile software development (WMSA17) organized
+    at XP2017. It is also a continuation of discussions on software engineering
+    from the first International Conference on Microservices organized at the University of Southern
+    Denmark.
+- thumbnail: microservices.png
+  link: https://www.conf-micro.services/2017/program/
+  title: International Conference on Microservices 2017
+  description: |
+    The International Conference on Microservices is a forum for the discussion of
+    all aspects of microservices: their design, programming, and operations. The
+    2017 edition of the conference (Microservices 2017) took place from
+    October 25th to 26th, 2019 at the University of Southern Denmark, Odense, Denmark.
