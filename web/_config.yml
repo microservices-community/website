@@ -22,6 +22,9 @@ logo: "/assets/logo.png"
 # Build settings
 markdown: kramdown
 
+plugins:
+  - jekyll-redirect-from
+
 navigation_header:
   Home: /
   Events & Activities: /events
