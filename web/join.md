@@ -22,8 +22,11 @@ Discussions within the Community happen through our [mailing list](https://group
 <div class="text-center" style="font-size:20px;margin-bottom:25px;margin-top:25px;">
 <a href="https://groups.google.com/forum/#!forum/microservices-community">https://groups.google.com/forum/#!forum/microservices-community</a></div>
 
-Members can join as individuals or as organisations (corporate). To become a member or just have more information about the Microservices Community and its activities, please write to <u>microservices[at]lists.sdu.dk</u>.
+Members can join as individuals or as organisations (corporate).
+To become a member, please use the [form below](#join-form).
+If you want more information about the Microservices Community and its activities, please write to <u>microservices[at]lists.sdu.dk</u>.
 
+## Membership Tiers
 
 <style>
 .table-borderless > tbody > tr > td,
@@ -123,6 +126,47 @@ Members can join as individuals or as organisations (corporate). To become a mem
   </tbody>
 </table>
 
+<style>
+button, .button, input[type="text"], input[type="email"], input[type="search"], input[type="submit"], textarea {
+    padding: .6rem 1.2rem;
+    margin-bottom: .6rem;
+    transition: color .1s, background-color .1s, border .1s;
+    line-height: inherit;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+input[type="text"], input[type="email"], input[type="search"], textarea {
+    width: 100%;
+    border: 1px solid #b3b3b3;
+}
+
+input[type="submit"], button, .button {
+    cursor: pointer;
+    display: inline-block;
+    background: #05bf85;
+    position: relative;
+    transition: box-shadow .1s;
+    will-change: box-shadow;
+    box-shadow: inset 0 0 0 2rem transparent;
+}
+</style>
+
+
+## Contact form to become a new member
+Please, fill in your information and send your inquiry to the Microservices Community board.
+
+<div id="join-form">
+  <form action="https://formspree.io/join@microservices.community" method="POST">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="_replyto" placeholder="Your email">
+    <input type="text" name="subject" placeholder="Subject">
+    <textarea name="message" placeholder="Message"></textarea>
+    <input type="submit" value="Send">
+  </form>
+</div>
 
 </div>
 </div>
