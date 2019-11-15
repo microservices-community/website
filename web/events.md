@@ -22,14 +22,17 @@ redirect_from:
 <table class="table" style="margin:25px;">
   <tbody>
     <tr>
-      <td>October 22nd-23rd, 2019</td>
-      <td><a href="https://cyberdays2019.sdu.dk">CyberSecurity Days 2019</a></td>
+      <!-- <td>October 22nd-23rd, 2019</td>
+      <td><a href="https://cyberdays2019.sdu.dk">CyberSecurity Days 2019</a></td> -->
     </tr>
   </tbody>
 </table>
 
 <strong>Past Events</strong>
 <ul>
+  <li>
+      <a href="https://cyberdays2019.sdu.dk">CyberSecurity Days 2019</a></td> - October 22nd-23rd, 2019
+  </li>
   <li>
     <a href="https://midos2019.sdu.dk">Microservices, DevOps, and Service-Oriented Architecture @ SAC</a>
       <span class="small">MiDOS, continuation of the historic SOAP track.</span> - April 8th-12th, 2019
