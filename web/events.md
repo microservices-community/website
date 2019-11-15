@@ -4,7 +4,9 @@ title: Events & Activities
 permalink: /events/
 redirect_from:
   - /e/microservices2020
+  - /e/microservices2020/
   - /e/microservices2019
+  - /e/microservices2019/
 ---
 
 <section>
