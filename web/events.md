@@ -20,20 +20,16 @@ redirect_from:
 </div>
 
 <strong>Upcoming Events</strong>
-
-<table class="table" style="margin:25px;">
-  <tbody>
-    <tr>
-      <!-- <td>October 22nd-23rd, 2019</td>
-      <td><a href="https://cyberdays2019.sdu.dk">CyberSecurity Days 2019</a></td> -->
-    </tr>
-  </tbody>
-</table>
+<ul>
+  <li>
+    <a href="http://conf-micro.services/2020/index.html">International Conference on Microservices 2020</a> - September 2020
+  </li>
+</ul>
 
 <strong>Past Events</strong>
 <ul>
   <li>
-      <a href="https://cyberdays2019.sdu.dk">CyberSecurity Days 2019</a></td> - October 22nd-23rd, 2019
+      <a href="https://cyberdays2019.sdu.dk">CyberSecurity Days 2019</a> - October 22nd-23rd, 2019
   </li>
   <li>
     <a href="https://midos2019.sdu.dk">Microservices, DevOps, and Service-Oriented Architecture @ SAC</a>
