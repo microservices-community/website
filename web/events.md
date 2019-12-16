@@ -3,6 +3,8 @@ layout: page
 title: Events & Activities
 permalink: /events/
 redirect_from:
+  - /e/amp2020
+  - /e/amp2020/
   - /e/microservices2020
   - /e/microservices2020/
   - /e/microservices2019
@@ -22,26 +24,30 @@ redirect_from:
 <strong>Upcoming Events</strong>
 <ul>
   <li>
-    <a href="http://conf-micro.services/2020/index.html">International Conference on Microservices 2020</a> - September 2020
+    <a href="https://conf-micro.services/2020/index.html">International Conference on Microservices 2020</a> - September 2020
+  </li>
+  <li>
+    <a href="https://split.to/amp2020">First International Workshop on Agility with Microservices Programming (AMP 2020)</a> 
+      <span class="small">affiliated with <a href="https://www.agilealliance.org/xp2020/">XP 2020</a></span> - June 8<sup>th</sup>, 2020
   </li>
 </ul>
 
 <strong>Past Events</strong>
 <ul>
   <li>
-      <a href="https://cyberdays2019.sdu.dk">CyberSecurity Days 2019</a> - October 22nd-23rd, 2019
+      <a href="https://cyberdays2019.sdu.dk">CyberSecurity Days 2019</a> - October 22<sup>nd</sup>-23<sup>rd</sup>, 2019
   </li>
   <li>
     <a href="https://midos2019.sdu.dk">Microservices, DevOps, and Service-Oriented Architecture @ SAC</a>
-      <span class="small">MiDOS, continuation of the historic SOAP track.</span> - April 8th-12th, 2019
+      <span class="small">MiDOS, continuation of the historic SOAP track.</span> - April 8<sup>th</sup>-12<sup>th</sup>, 2019
   </li>
   <li>
     <a href="http://conf-micro.services/2019/index.html">International Conference on Microservices 2019, Second Edition</a>
-      <span class="small">Co-located with the second edition of the Meeting on Microservices.</span> - February 19th-21st, 2019
+      <span class="small">Co-located with the second edition of the Meeting on Microservices.</span> - February 19<sup>th</sup>-21<sup>st</sup>, 2019
   </li>
-  <li><a href="https://sites.google.com/view/made18/">International Workshop on Microservices: Agile and DevOps Experience, Second Edition</a> - May 21st, 2018</li>
-  <li><a href="http://conf-micro.services/2017/index.html">International Conference on Microservices 2017, First Edition</a> - October 25th-26th, 2017</li>
-  <li><a href="http://www.italianasoftware.com/mom2016_eng.html">Meeting on Microservices 2016, First Edition</a> - December 20th, 2016</li>
+  <li><a href="https://sites.google.com/view/made18/">International Workshop on Microservices: Agile and DevOps Experience, Second Edition</a> - May 21<sup>st</sup>, 2018</li>
+  <li><a href="http://conf-micro.services/2017/index.html">International Conference on Microservices 2017, First Edition</a> - October 25<sup>th</sup>-26<sup>th</sup>, 2017</li>
+  <li><a href="http://www.italianasoftware.com/mom2016_eng.html">Meeting on Microservices 2016, First Edition</a> - December 20<sup>th</sup>, 2016</li>
 </ul>
 
 <div style="margin:50px"><hr></div>
