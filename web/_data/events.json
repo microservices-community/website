@@ -1,0 +1,49 @@
+{
+  "upcoming": [
+    {
+      "title": "International Conference on Microservices 2020",
+      "link": "http://conf-micro.services/2020/index.html",
+      "date": "September 2020"
+    },
+    {
+    "title": "International Workshop on Agility with Microservices Programming (AMP 2020), First Edition",
+    "link": "http://split.to/amp2020",
+    "date": "June 8<sup>th</sup>, 2020",
+    "comment" : "affiliated with <a href=\"https://www.agilealliance.org/xp2020/\">XP 2020</a>"
+    }
+  ],
+  "past": [
+    {
+      "title": "CyberSecurity Days 2019",
+      "link": "https://cyberdays2019.sdu.dk",
+      "date": "October 22<sup>nd</sup>-23<sup>rd</sup>, 2019"
+    },
+    {
+      "title": "Microservices, DevOps, and Service-Oriented Architecture @ SAC",
+      "link": "https://midos2019.sdu.dk",
+      "date": "April 8<sup>th</sup>-12<sup>th</sup>, 2019",
+      "comment": "MiDOS, continuation of the historic SOAP track"
+    },
+    {
+      "title": "International Conference on Microservices 2019, Second Edition",
+      "date": "February 19<sup>th</sup>-21<sup>st</sup>, 2019",
+      "link": "http://conf-micro.services/2019/index.html",
+      "comment": "Co-located with the second edition of the Meeting on Microservices"
+    },
+    {
+      "title": "International Workshop on Microservices: Agile and DevOps Experience, Second Edition",
+      "link": "https://sites.google.com/view/made18/",
+      "date": "May 21<sup>st</sup>, 2018"
+    },
+    {
+      "title": "International Conference on Microservices 2017, First Edition",
+      "link": "http://conf-micro.services/2017/index.html",
+      "date": "October 25<sup>th</sup>-26<sup>th</sup>, 2017"
+    },
+    {
+      "title": "Meeting on Microservices 2016, First Edition",
+      "link": "http://www.italianasoftware.com/mom2016_eng.html",
+      "date": "December 20<sup>th</sup>, 2016"
+    }
+  ]
+}

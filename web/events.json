@@ -1,0 +1,4 @@
+---
+permalink: /events.json
+---
+{{ site.data.events | jsonify }}

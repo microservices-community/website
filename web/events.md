@@ -23,31 +23,32 @@ redirect_from:
 
 <strong>Upcoming Events</strong>
 <ul>
-  <li>
-    <a href="https://conf-micro.services/2020/index.html">International Conference on Microservices 2020</a> - September 2020
-  </li>
-  <li>
-    <a href="https://split.to/amp2020">First International Workshop on Agility with Microservices Programming (AMP 2020)</a> 
-      <span class="small">affiliated with <a href="https://www.agilealliance.org/xp2020/">XP 2020</a></span> - June 8<sup>th</sup>, 2020
-  </li>
+{% for event in site.data.events.upcoming %}
+<li>
+  <a href="{{ event.link }}">
+  {{ event.title }}
+  </a>
+  {% if event.comment %}
+  <span class="small">{{ event.comment }}</span>
+  {% endif %} 
+  - {{ event.date }}
+</li>
+{% endfor %}
 </ul>
 
 <strong>Past Events</strong>
 <ul>
-  <li>
-      <a href="https://cyberdays2019.sdu.dk">CyberSecurity Days 2019</a> - October 22<sup>nd</sup>-23<sup>rd</sup>, 2019
-  </li>
-  <li>
-    <a href="https://midos2019.sdu.dk">Microservices, DevOps, and Service-Oriented Architecture @ SAC</a>
-      <span class="small">MiDOS, continuation of the historic SOAP track.</span> - April 8<sup>th</sup>-12<sup>th</sup>, 2019
-  </li>
-  <li>
-    <a href="http://conf-micro.services/2019/index.html">International Conference on Microservices 2019, Second Edition</a>
-      <span class="small">Co-located with the second edition of the Meeting on Microservices.</span> - February 19<sup>th</sup>-21<sup>st</sup>, 2019
-  </li>
-  <li><a href="https://sites.google.com/view/made18/">International Workshop on Microservices: Agile and DevOps Experience, Second Edition</a> - May 21<sup>st</sup>, 2018</li>
-  <li><a href="http://conf-micro.services/2017/index.html">International Conference on Microservices 2017, First Edition</a> - October 25<sup>th</sup>-26<sup>th</sup>, 2017</li>
-  <li><a href="http://www.italianasoftware.com/mom2016_eng.html">Meeting on Microservices 2016, First Edition</a> - December 20<sup>th</sup>, 2016</li>
+{% for event in site.data.events.past %}
+<li>
+  <a href="{{ event.link }}">
+  {{ event.title }}
+  </a>
+  {% if event.comment %}
+  <span class="small">{{ event.comment }}</span>
+  {% endif %} 
+  - {{ event.date }}
+</li>
+{% endfor %}
 </ul>
 
 <div style="margin:50px"><hr></div>
