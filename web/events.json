@@ -1,4 +1,4 @@
 ---
 permalink: /events.json
 ---
-{{ site.data.events | jsonify }}
+microservices_community_events({{ site.data.events | jsonify }})
