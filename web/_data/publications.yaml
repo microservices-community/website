@@ -1,6 +1,8 @@
 - thumbnail: midos2019.png
   link: https://dl.acm.org/citation.cfm?id=3329379
   title: ACM SAC Microservices, DevOps, and Service-Oriented Architecture
+  publication_types:
+    - academic_literature
   description: |
     For the past thirty years, the ACM Symposium on Applied Computing has been a
     primary gathering forum for applied computer scientists, computer engineers,
@@ -11,6 +13,9 @@
 - thumbnail: microservices.png
   link: https://www.conf-micro.services/2019/program/
   title: International Conference on Microservices 2019
+  publication_types:
+    - peer_review
+    - grey_literature
   description: |
     The International Conference on Microservices is a forum for the discussion of
     all aspects of microservices: their design, programming, and operations. The
@@ -20,6 +25,8 @@
 - thumbnail: made2018.png
   link: https://dl.acm.org/citation.cfm?id=3329526
   title: "International Workshop on Microservices: Agile and DevOps Experience, Second Edition"
+  publication_types:
+    - academic_literature
   description: |
     In this workshop, we propose a follow-up of the first International
     Workshop on Microservices for Agile software development (WMSA17) organized
@@ -28,6 +35,9 @@
     Denmark.
 - thumbnail: microservices.png
   link: https://www.conf-micro.services/2017/program/
+  publication_types:
+    - peer_review
+    - grey_literature
   title: International Conference on Microservices 2017
   description: |
     The International Conference on Microservices is a forum for the discussion of
