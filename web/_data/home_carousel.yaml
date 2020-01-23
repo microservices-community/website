@@ -1,5 +1,6 @@
 images: 
   - image: assets/images/home/1.jpg
+    licenseText: Image by <a href="https://pixabay.com/en/users/rawpixel-4283981/">rawpixel</a> is licensed under Creative Commons CC0.
   - image: assets/images/home/2.jpg
   - image: assets/images/home/3.jpg
   - image: assets/images/home/4.jpg

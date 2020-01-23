@@ -29,7 +29,11 @@
         <div class="carousel__track">
           <ul>
             {% for item in site.data.home_carousel.images %}
-            <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
+            <li class="carousel__slide" style="background-image: url('{{ item.image }}');">
+                {% if item.licenseText %}
+                    <p class="img-license">{{ item.licenseText }}</p>
+                {% endif %}
+            </li>
             {% endfor %}
           </ul>
         </div>
