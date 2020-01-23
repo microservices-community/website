@@ -2,7 +2,6 @@
 layout: page
 title: Microservices Community
 permalink: /
-assets: index.js
 ---
 
 {% include home_carousel.html height="20" unit="%" duration="7" %}
