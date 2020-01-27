@@ -3,6 +3,8 @@ layout: page
 title: Events & Activities
 permalink: /events/
 redirect_from:
+  - /e/discotec2020
+  - /e/discotec2020/
   - /e/amp2020
   - /e/amp2020/
   - /e/microservices2020
