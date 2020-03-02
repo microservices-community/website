@@ -1,3 +1,18 @@
+- thumbnail: oasics.png
+  link: https://drops.dagstuhl.de/opus/portals/oasics/index.php?semnr=16138
+  title: Joint Post-proceedings of the First and Second International Conference
+    on Microservices (Microservices 2017/2019)
+  publication_types:
+    - academic_literature
+    - open_access
+  description: |
+    The International Conference on Microservices is a forum for the discussion of
+    all aspects of microservices: their design, programming, and operations. This
+    volume of the OpenAccess Series in Informatics (OASics), published by Schloss
+    Dagstuhl, compiles extended, peer-reviewed contributions from attendees of
+    Microservices 2017 and 2019. In addition to the contributed papers, the volume
+    includes the abstracts of the keynotes presented at the first two editions of
+    Microservices.
 - thumbnail: midos2019.png
   link: https://dl.acm.org/citation.cfm?id=3329379
   title: ACM SAC Microservices, DevOps, and Service-Oriented Architecture

@@ -3,13 +3,24 @@
     {
       "title": "International Conference on Microservices (Microservices 2020)",
       "link": "http://conf-micro.services/2020/index.html",
-      "date": "September 2020"
+      "date": "September, 2020"
+    },
+    {
+      "title": "15th International Federated Conference on Distributed Computing Techniques (DisCoTec 2020)",
+      "link": "http://www.discotec.org/2020/",
+      "date": "June 15<sup>th</sup>-19<sup>th</sup> 2020"
     },
     {
     "title": "International Workshop on Agility with Microservices Programming (AMP 2020)",
     "link": "https://amp.fe.up.pt/2020/",
     "date": "June 8<sup>th</sup>, 2020",
     "comment" : "affiliated with <a href=\"https://www.agilealliance.org/xp2020/\">XP 2020</a>"
+    },
+    {
+    "title": "Architetture a Microservizi/Architecting with Microservices",
+    "link": "https://www.crit-research.it/it/eventi/architetture-a-microservizi/",
+    "date": "March 11<sup>th</sup>, 2020",
+    "comment" : "organized in collaboration with <a href=\"https://www.crit-research.it/en\">CRIT SRL</a>"
     }
   ],
   "past": [
