@@ -15,15 +15,15 @@
     "link": "https://amp.fe.up.pt/2020/",
     "date": "June 8<sup>th</sup>, 2020",
     "comment" : "affiliated with <a href=\"https://www.agilealliance.org/xp2020/\">XP 2020</a>"
-    },
+    }
+  ],
+  "past": [
     {
     "title": "Architetture a Microservizi/Architecting with Microservices",
     "link": "https://www.crit-research.it/it/eventi/architetture-a-microservizi/",
     "date": "March 11<sup>th</sup>, 2020",
     "comment" : "organized in collaboration with <a href=\"https://www.crit-research.it/en\">CRIT SRL</a>"
-    }
-  ],
-  "past": [
+    },
     {
       "title": "CyberSecurity Days 2019",
       "link": "https://cyberdays2019.sdu.dk",
