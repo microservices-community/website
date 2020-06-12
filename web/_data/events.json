@@ -8,16 +8,16 @@
     {
       "title": "International Conference on Microservices (Microservices 2020)",
       "link": "http://conf-micro.services/2020/index.html",
-      "date": "September, 2020"
-    },
+      "date": "September 8<sup>th</sup>-10<sup>th</sup> 2020"
+    }
+  ],
+  "past": [
     {
     "title": "International Workshop on Agility with Microservices Programming (AMP 2020)",
     "link": "https://amp.fe.up.pt/2020/",
-    "date": "TBD, due to COVID-19",
+    "date": "June 12<sup>th</sup>, 2020",
     "comment" : "affiliated with <a href=\"https://www.agilealliance.org/xp2020/\">XP 2020</a>"
-    }
-  ],
-  "past": [    
+    },
     {
     "title": "Architetture a Microservizi/Architecting with Microservices",
     "link": "https://www.crit-research.it/it/eventi/architetture-a-microservizi/",
