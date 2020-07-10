@@ -1,9 +1,10 @@
 {
-  "upcoming": [        
+  "upcoming": [            
     {
-      "title": "15th International Federated Conference on Distributed Computing Techniques (DisCoTec 2020)",
-      "link": "http://www.discotec.org/2020/",
-      "date": "June 15<sup>th</sup>-19<sup>th</sup> 2020"
+      "title": "Cloud Native And Dev Ops (CNADO 2020)",
+      "link": "https://dsd-seaa2020.um.si/seaa/CNADO.html",
+      "date": "August 26<sup>th</sup>-28<sup>th</sup>, 2020",
+      "comment" : "technical track at <a href=\"https://dsd-seaa2020.um.si/seaa/index.html\">SEAA 2020</a>"
     },
     {
       "title": "International Conference on Microservices (Microservices 2020)",
@@ -12,6 +13,11 @@
     }
   ],
   "past": [
+    {
+      "title": "15th International Federated Conference on Distributed Computing Techniques (DisCoTec 2020)",
+      "link": "http://www.discotec.org/2020/",
+      "date": "June 15<sup>th</sup>-19<sup>th</sup> 2020"
+    },
     {
     "title": "International Workshop on Agility with Microservices Programming (AMP 2020)",
     "link": "https://amp.fe.up.pt/2020/",
