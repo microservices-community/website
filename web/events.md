@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Events & Activities
+title: Events
 permalink: /events/
 redirect_from:
   - /e/discotec2020
@@ -60,23 +60,26 @@ redirect_from:
 <div class="row" style="padding-bottom:50px;">
 
 <div class="col-xs-12 col-md-7">
+{% capture email_body %}Dear Microservices Community Communication Group,
+
+I am NAME SURNAME and [,together with NAMES SURNAMES,] I am organising the event EVENT_NAME.
+Microservices are a central topic of the event because REASON_1[, REASON_2, ..., REASON_N].
+Sending this inquiry, I confirm that I read and understood the Code of Conduct for event organisers of the Community and agree to follow its rules.
+For the above reasons, I kindly ask the Microservices Community to consider the collaboration to organise EVENT_NAME.
+
+Best Regards,
+NAME SURNAME
+{% endcapture %}
+
 <div markdown="1">
+## Obtaining the Support of the Microservices Community
 
-<div class="section-title" markdown="1">
-## Activities
-</div>
+The Microservices Community is actively involved in the organisation of events around (but not solely dedicated to) Microservices.
 
-The main activities of the Microservices Community currently include, but are not limited to, the following.
+We welcome inquiries from the organisers of [activities compatible with the Community's goals](/activities) to get our support and collaborate in their organisation.
+We invite prospecting organisers to contact the Microservices Community Communication Group at the address 
+<a href="mailto:communication@microservices.community?subject={{ 'Inquiry for supporting EVENT_NAME' | url_encode }}&body={{ email_body | url_encode }}">communication@microservices.community</a>.
 
-- Organise the International Conference on Microservices once a year ([http://conf-micro.services](http://conf-micro.services)), which acts also as a recurring opportunity for the physical gathering of the community.
-
-- Support the organisation of focused events on microservices. Examples include: technical workshops on industrial technologies, national meetings (like the [Italian Meeting on Microservices](http://www.italianasoftware.com/mom2016_eng.html)), and academic forums.
-
-- Provide funding opportunities for travelling and the organisation of events in general.
-
-- Publish open access material on microservices, either through the website as informal publications (white papers), or through more formal channels (like edited books with chapters from multiple authors, or journals).
-
-- Provide resources for the digital platform of the community, including this website.
 
 <div id="badge" style="overflow: auto;padding: 15px;border: 1px solid lightgray;border-radius: 5px; margin-top: 50px;"><img style="float:left;width:130px; padding-right:10px;" src="/assets/images/Badge_MC_Supported_black.png" alt="">
 <div class="pt-2">

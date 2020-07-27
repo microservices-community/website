@@ -27,8 +27,9 @@ plugins:
 
 navigation_header:
   Home: /
-  Events & Activities: /events
   Join the Community: /join
+  Events: /events
+  Activities: /activities
   Members: /members
   Publications: /publications
   Boards and Committees: /boards
