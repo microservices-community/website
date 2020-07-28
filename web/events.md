@@ -32,7 +32,7 @@ redirect_from:
   </a>
   {% if event.comment %}
   <span class="small">{{ event.comment }}</span>
-  {% endif %} 
+  {% endif %}
   - {{ event.date }}
 </li>
 {% endfor %}
@@ -47,7 +47,7 @@ redirect_from:
   </a>
   {% if event.comment %}
   <span class="small">{{ event.comment }}</span>
-  {% endif %} 
+  {% endif %}
   - {{ event.date }}
 </li>
 {% endfor %}
@@ -76,8 +76,8 @@ NAME SURNAME
 
 The Microservices Community is actively involved in the organisation of events around (but not solely dedicated to) Microservices.
 
-We welcome inquiries from the organisers of [activities compatible with the Community's goals](/activities) to get our support and collaborate in their organisation.
-We invite prospecting organisers to contact the Microservices Community Communication Group at the address 
+We welcome inquiries from the organisers of [activities compatible with the Community's goals](/activities) and its [code of conduct](/coc) to get our support and collaborate in their organisation.
+We invite prospecting organisers to contact the Microservices Community Communication Group at the address
 <a href="mailto:communication@microservices.community?subject={{ 'Inquiry for supporting EVENT_NAME' | url_encode }}&body={{ email_body | url_encode }}">communication@microservices.community</a>.
 
 
