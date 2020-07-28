@@ -20,34 +20,30 @@ Members of the Microservices Community have access to resources and a network of
 ### Become a Community Member
 </div>
 Members can join as individuals or as organisations (corporate). View our <strong>membership tiers</strong> for
-<a data-toggle="collapse" href="#collapseMembershipTierIndividuals" aria-expanded="false" aria-controls="collapseMembershipTierIndividuals">
-    individuals
-</a>
+<a href="#" onclick="$('#collapseMembershipTierIndividualsTitle').trigger('click');">individuals</a>
 or
-<a data-toggle="collapse" href="#collapseMembershipTierCorporate" aria-expanded="false" aria-controls="collapseMembershipTierCorporate">
-    organisations
-</a>
+<a href="#" onclick="$('#collapseMembershipTierCorporateTitle').trigger('click');"> organisations</a>
 . All listed fees grant a membership in the Microservices Community for one year.
 
-<div class="collapse" id="collapseMembershipTierIndividuals">
   <div class="card card-body">
     <div class="panel panel-info">
-        <div class="panel-heading"><strong>Membership Tiers for Individuals</strong></div>
-        <div class="panel-body">
+        <div style="cursor: pointer;" class="panel-heading" data-toggle="collapse" href="#collapseMembershipTierIndividuals" aria-expanded="false" aria-controls="collapseMembershipTierIndividuals" id="collapseMembershipTierIndividualsTitle" onclick="$(this).find('i').toggle();">
+        <strong><i class="fa fa-angle-right" aria-hidden="true"></i> Membership Tiers for Individuals</strong>
+        </div>
+        <div class="panel-body collapse" id="collapseMembershipTierIndividuals">
             <ul>
                 <li>Full one-time membership fee for individuals with other professional backgrounds than academia: <strong>100€</strong></li>
-                <li>Reduced one-time membership fee for individuals affiliated with an <strong>acadmemic</strong> institution: <strong>50€</strong></li>
+                <li>Reduced one-time membership fee for individuals affiliated with an <strong>academic</strong> institution: <strong>50€</strong></li>
             </ul>
         </div>
     </div>
   </div>
-</div>
 
-<div class="collapse" id="collapseMembershipTierCorporate">
   <div class="card card-body">
     <div class="panel panel-info">
-        <div class="panel-heading"><strong>Membership Tiers for Organisations</strong></div>
-            <div class="panel-body">
+        <div class="panel-heading" style="cursor: pointer;" data-toggle="collapse" href="#collapseMembershipTierCorporate" aria-expanded="false" aria-controls="collapseMembershipTierCorporate" id="collapseMembershipTierCorporateTitle" onclick="$(this).find('i').toggle();">
+        <strong><i class="fa fa-angle-right" aria-hidden="true"></i> Membership Tiers for Organisations</strong></div>
+            <div class="panel-body collapse" id="collapseMembershipTierCorporate" >
     <style>
 .table-borderless > tbody > tr > td,
 .table-borderless > tbody > tr > th,
@@ -127,9 +123,8 @@ or
     </tr>
   </tbody>
 </table>
-  </div>
-  </div>
-  </div>
+</div>
+</div>
 </div>
 
 If you are interested in becoming a member of the Microservices Community, please fill out the following form.
