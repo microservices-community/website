@@ -1,6 +1,7 @@
 ---
 title: GDPR Statement of the Microservices Community on "Membership Requests"
 layout: page
+permalink: /gdpr_join/
 ---
 
 <div class="container">
