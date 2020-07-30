@@ -39,7 +39,7 @@ Also non-members of the Community can access this service, for the limited amoun
 After that, the poster can afford more retweets by [becoming a member](/join) of the Community.
 
 Instruction for retweeting a job announcement:
-- mention the Twitter handle **@c_microservices** in the initial job announcement; 
+- mention the Twitter handle [**@c_microservices**](https://twitter.com/c_microservices) in the initial job announcement; 
 - briefly indicate the role of Microservices in the job position (design, development, education, ...); 
 - the announcement must be aligned with the Community [statutes](/statutes) and [code of conduct](/coc).
 
