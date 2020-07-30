@@ -50,7 +50,7 @@ Also non-affiliated projects can access this service, for the limited amount of 
 After that, the poster can afford more retweets by [becoming an affiliated open-source project](/join) of the Community.
 
 Instruction for retweeting a post from open-source project:
-- mention the Twitter handle **@c_microservices** in the initial post; 
+- mention the Twitter handle [**@c_microservices**](https://twitter.com/c_microservices) in the initial post; 
 - briefly indicate the role of Microservices in the news about the project (e.g., design choices, how it helps microservice development, ...); 
 - the content of the post must be aligned with the Community [statutes](/statutes) and [code of conduct](/coc).
 
