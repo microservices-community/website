@@ -28,6 +28,8 @@ If you want more information about the Microservices Community and its activitie
 
 ## Membership Tiers
 
+All listed fees grant a membership in the Microservices Community for one year and may annually be prolonged.
+
 <style>
 .table-borderless > tbody > tr > td,
 .table-borderless > tbody > tr > th,
