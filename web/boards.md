@@ -93,7 +93,7 @@ permalink: /boards/
   <tbody>
     <tr>
       <td>Saverio Giallorenzo</td>
-      <td>Department of Mathematics and Computer Science, University of Southern Denmark, DK</td>
+      <td>Department of Computer Science and Engineering, Università di Bologna, IT</td>
     </tr>
     <tr>
       <td>Marco Peressotti</td>
