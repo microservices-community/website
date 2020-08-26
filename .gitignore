@@ -6,3 +6,4 @@ Gemfile.lock
 .vscode
 vendor
 .jekyll-cache
+web/.~lock*
