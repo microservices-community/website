@@ -19,11 +19,10 @@ Members of the Microservices Community have access to resources and a network of
 <div class="section-title" markdown="1">
 ### Become a Community Member
 </div>
-Members can join as individuals or as organisations (corporate). View our <strong>membership tiers</strong> for
+Members can join as individuals, organisations (corporate and academia), or special nonprofit organisations (NPOs) like Open Source projects. View our <strong>membership tiers</strong> for
 <a href="#" onclick="$('#collapseMembershipTierIndividualsTitle').trigger('click');">individuals</a>
 or
-<a href="#" onclick="$('#collapseMembershipTierCorporateTitle').trigger('click');"> organisations</a>
-. All listed fees grant a membership in the Microservices Community for one year.
+<a href="#" onclick="$('#collapseMembershipTierCorporateTitle').trigger('click');"> organisations</a>.
 
   <div class="card card-body">
     <div class="panel panel-info">
@@ -54,7 +53,8 @@ or
     border: none;
 }
 </style>
-
+<b>All listed corporate fees grant a membership in the Microservices Community for one year.</b>
+<div style="margin: 10px 0;">
 <table class="table">
   <thead>
     <tr>
@@ -126,8 +126,22 @@ or
 </div>
 </div>
 </div>
+</div>
 
-If you are interested in becoming a member of the Microservices Community, please fill out the following form.
+If you are interested in becoming a member of the Microservices Community as an individual or organisation, please fill out our <b>membership form</b>:
+<ul>
+    <li>Membership Form (Word)</li>
+    <li>Membership Form (PDF)</li>
+</ul>
+Send a <b>scan of the completed form</b> to <a href>bmaschio <b>at</b> microservices <b>dot</b> community</a>. The [Council](/boards) of the Microservices Community
+will then decide upon your request within two weeks after its receipt. We will continuously inform you about the progress of your membership request.
+
+<div style="margin:10px 0;">
+In case you are a representative of a <b>special NPO</b>, e.g., an Open Source project, interested in becoming a member of the community, please send an e-mail to
+<a href>join <b>at</b> microservices <b>dot</b> community</a>, so that we can negotiate dedicated membership conditions with you.
+</div>
+
+<!--If you are interested in becoming a member of the Microservices Community, please fill out the following form.
 We will then contact you with further details about the next steps of the registration process.
 
 <div class="panel panel-info">
@@ -202,7 +216,7 @@ We will then contact you with further details about the next steps of the regist
   </form>
 </div>
 </div>
-</div>
+</div>-->
 
 <div class="section-title" markdown="1">
 ### Mailing List
@@ -212,3 +226,6 @@ Everybody is welcome to join, by requesting an invitation at:
 
 <div class="text-center" style="font-size:18px;margin-bottom:25px;margin-top:25px;">
 <a href="https://groups.google.com/forum/#!forum/microservices-community">https://groups.google.com/forum/#!forum/microservices-community</a></div>
+</div>
+</div>
+</div>
