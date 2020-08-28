@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Code of Conduct
-permalink: /new_coc/
+permalink: /events/coc/
 ---
 
 <div class="container">
@@ -9,7 +9,7 @@ permalink: /new_coc/
 <div class="col-xs-12" markdown="1">
 
 <div class="section-title" markdown="1">
-## Code of Conduct
+## Code of Conduct - Events
 </div>
 
 Any event organised or endorsed by the Microservices Community must be in line with the values and culture of equality, openness, and respect of the Microservices Community.
@@ -49,7 +49,7 @@ Harassment may include but is not limited to the following:
 
 - Offensive, inappropriate, or unwanted comments related to gender, gender identity or expression, sexual orientation, disability, physical appearance, body size, race, ethnicity,
   national origin, religion, or age, or other protected categories under applicable law.
-- Visual harassment e.g. sexual imagery or use of sexual language at Docker community events
+- Visual harassment e.g. sexual imagery or use of sexual language
 - Disrespect towards differences of opinion
 - Deliberate intimidation, stalking, harassing photography or recording
 - Sustained disruption of talks or other events
