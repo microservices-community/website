@@ -1,11 +1,5 @@
 {
-  "upcoming": [            
-    {
-      "title": "Cloud Native And Dev Ops (CNADO 2020)",
-      "link": "https://dsd-seaa2020.um.si/seaa/CNADO.html",
-      "date": "August 26<sup>th</sup>-28<sup>th</sup>, 2020",
-      "comment" : "technical track at <a href=\"https://dsd-seaa2020.um.si/seaa/index.html\">SEAA 2020</a>"
-    },
+  "upcoming": [
     {
       "title": "International Conference on Microservices (Microservices 2020)",
       "link": "http://conf-micro.services/2020/index.html",
@@ -18,6 +12,12 @@
     }
   ],
   "past": [
+    {
+      "title": "Cloud Native And Dev Ops (CNADO 2020)",
+      "link": "https://dsd-seaa2020.um.si/seaa/CNADO.html",
+      "date": "August 26<sup>th</sup>-28<sup>th</sup>, 2020",
+      "comment" : "technical track at <a href=\"https://dsd-seaa2020.um.si/seaa/index.html\">SEAA 2020</a>"
+    },
     {
       "title": "15th International Federated Conference on Distributed Computing Techniques (DisCoTec 2020)",
       "link": "http://www.discotec.org/2020/",
