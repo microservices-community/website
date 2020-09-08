@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Boards and Committees
+title: Council, Board and Committees
 permalink: /boards/
 ---
 
@@ -9,7 +9,7 @@ permalink: /boards/
 <div class="row">
 <div class="col-xs-12">
 <div class="section-title" markdown="1">
-<h2 class="ptb">Boards and Committees</h2>
+<h2 class="ptb">Council, Board and Committees</h2>
 </div>
 <div class="media text-center">
 <div class="media-body">
@@ -17,34 +17,6 @@ permalink: /boards/
 <style>
   .ptb { margin-bottom:100px; }
 </style>
-
-<h4>Board</h4>
-<table class="table text-left ptb">
-  <thead>
-    <tr>
-      <th scope="col">Member</th>
-      <th scope="col">Affiliation</th>
-      <th scope="col">Position</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Fabrizio Montesi</td>
-      <td>Department of Mathematics and Computer Science, University of Southern Denmark, DK</td>
-      <td>Chairman and Treasurer</td>
-    </tr>
-    <tr>
-      <td>Martin Svensson</td>
-      <td>Department of Mathematics and Computer Science, University of Southern Denmark, DK</td>
-      <td>Vice-Chairman</td>
-    </tr>
-    <tr>
-      <td>Christian Walther Bruun</td>
-      <td>Grøn/Bruun Research and Innovation Bureau, DK</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
 
 <h4>Council</h4>
 <table class="table text-left ptb">
@@ -79,6 +51,33 @@ permalink: /boards/
   </tbody>
 </table>
 
+<h4>Board</h4>
+<table class="table text-left ptb">
+  <thead>
+    <tr>
+      <th scope="col">Member</th>
+      <th scope="col">Affiliation</th>
+      <th scope="col">Position</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fabrizio Montesi</td>
+      <td>Department of Mathematics and Computer Science, University of Southern Denmark, DK</td>
+      <td>Chairman and Treasurer</td>
+    </tr>
+    <tr>
+      <td>Martin Svensson</td>
+      <td>Department of Mathematics and Computer Science, University of Southern Denmark, DK</td>
+      <td>Vice-Chairman</td>
+    </tr>
+    <tr>
+      <td>Christian Walther Bruun</td>
+      <td>Grøn/Bruun Research and Innovation Bureau, DK</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 <h4>Community Groups</h4>
 

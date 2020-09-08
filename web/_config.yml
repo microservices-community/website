@@ -11,7 +11,7 @@ keep_files:
   - "CNAME"
   - ".git"
   - ".gitignore"
-  
+
 # Site settings
 title: Microservices Community
 url: "https://microservices.community" # the base hostname & protocol for your site
@@ -32,7 +32,7 @@ navigation_header:
   Activities: /activities
   Members: /members
   Publications: /publications
-  Boards and Committees: /boards
+  Council, Board and Committees: /boards
   Statutes: /statutes
 
 # Google analytics
