@@ -219,10 +219,20 @@ We will then contact you with further details about the next steps of the regist
 </div>-->
 
 <div class="section-title" markdown="1">
+### Text and Voice Chat
+</div>
+Get in touch with the Microservices Community on our [Discord server](https://discord.gg/BmsrHMC).
+Everybody is welcome to join by following our open invitation link:
+
+<div class="text-center" style="font-size:18px;margin-bottom:25px;margin-top:25px;">
+<a href="https://discord.gg/BmsrHMC">https://discord.gg/BmsrHMC</a>
+</div>
+
+<div class="section-title" markdown="1">
 ### Mailing List
 </div>
-Discussions within the Microservices Community happen through our [mailing list](https://groups.google.com/forum/#!forum/microservices-community).
-Everybody is welcome to join, by requesting an invitation at:
+In addition to the Discord server, the Microservices Community operates a [mailing list](https://groups.google.com/forum/#!forum/microservices-community).
+Everybody is welcome to join by requesting an invitation at:
 
 <div class="text-center" style="font-size:18px;margin-bottom:25px;margin-top:25px;">
 <a href="https://groups.google.com/forum/#!forum/microservices-community">https://groups.google.com/forum/#!forum/microservices-community</a></div>
