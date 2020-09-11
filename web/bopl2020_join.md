@@ -17,7 +17,7 @@ Join innovators, professionals, and experts into one of the largest world-wide c
 Members of the Microservices Community have access to resources and a network of peers to help them acquire new skills, shape their career, and advance in their professional development.
 
 <div class="alert alert-success" role="alert" markdown="1">
-[BOPL 2020](https://bopl.cs.unibo.it) attendees are granted a 50% discount on all membership tiers listed below. <b>Embrace this opportunity to become a member of our steadily growing community of microservice enthusiasts!</b>
+[BOPL 2020](https://bopl.cs.unibo.it) attendees are granted a 50% discount on all membership tiers listed below. <b>Do not miss out on this opportunity to become a member of our steadily growing community of microservice enthusiasts!</b>
 </div>
 
 <div class="section-title" markdown="1">
