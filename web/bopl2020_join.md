@@ -135,7 +135,7 @@ or
 
 If you are interested in becoming a member of the Microservices Community as an individual or organisation, please fill out our <b>membership form</b>:
 - [Membership Form (Word)](/MC_Membership_Form_BOPL.docx)
-- [Membership Form (PDF)](/MC_Membership_Form.pdf)
+- [Membership Form (PDF)](/MC_Membership_Form_BOPL.pdf)
 
 Send a <b>scan of the completed form</b> to <a href>bmaschio <b>at</b> microservices <b>dot</b> community</a>. The [Council](/boards) of the Microservices Community
 will then decide upon your request within two weeks after its receipt. We will continuously inform you about the progress of your membership request.
