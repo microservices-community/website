@@ -1,17 +1,17 @@
 {
   "upcoming": [
     {
-      "title": "International Conference on Microservices (Microservices 2020)",
-      "link": "http://conf-micro.services/2020/index.html",
-      "date": "September 8<sup>th</sup>-10<sup>th</sup> 2020"
-    },
-    {
       "title": "CyberSecurity Days 2020",
       "link": "https://cyberdays2020.sdu.dk",
       "date": "October 29<sup>th</sup>-30<sup>th</sup>, 2020"
     }
   ],
   "past": [
+    {
+      "title": "International Conference on Microservices (Microservices 2020)",
+      "link": "http://conf-micro.services/2020/index.html",
+      "date": "September 8<sup>th</sup>-10<sup>th</sup> 2020"
+    },
     {
       "title": "Cloud Native And Dev Ops (CNADO 2020)",
       "link": "https://dsd-seaa2020.um.si/seaa/CNADO.html",
