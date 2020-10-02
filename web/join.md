@@ -16,6 +16,10 @@ Join innovators, professionals, and experts into one of the largest world-wide c
 
 Members of the Microservices Community have access to resources and a network of peers to help them acquire new skills, shape their career, and advance in their professional development.
 
+<div class="alert alert-success" role="alert" markdown="1">
+Attended [BOPL 2020](https://bopl.cs.unibo.it) or served as PC member of [Microservices 2020](https://www.conf-micro.services/2020/)? **Take advantage of our [discounted offers to join the Microservices Community](/bopl2020_join)**.
+</div>
+
 <div class="section-title" markdown="1">
 ### Become a Community Member
 </div>
