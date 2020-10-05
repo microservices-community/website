@@ -64,7 +64,7 @@ permalink: /boards/
     <tr>
       <td>Fabrizio Montesi</td>
       <td>Department of Mathematics and Computer Science, University of Southern Denmark, DK</td>
-      <td>Chairman and Treasurer</td>
+      <td>Chairman</td>
     </tr>
     <tr>
       <td>Martin Svensson</td>
@@ -74,7 +74,7 @@ permalink: /boards/
     <tr>
       <td>Christian Walther Bruun</td>
       <td>Grøn/Bruun Research and Innovation Bureau, DK</td>
-      <td></td>
+      <td>Treasurer</td>
     </tr>
   </tbody>
 </table>
