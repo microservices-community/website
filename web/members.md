@@ -13,6 +13,13 @@ permalink: /members/
 ## Corporate Members of the Microservices Community
 </div>
 
+<div class="alert alert-info" role="alert" markdown="1">
+**Representing a company** and **looking for strong research partners** from our
+members to conduct joint projects? Get in touch with our **matchmaking
+and network manager Christian Bruun** by sending an e-mail to
+<a href>cwb <b>at</b> groenbruun <b>dot</b> eu</a>.
+</div>
+
 <div class="col-xs-10" style="margin-bottom:50px;">
 
 <style type="text/css">
