@@ -34,6 +34,10 @@ redirect_from:
   <span class="small">{{ event.comment }}</span>
   {% endif %}
   - {{ event.date }}
+  {% if event.longtext %}
+  <br/>
+  <div style="font-size: 1.4rem;">{{ event.longtext }}</div>
+  {% endif %}
 </li>
 {% endfor %}
 </ul>
