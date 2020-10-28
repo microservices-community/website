@@ -31,6 +31,13 @@ Christian Walther Bruun ([Grøn/Bruun](http://www.groenbruun.eu))
 - **Next steps and further collaboration**, Christian Walther Bruun ([Grøn/Bruun](http://www.groenbruun.eu))
 
 <div class="section-title" markdown="1">
+### Cost and Registration
+</div>
+The seminar is **free of charge**. Please **sign up** by sending an e-mail to
+[Christian Walther Bruun](mailto:cwb@groenbruun.eu) no later than December
+10<sup>th</sup>, 2020, 12:00.
+
+<div class="section-title" markdown="1">
 #### Who should participate?
 </div>
 Industry, organisation and university staff interested in obtaining soft-funding
