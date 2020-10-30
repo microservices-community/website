@@ -61,15 +61,17 @@ European research and innovation.
 <div class="section-title" markdown="1">
 #### What is Eurostars?
 </div>
-Eurostars is a member state supported EU programme aimed at promoting innovation
+Eurostars is a member state-supported EU programme aimed at promoting innovation
 in SME's in Europe by funding collaboration projects for these also including
 university and large industry partners.
 
 <div class="section-title" markdown="1">
 #### About
 </div>
-<div class="text-muted text-justify">
-<img class="img-thumbnail" style="margin:8px;max-width:120px;height:auto" align="left" src="/assets/images/events/horizon_europe2020/cwb.png" />
+
+<div class="row">
+<div class="text-muted text-justify" style="margin-bottom:15px;" >
+<img class="img-thumbnail pull-left" style="width:8em; margin:8px;" src="/assets/images/events/horizon_europe2020/cwb.png" />
 <strong>Christian Walther Bruun, Director Grøn/Bruun, Member of the Board of the Microservices Community</strong>
 <br/>
 Christian has worked in the Danish Agency for Science and Higher Education,
@@ -81,10 +83,10 @@ dissemination of research and innovation.
 <a href="https://www.linkedin.com/in/christian-walther-bruun-4897072/">LinkedIn</a>
 </div>
 
-<p></p>
+</div><div class="row">
 
-<div class="text-muted text-justify">
-<img class="img-thumbnail" style="margin:8px;max-width:120px;height:auto" align="left" src="/assets/images/events/horizon_europe2020/nr.png" />
+<div class="text-muted text-justify" style="margin-bottom:15px;" >
+<img class="img-thumbnail pull-left" style="width:8em; margin:8px;" src="/assets/images/events/horizon_europe2020/nr.png" />
 <strong>Nicola Raule (CRIT srl), Head of R&D Funding</strong>
 <br/>
 Nicola Raule Is Head of R&D funding at CRIT. He has been in the field of industrial
@@ -101,10 +103,10 @@ and project writing all the way to leading, managing, disseminating and exploiti
 the results.
 </div>
 
-<p></p>
+</div><div class="row">
 
-<div class="text-muted text-justify">
-<img class="img-thumbnail" style="margin:8px;max-width:120px;height:auto" align="left" src="/assets/images/events/horizon_europe2020/fm.png" />
+<div class="text-muted text-justify" style="margin-bottom:15px;">
+<img class="img-thumbnail pull-left" style="width:8em; margin:8px;" src="/assets/images/events/horizon_europe2020/fm.png" />
 <strong>Professor Fabrizio Montesi (University of Southern Denmark, Department of
 Mathematics and Computer Science), Head of the Microservices Community  Council.</strong>
 <br/>
@@ -112,7 +114,7 @@ Fabrizio Montesi is Professor (Full Professor) of Computer Science at the Univer
 of Southern Denmark, Department of Mathematics and Computer Science, where he
 currently serves as Head of Section for the section of Concurrency and Logic.
 Fabrizio also serves as President of the Microservices Community, and as maintainer
-of Jolie, an open source programming language for microservices. Previously, he
+of Jolie, an open-source programming language for microservices. Previously, he
 was Co-CEO of italianaSoftware, where he now serves as a Founding Director.
 <br/>
 He received his M.Sc. Degree in Computer Science from the University of Bologna
@@ -129,6 +131,7 @@ theory and implementation of programming languages, concurrency, cloud and edge
 computing, microservices, process calculi, logic, and cybersecurity.
 </div>
 
+</div>
 </div>
 </div>
 </div>
