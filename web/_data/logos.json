@@ -1,14 +1,19 @@
 [
   {
+    "logo": "innopolis.png",
+    "link": "https://innopolis.university/en/",
+    "alt": " Innopolis University"
+  },
+  {
     "logo": "italianasoftware.png",
     "link": "http://www.italianasoftware.com/",
     "alt": "italianaSoftware"
   },
-	{
-		"logo": "jolie.png",
-		"link": "http://www.jolie-lang.org/",
-		"alt": "Jolie programming language"
-	},{
+  {
+    "logo": "jolie.png",
+    "link": "http://www.jolie-lang.org/",
+    "alt": "Jolie programming language"
+  },{
     "logo": "sdu.png",
     "link": "https://www.sdu.dk/en",
     "alt": "University of Southern Denmark"
