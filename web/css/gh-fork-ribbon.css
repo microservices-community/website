@@ -12,7 +12,7 @@
   right: 0;
   z-index: 9999;
   pointer-events: none;
-  font-size: 13px;
+  font-size: 1vw;
   text-decoration: none;
   text-indent: -999999px;
 }
