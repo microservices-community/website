@@ -5,6 +5,8 @@ permalink: /events/
 redirect_from:
   - /e/discotec2020
   - /e/discotec2020/
+  - /e/discotec2021
+  - /e/discotec2021/
   - /e/amp2020
   - /e/amp2020/
   - /e/microservices2020
