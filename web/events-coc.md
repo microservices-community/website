@@ -66,6 +66,17 @@ Harassment may include but is not limited to the following:
   <b>Your responses within the submitted report will be kept confidential in any case.</b>
 - If necessary, event staff are empowered to take appropriate actions that may include, but are not limited to, warnings, expulsion from the event without refund, and referrals to venue security or local law enforcement.
 
+<div class="section-title" markdown="1">
+### Attribution
+</div>
+
+Portions derived from the 
+<a href="https://github.com/docker/code-of-conduct" target="_black">Docker Code of Conduct</a>, 
+<a href="https://api.slack.com/community/code-of-conduct" target="_black">Slack Developer Community Code of Conduct</a>, 
+<a href="https://adainitiative.org/2014/02/18/howto-design-a-code-of-conduct-for-your-community/" target="_black">The Ada Initiative</a>, 
+<a href="https://geekfeminismdotorg.wordpress.com/about/code-of-conduct/" target="_black">geekfeminism.org</a> and 
+<a href="https://events.drupal.org/dublin2016/code-conduct" target="_black">Drupal Events Code of Conduct</a>.
+
 </div>
 </div>
 </div>
