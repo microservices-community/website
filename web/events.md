@@ -15,12 +15,13 @@ redirect_from:
   - /e/microservices2019/
 ---
 
-<section>
-<div class="container">
+<section><div class="container"><div class="row"><div class="col-xs-12" markdown="1">
+
+<!--BEGIN First Row -->
 <div class="row">
-<div class="block">
-<div class="col-xs-12" markdown="1">
-<div class="text-justify col-xs-12" markdown="1">
+
+    <!-- BEGIN Events Column -->
+<div class="col-xs-12 col-md-7">
 <div class="section-title" markdown="1">
 ## Events
 </div>
@@ -58,14 +59,27 @@ redirect_from:
 </li>
 {% endfor %}
 </ul>
+</div>
+    <!-- END Events Column -->
 
-<div style="margin:50px"><hr></div>
+    <!-- BEGIN Social Media Column -->
+<div class="col-xs-12 col-md-offset-1 col-md-4" markdown="1">
+### Social Media
+<div><a class="twitter-timeline" data-tweet-limit="2" data-height="400" href="https://twitter.com/c_microservices">Last Tweet from the Microservices Community</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div>
+    <!-- END Social Media Column -->
 
-<div class="clear-fix"></div>
+</div>
+<!--END First Row -->
 
+<div style="margin:50px"><hr></div><div class="clear-fix"></div>
+
+<!--BEGIN Second Row -->
 <div class="row" style="padding-bottom:50px;">
 
-<div class="col-xs-12 col-md-7">
+    <!--BEGIN First Column -->
+<div class="text-justify col-xs-12">
+        <!--BEGIN E-Mail Text -->
 {% capture email_body %}Dear Microservices Community Communication Group,
 
 I am NAME SURNAME and [,together with NAMES SURNAMES,] I am organising the event EVENT_NAME.
@@ -76,7 +90,9 @@ For the above reasons, I kindly ask the Microservices Community to consider the 
 Best Regards,
 NAME SURNAME
 {% endcapture %}
+        <!--END E-Mail Text -->
 
+        <!--BEGIN Badge Box -->
 <div markdown="1">
 ## Obtaining the Support of the Microservices Community
 
@@ -86,7 +102,6 @@ We welcome inquiries from the organisers of [activities compatible with the Comm
 We invite prospecting organisers to contact the Microservices Community Communication Group at the address
 <a href="mailto:communication@microservices.community?subject={{ 'Inquiry for supporting EVENT_NAME' | url_encode }}&body={{ email_body | url_encode }}">communication@microservices.community</a>.
 
-
 <div id="badge" style="overflow: auto;padding: 15px;border: 1px solid lightgray;border-radius: 5px; margin-top: 50px;"><img style="float:left;width:130px; padding-right:10px;" src="/assets/images/Badge_MC_Supported_black.png" alt="">
 <div class="pt-2">
 <strong>Microservices Community Collaboration Badge</strong>
@@ -95,20 +110,12 @@ Since June 2018, the activities and events organised in collaboration with the M
 </div>
 </div>
 </div>
-</div>
-
-<div class="col-xs-12 col-md-offset-1 col-md-4" markdown="1">
-### Social Media
-
-<div>
-<a class="twitter-timeline" data-tweet-limit="1" data-height="400" href="https://twitter.com/c_microservices">Last Tweet from the Microservices Community</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-</div>
+        <!--END Badge Box -->
 
 </div>
+    <!--END First Column -->
+
 </div>
-</div>
-</div>
-</div>
-</div>
-</section>
+<!--END Second Row -->
+
+</div></div></div></section>
