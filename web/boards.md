@@ -81,7 +81,7 @@ permalink: /boards/
 
 <h4>Community Groups</h4>
 
-<h5>Communication</h5>
+<h5>Communication (<a href="{{ site.comm_group_email }}?subject=Inquiry to the Communication Group of the Microservices Community">Contact</a>)</h5>
 <table class="table text-left ptb">
   <thead>
     <tr>
