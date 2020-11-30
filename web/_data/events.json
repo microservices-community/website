@@ -1,34 +1,6 @@
 {
   "upcoming": [
     {
-      "title": "Online talk: Microservices, il development mission log in una start up",
-      "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWQ3NDAyMmEtNDE3Yy00NWIzLTkzNTItZDA0MjRiOWE0YzJk%40thread.v2/0?context=%7b%22Tid%22%3a%22e99647dc-1b08-454a-bf8c-699181b389ab%22%2c%22Oid%22%3a%22080683d2-51aa-4842-aa73-291a43203f71%22%7d",
-      "date": "Novemer 20<sup>th</sup>, 2020, 09:00&ndash;11:00",
-      "longtext" : "<ul style=\"margin-left:-2em;\">
-
-                    <li><strong>Description:</strong> Balint Maschio from the
-                    <a href=\"https://www.microservices.community/boards/\">Council</a>
-                    of the Microservices Community will present the use of Jolie-based
-                    Microservice Architecture (MSA) in a start-up to show how MSA
-                    can be used as well in a small enterprise. To this end, Balint
-                    will present a resume of the activities and development
-                    process within <a href=\"https://www.pixis.co/\">Pixis</a>.
-                    </li>
-
-                    <li><strong>Further Information:</strong> The language of the
-                    talk will be <b>Italian</b>.
-                    </li>
-
-                    <li><strong>Join:</strong> You can join <b>for free</b> via the
-                    <a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWQ3NDAyMmEtNDE3Yy00NWIzLTkzNTItZDA0MjRiOWE0YzJk%40thread.v2/0?context=%7b%22Tid%22%3a%22e99647dc-1b08-454a-bf8c-699181b389ab%22%2c%22Oid%22%3a%22080683d2-51aa-4842-aa73-291a43203f71%22%7d\">
-                    Microsoft Teams link</a>.
-                    </li>
-
-                    </ul>
-                    <br/>
-                "
-    },
-    {
       "title": "Online seminar on R&I funding for Microservices in Horizon Europe",
       "link": "https://www.microservices.community/events/horizon_europe2020.html",
       "date": "December 15<sup>th</sup>, 2020, 10:00&ndash;11:30",
@@ -55,6 +27,11 @@
     }
   ],
   "past": [
+    {
+      "title": "Online talk: Microservices, il development mission log in una start up",
+      "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWQ3NDAyMmEtNDE3Yy00NWIzLTkzNTItZDA0MjRiOWE0YzJk%40thread.v2/0?context=%7b%22Tid%22%3a%22e99647dc-1b08-454a-bf8c-699181b389ab%22%2c%22Oid%22%3a%22080683d2-51aa-4842-aa73-291a43203f71%22%7d",
+      "date": "Novemer 20<sup>th</sup>, 2020, 09:00&ndash;11:00"
+    },
     {
       "title": "CyberSecurity Days 2020",
       "link": "https://cyberdays2020.sdu.dk",
