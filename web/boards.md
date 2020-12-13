@@ -15,7 +15,7 @@ permalink: /boards/
 <p class="ptb">Roles, functions, and responsibilities of the Council and Board are defined in the <a href="/statutes/">Statutes</a> of the Microservices Community.</p>
 
 
-<h4>Council</h4>
+<h4 id="Council">Council</h4>
 <table class="table text-left ptb">
   <thead>
     <tr>
@@ -48,7 +48,7 @@ permalink: /boards/
   </tbody>
 </table>
 
-<h4>Board</h4>
+<h4 id="Board">Board</h4>
 <table class="table text-left ptb">
   <thead>
     <tr>
@@ -86,7 +86,7 @@ permalink: /boards/
 </div>
 <p class="ptb">Committees are established by the Council to tend to specific aspects and functions of the community. Members of a committee are appointed by the Council.</p>
 
-<h4>Communication</h4>
+<h4 id="Communication-Committee">Communication</h4>
 
 <p>
 The Committee is responsible for communication and branding aspects of the Community:
@@ -129,7 +129,7 @@ You can contact the Communication Committee at the address <a href="mailto:{{ si
   </tbody>
 </table>
 
-<h4>Ethics</h4>
+<h4 id="Ethics-Committee">Ethics</h4>
 {%- comment -%}
 <p>
 The Committee is responsible for all aspects related to the ethics of the Community and the conduct of its members.
