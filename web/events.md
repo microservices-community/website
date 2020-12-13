@@ -100,7 +100,7 @@ The Microservices Community is actively involved in the organisation of events a
 
 We welcome inquiries from the organisers of [activities compatible with the Community's goals](/activities/) and its [code of conduct](/events/coc/) to get our support and collaborate in their organisation.
 We invite prospecting organisers to contact the Microservices Community Communication Group at the address
-<a href="mailto:communication@microservices.community?subject={{ 'Inquiry for supporting EVENT_NAME' | url_encode }}&body={{ email_body | url_encode }}">communication@microservices.community</a>.
+<a href="mailto:{{ site.emails.communication }}?subject={{ 'Inquiry for supporting EVENT_NAME' | url_encode }}&body={{ email_body | url_encode }}">{{ site.emails.communication }}</a>.
 
 <div id="badge" style="overflow: auto;padding: 15px;border: 1px solid lightgray;border-radius: 5px; margin-top: 50px;"><img style="float:left;width:130px; padding-right:10px;" src="/assets/images/Badge_MC_Supported_black.png" alt="">
 <div class="pt-2">

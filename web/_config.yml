@@ -25,7 +25,11 @@ markdown: kramdown
 plugins:
   - jekyll-redirect-from
 
-comm_group_email: &comm_group_email "mailto:communication@microservices.community"
+emails:
+  info: "communication@microservices.community"
+  communication: "communication@microservices.community"
+  ethics: "communication@microservices.community"
+
 navigation_header:
   Home: /
   Join the Community: /join
@@ -35,7 +39,6 @@ navigation_header:
   Publications: /publications
   Council, Board and Committees: /boards
   Statutes: /statutes
-  Contact Us: [*comm_group_email, "?subject=General Inquiry to the Microservices Community"]
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
