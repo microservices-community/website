@@ -2,28 +2,64 @@
   {
     "logo": "innopolis.png",
     "link": "https://innopolis.university/en/",
-    "alt": " Innopolis University"
+    "alt": " Innopolis University",
+    "category": "corporate"
   },
   {
     "logo": "italianasoftware.png",
     "link": "http://www.italianasoftware.com/",
-    "alt": "italianaSoftware"
+    "alt": "italianaSoftware",
+    "category": "corporate"
   },
-  {
-    "logo": "jolie.png",
-    "link": "http://www.jolie-lang.org/",
-    "alt": "Jolie programming language"
-  },{
+	{
+		"logo": "jolie.png",
+		"link": "http://www.jolie-lang.org/",
+		"alt": "Jolie programming language",
+    "category": "corporate"
+	},{
     "logo": "sdu.png",
     "link": "https://www.sdu.dk/en",
-    "alt": "University of Southern Denmark"
+    "alt": "University of Southern Denmark",
+    "category": "corporate"
   },{
     "logo": "unibo.png",
     "link": "http://www.cse.unibo.it/en",
-    "alt": "University of Bologna - Department of Computer Science and Engineering"
+    "alt": "University of Bologna - Department of Computer Science and Engineering",
+    "category": "corporate"
   },{
     "logo": "IDiAL.jpg",
     "link": "https://www.fh-dortmund.de/en/idial/",
-    "alt": "Institute for Digital Transformation of Application and Living Domains"
+    "alt": "Institute for Digital Transformation of Application and Living Domains",
+    "category": "corporate"
+  },{
+    "logo": "uio.png",
+    "link": "https://uio.no",
+    "alt": "University of Oslo",
+    "category": "individual"
+  },{
+    "logo": "unipi.png",
+    "link": "https://unipi.it",
+    "alt": "University of Pisa",
+    "category": "individual"
+  },{
+    "logo": "uniss.png",
+    "link": "https://uniss.it",
+    "alt": "University of Sassari",
+    "category": "individual"
+  },{
+    "logo": "sintef.png",
+    "link": "https://www.sintef.no/en/",
+    "alt": "SINTEF",
+    "category": "individual"
+  },{
+    "logo": "zuas.jpg",
+    "link": "https://www.zhaw.ch/",
+    "alt": "Zurich University of Applied Sciences",
+    "category": "individual"
+  },{
+    "logo": "WSO2.png",
+    "link": "https://wso2.com",
+    "alt": "WSO2 Pvt Limited",
+    "category": "individual"
   }
 ]
