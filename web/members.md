@@ -24,6 +24,13 @@ permalink: /members/
 ## Corporate Members
 </div>
 
+<div class="alert alert-info" role="alert" markdown="1">
+**Representing a company** and **looking for strong research partners** from our
+members to conduct joint projects? Get in touch with our **matchmaking
+and network manager Christian Bruun** by sending an e-mail to
+<a href>cwb <b>at</b> groenbruun <b>dot</b> eu</a>.
+</div>
+
 <div class="row">
 {% assign logos = site.data.logos | where: "category", "corporate" | sort: "alt" %}
 {% for item in logos %}
