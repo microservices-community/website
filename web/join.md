@@ -143,6 +143,8 @@ Send a <b>scan of the completed form</b> to `bmaschio[at]microservices[dot]commu
 In case you are a representative of a <b>special NPO</b>, e.g., an Open Source project, interested in becoming a member of the community, please send an e-mail to `join[at]microservices[dot]community` (replacing the parts in square brackets with the respective `@` and `.` symbols), so that we can negotiate dedicated membership conditions with you.
 </div>
 
+{% comment %}
+
 <!--If you are interested in becoming a member of the Microservices Community, please fill out the following form.
 We will then contact you with further details about the next steps of the registration process.
 
@@ -219,6 +221,8 @@ We will then contact you with further details about the next steps of the regist
 </div>
 </div>
 </div>-->
+
+{% endcomment %}
 
 <div class="section-title" markdown="1">
 ### Text and Voice Chat
