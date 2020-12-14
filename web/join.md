@@ -137,12 +137,10 @@ If you are interested in becoming a member of the Microservices Community as an 
 - [Membership Form (Word)](/MC_Membership_Form.docx)
 - [Membership Form (PDF)](/MC_Membership_Form.pdf)
 
-Send a <b>scan of the completed form</b> to <a href>bmaschio <b>at</b> microservices <b>dot</b> community</a>. The [Council](/boards) of the Microservices Community
-will then decide upon your request within two weeks after its receipt. We will continuously inform you about the progress of your membership request.
+Send a <b>scan of the completed form</b> to `bmaschio[at]microservices[dot]community` (replacing the parts in square brackets with the respective `@` and `.` symbols). The [Council](/boards) of the Microservices Community will then decide upon your request within two weeks after its receipt. We will continuously inform you about the progress of your membership request.
 
-<div style="margin:10px 0;">
-In case you are a representative of a <b>special NPO</b>, e.g., an Open Source project, interested in becoming a member of the community, please send an e-mail to
-<a href>join <b>at</b> microservices <b>dot</b> community</a>, so that we can negotiate dedicated membership conditions with you.
+<div style="margin:10px 0;" markdown="1">
+In case you are a representative of a <b>special NPO</b>, e.g., an Open Source project, interested in becoming a member of the community, please send an e-mail to `join[at]microservices[dot]community` (replacing the parts in square brackets with the respective `@` and `.` symbols), so that we can negotiate dedicated membership conditions with you.
 </div>
 
 <!--If you are interested in becoming a member of the Microservices Community, please fill out the following form.
