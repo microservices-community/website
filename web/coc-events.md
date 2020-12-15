@@ -62,8 +62,8 @@ Harassment may include but is not limited to the following:
 </div>
 
 - If you are the subject of, or witness to any violations of this Code of Conduct, please contact us by filing an [incident report](/Microservices_Community_Incident_Report.docx)
-  and sending it via e-mail to Sabine Sachweh (<a href>ssachweh <b>at</b> microservices <b>dot</b> community</a>) or Balint Maschio (<a href>bmaschio <b>at</b> microservices <b>dot</b> community</a>).
-  <b>Your responses within the submitted report will be kept confidential in any case.</b>
+  and sending it via e-mail to Sabine Sachweh (`ssachweh [at] microservices [dot] community`) or Balint Maschio (`bmaschio [at] microservices [dot] community`).
+  All complaints and reports will be taken seriously, kept confidential, and will receive a response.
 - If necessary, event staff are empowered to take appropriate actions that may include, but are not limited to, warnings, expulsion from the event without refund, and referrals to venue security or local law enforcement.
 
 <div class="section-title" markdown="1">
