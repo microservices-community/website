@@ -61,5 +61,10 @@
     "link": "https://wso2.com",
     "alt": "WSO2 Pvt Limited",
     "category": "individual"
+  },{
+    "logo": "inria.png",
+    "link": "https://inria.fr",
+    "alt": "INRIA",
+    "category": "individual"
   }
 ]
