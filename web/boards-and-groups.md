@@ -94,7 +94,7 @@ The Communication Group is responsible for communication and branding aspects of
 <li>It curates the social media and online presence of the Community.</li>
 <li>It coordinates the presence of the Community in events organised or endorsed by the Community and its outreach activities in general.</li>
 <li>It maintains media assets of the Community.</li>
-Until the creation of the Ethics Group, this committee was also tasked with the creation of the Code of Ethics and Conduct of the Communitygit co. 
+Until the creation of the Ethics Group, this committee was also tasked with the creation of the Code of Ethics and Conduct of the Community.
 </ul>
 </p>
 
