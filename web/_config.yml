@@ -26,9 +26,11 @@ plugins:
   - jekyll-redirect-from
 
 emails:
-  info: "communication@microservices.community"
+  balint: "bmaschio@microservices.community"
   communication: "communication@microservices.community"
   ethics: "ethics@microservices.community"
+  info: "communication@microservices.community"
+  join: "join@microservices.community"
 
 navigation_header:
   Home: /
