@@ -28,7 +28,7 @@ plugins:
 emails:
   info: "communication@microservices.community"
   communication: "communication@microservices.community"
-  ethics: "communication@microservices.community"
+  ethics: "ethics@microservices.community"
 
 navigation_header:
   Home: /
