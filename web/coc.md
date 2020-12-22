@@ -101,7 +101,7 @@ If you are responsible for a group within the Microservices Community such as in
 
 ### §4.1 Reporting
 
-To report an incident to the [Council](/boards/#Council) (or its delegates), please fill an [incident report](/Microservices_Community_Incident_Report.docx) with the [Ethics Committee](/boards/#Ethics-Committee). You can contact the Committee at its main email address or any of its members directly. All complaints will be taken seriously, kept confidential, and will receive a response. 
+To report an incident to the [Council](/boards-and-groups/#Council) (or its delegates), please fill an [incident report](/Microservices_Community_Incident_Report.docx) with the [Ethics Committee](/boards-and-groups/#Ethics-Committee). You can contact the Committee at its main email address or its members directly. All complaints will be taken seriously, kept confidential, and will receive a response. 
 
 ## §5. If You've Done Something Improper
 
