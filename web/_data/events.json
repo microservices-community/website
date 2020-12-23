@@ -1,6 +1,29 @@
 {
   "upcoming": [
     {
+      "title": "Online Seminar: Microservices-Based Architectures for Next-Gen Industrial Applications",
+      "link": "https://www.crit-research.it/en/eventi/microservies-based-architectures-for-next-gen-industrial-applications/",
+      "date": "January 20<sup>th</sup>, 2021, 14:30&ndash;16:00",
+      "longtext": "<ul style=\"margin-left:-2em;\">
+
+                    <li><strong>Description:</strong> In this joint event with
+                      <a href=\"https://www.crit-research.it\">CRIT</a>, members of
+                      the Microservices Community will learn about
+                      <ul style=\"margin-left:-2em;\">
+                        <li>Edge Microservices and Industrial IoT for Digital Manufacturing</li>
+                        <li>Serverless Architecture vs Microservice Architecture</li>
+                        <li>Next-Generation Programming Languages: Jolie and Ballerina</li>
+                      </ul>
+                    </li>
+
+                    <li><strong>Registration:</strong> Members of the Microservices
+                    Community can sign up for the seminar by sending an e-mail to
+                    MC Council member <a href=\"mailto:cguidi@italianasoftware.com\">Claudio Guidi</a>.
+                    </li>
+
+                    </ul>"
+    },
+    {
       "title": "23rd International Conference on Coordination Models and Languages (COORDINATION 2021)",
       "link": "https://www.discotec.org/2021/coordination",
       "date": "June 14<sup>th</sup>-18<sup>th</sup> 2020"
