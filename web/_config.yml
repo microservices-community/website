@@ -39,8 +39,12 @@ navigation_header:
   Activities: /activities
   Members: /members
   Publications: /publications
-  Governance and Groups: /boards-and-groups
-  Statutes: /statutes
+  dropdown:
+    title: Governance
+    submenu:
+      Governance and Groups: /boards-and-groups
+      Statutes: /statutes  
+      Code of Conduct: /coc  
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"

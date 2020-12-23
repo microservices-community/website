@@ -28,7 +28,7 @@ permalink: /members/
 **Representing a company** and **looking for strong research partners** from our
 members to conduct joint projects? Get in touch with our **matchmaking
 and network manager Christian Bruun** by sending an e-mail to
-<a href>cwb <b>at</b> groenbruun <b>dot</b> eu</a>.
+`cwb [at] groenbruun [dot] eu`.
 </div>
 
 <div class="row">
