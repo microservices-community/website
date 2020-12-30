@@ -134,7 +134,7 @@ or
 </div>
 
 If you are interested in becoming a member of the Microservices Community as an individual or organisation, please fill out our membership form:
-- [Membership Form (Word)](/MC_Membership_Form.docx)
+<!--- [Membership Form (Word)](/MC_Membership_Form.docx) -->
 - [Membership Form (PDF)](/MC_Membership_Form.pdf)
 
 Send a <b>completed and signed form</b> to <a href="mailto:{{ site.emails.balint }}">{{ site.emails.balint }}</a>.
