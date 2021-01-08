@@ -130,7 +130,6 @@ You can contact the Communication Group at the address <a href="mailto:{{ site.e
 </table>
 
 <h4 id="Ethics-Committee">Ethics</h4>
-{%- comment -%}
 <p>
 The Ethics Group is responsible for all aspects related to the ethics of the Community and the conduct of its members.
 These are codified in the <a href="/coc/">Code of Ethics and Conduct</a> together with all relevant procedures.
@@ -139,7 +138,6 @@ These are codified in the <a href="/coc/">Code of Ethics and Conduct</a> togethe
 <p>
 You can contact the Ethics Group at the address <a href="mailto:{{ site.emails.ethics }}?subject=Inquiry to the Ethics Group of the Microservices Community">{{ site.emails.ethics }}</a>.
 </p>
-{%- endcomment -%}
 
 <table class="table text-left ptb">
   <thead>
