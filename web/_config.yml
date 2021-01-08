@@ -44,7 +44,7 @@ navigation_header:
     submenu:
       Governance and Groups: /boards-and-groups
       Statutes: /statutes  
-      Code of Conduct: /coc  
+      Code of Ethics and Conduct: /coc  
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
