@@ -24,6 +24,28 @@
                     </ul>"
     },
     {
+      "title": "Ballerina: OS cloud-native programming language",
+      "link": "https://www.eventbrite.it/e/biglietti-lunch-learn-ballerina-os-cloud-native-programming-language-134412004925",
+      "date": "February 5<sup>th</sup>, 2021, 13:00&ndash;14:00",
+      "longtext": "<ul style=\"margin-left:-2em;\">
+
+                    <li><strong>Description:</strong> In this joint event with
+                      <a href=\"https://www.imolainformatica.it/home-en/\">Imola Informatica</a>, you will learn about Ballerina, a cloud-native
+                      programming language. Developers spend more time integrating cloud-native technologies to their programming language,
+                      compared to the core business logic. Ballerina offers language integrated features, such as network awareness through a
+                      built-in services concept, communication resilience, observability, and deployment technology awareness, such as Kubernetes.
+                      It's an open source project, Apache 2 licensed.
+                    </li>
+
+                    <li><strong>Registration:</strong> The event is <b>free of charge</b> and <b>open to everyone</b>. Please follow
+                        <a href=\"https://www.eventbrite.it/e/biglietti-lunch-learn-ballerina-os-cloud-native-programming-language-134412004925\">
+                        this link
+                        </a> to sign up for the event.
+                    </li>
+
+                    </ul>"
+    },
+    {
       "title": "23rd International Conference on Coordination Models and Languages (COORDINATION 2021)",
       "link": "https://www.discotec.org/2021/coordination",
       "date": "June 14<sup>th</sup>-18<sup>th</sup> 2020"
