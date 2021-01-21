@@ -1,29 +1,6 @@
 {
   "upcoming": [
     {
-      "title": "Online Seminar: Microservices-Based Architectures for Next-Gen Industrial Applications",
-      "link": "https://www.crit-research.it/en/eventi/microservies-based-architectures-for-next-gen-industrial-applications/",
-      "date": "January 20<sup>th</sup>, 2021, 14:30&ndash;16:00",
-      "longtext": "<ul style=\"margin-left:-2em;\">
-
-                    <li><strong>Description:</strong> In this joint event with
-                      <a href=\"https://www.crit-research.it\">CRIT</a>, members of
-                      the Microservices Community will learn about
-                      <ul style=\"margin-left:-2em;\">
-                        <li>Edge Microservices and Industrial IoT for Digital Manufacturing</li>
-                        <li>Serverless Architecture vs Microservice Architecture</li>
-                        <li>Next-Generation Programming Languages: Jolie and Ballerina</li>
-                      </ul>
-                    </li>
-
-                    <li><strong>Registration:</strong> Members of the Microservices
-                    Community can sign up for the seminar by sending an e-mail to
-                    MC Council member <a href=\"mailto:cguidi@italianasoftware.com\">Claudio Guidi</a>.
-                    </li>
-
-                    </ul>"
-    },
-    {
       "title": "Ballerina: OS cloud-native programming language",
       "link": "https://www.eventbrite.it/e/biglietti-lunch-learn-ballerina-os-cloud-native-programming-language-134412004925",
       "date": "February 5<sup>th</sup>, 2021, 13:00&ndash;14:00",
@@ -52,6 +29,29 @@
     }
   ],
   "past": [
+    {
+      "title": "Online Seminar: Microservices-Based Architectures for Next-Gen Industrial Applications",
+      "link": "https://www.crit-research.it/en/eventi/microservies-based-architectures-for-next-gen-industrial-applications/",
+      "date": "January 20<sup>th</sup>, 2021, 14:30&ndash;16:00",
+      "longtext": "<ul style=\"margin-left:-2em;\">
+
+                    <li><strong>Description:</strong> In this joint event with
+                      <a href=\"https://www.crit-research.it\">CRIT</a>, members of
+                      the Microservices Community will learn about
+                      <ul style=\"margin-left:-2em;\">
+                        <li>Edge Microservices and Industrial IoT for Digital Manufacturing</li>
+                        <li>Serverless Architecture vs Microservice Architecture</li>
+                        <li>Next-Generation Programming Languages: Jolie and Ballerina</li>
+                      </ul>
+                    </li>
+
+                    <li><strong>Registration:</strong> Members of the Microservices
+                    Community can sign up for the seminar by sending an e-mail to
+                    MC Council member <a href=\"mailto:cguidi@italianasoftware.com\">Claudio Guidi</a>.
+                    </li>
+
+                    </ul>"
+    },
     {
       "title": "Online seminar on R&I funding for Microservices in Horizon Europe",
       "link": "https://www.microservices.community/events/horizon_europe2020.html",
