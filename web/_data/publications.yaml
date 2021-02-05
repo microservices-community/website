@@ -1,3 +1,25 @@
+- thumbnail: microservices.png
+  link: https://www.conf-micro.services/2020/program/
+  title: International Conference on Microservices 2020
+  publication_types:
+    - peer_review
+    - grey_literature
+    - open_access
+  description: |
+    The International Conference on Microservices is a forum for the discussion of
+    all aspects of microservices: their design, programming, and operations. The
+    2020 edition of the conference (Microservices 2020) took place from
+    September 8th to 10th, 2020 as a virtual event (originally planned at the University of Bologna, Italy).
+- thumbnail: amp2020.png
+  link: https://link.springer.com/book/10.1007/978-3-030-58858-8
+  title: Agility with Microservices Programming 2020
+  publication_types:
+    - academic_literature
+    - open_access
+  description: |
+    In this workshop, we propose a follow-up of the first 
+    International Workshop on Microservices: Agile and DevOps Experience (MADE18) organized at XP2018.
+    Agility with Microservices Programming (AMP) 2020 The AMP workshop aims at collecting original work on the science and engineering of Microservices Programming using Agile principles and practices and/or with the goal of supporting Agility.
 - thumbnail: oasics.png
   link: https://drops.dagstuhl.de/opus/portals/oasics/index.php?semnr=16138
   title: Joint Post-proceedings of the First and Second International Conference
