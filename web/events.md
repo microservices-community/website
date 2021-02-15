@@ -9,6 +9,8 @@ redirect_from:
   - /e/discotec2021/
   - /e/amp2020
   - /e/amp2020/
+  - /e/amp2021
+  - /e/amp2021/
   - /e/microservices2020
   - /e/microservices2020/
   - /e/microservices2019
