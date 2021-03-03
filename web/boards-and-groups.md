@@ -155,6 +155,10 @@ You can contact the Ethics Group at the address <a href="mailto:{{ site.emails.e
       <td>Balint Maschio</td>
       <td>Pixis.co, FR</td>
     </tr>
+    <tr>
+      <td>Larisa Safina</td>
+      <td>National Institute for Research in Digital Science and Technology (INRIA), FR</td>
+    </tr>
   </tbody>
 </table>
 
