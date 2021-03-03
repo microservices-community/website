@@ -9,27 +9,36 @@ permalink: /
   z-index: 1
 }
 #banner {
-  margin-top: 2em;
-  border-top-left-radius: 2em;
-  border-bottom-right-radius: 2em;
+  margin-top: 1vw;
+  border-top-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;
   background: #e37900c9;
-  height: 270px;
   z-index: 2;
   border: 5px solid #ffffffbf;
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #e6e6e6;
+  color: white;
+  font-weight: 600;
 }
-#banner h1 { font-size: 50px !important; }
-#banner p { font-size: 25px !important; }
+#banner h1 { font-size: max(3em, 4vw) !important; }
+#banner p { font-size: max(1.5em, 1.5vw) !important; font-weight: 900 !important; }
 </style>
-
-<div class="col-xs-8 col-sm-offset-2 text-center" id="banner">
-  <div style="margin-top:50px;" class="large">
+<script>
+var adjustBannerPosition = () => {
+  console.log( "Windows width:" + $( window ).width() );
+if( $( window ).width() < 1500 ){
+    $( ".carousel__holder" ).css("margin", ( $( "#banner" ).height()*1.5 ) + "px 0px 0px 0px");
+  } else {
+    $( ".carousel__holder" ).removeAttr( "style" );
+  }
+};
+$( document ).ready( adjustBannerPosition );
+$( window ).resize( adjustBannerPosition );
+</script>
+<div class="col-xs-12 col-sm-offset-2 col-sm-8  text-center" id="banner">
+  <div style="margin-top:1vw;" class="large">
   <p>The Microservices Community</p>
   <h1>1<sup>st</sup> GENERAL ASSEMBLY</h1>
   <p>will take place on March 24th, 2021</p>
-  <p style="margin-top:1em;"><a href="/events/1st_general_assembly">Read more to know how to participate</a></p>
+  <p style="margin-top:1vw;"><a href="/events/1st_general_assembly.html">Read more to know how to participate</a></p>
   </div>
 </div>
 

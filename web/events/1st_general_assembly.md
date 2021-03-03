@@ -50,7 +50,7 @@ As per the [statutes](/statutes) of the Community:
 </div>
 The event is freely accessible by all members of the Microservices Community.
 
-To get the invitation, the members of the community can **sign up** by sending an e-mail to [Christian Walther Bruun](mailto:cwb@groenbruun.eu) no later than March 14<sup>th</sup>, 2021, 12:00 CET.
+To get the invitation, the members of the community can **sign up** by sending an e-mail to [Christian Walther Bruun](mailto:cwb@groenbruun.eu) no later than March 22<sup>nd</sup>, 2021, 12:00 CET.
 
 </div>
 </div>
