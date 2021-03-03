@@ -4,6 +4,35 @@ title: Microservices Community
 permalink: /
 ---
 
+<style>
+.carousel__holder {
+  z-index: 1
+}
+#banner {
+  margin-top: 2em;
+  border-top-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  background: #e37900c9;
+  height: 270px;
+  z-index: 2;
+  border: 5px solid #ffffffbf;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #e6e6e6;
+}
+#banner h1 { font-size: 50px !important; }
+#banner p { font-size: 25px !important; }
+</style>
+
+<div class="col-xs-8 col-sm-offset-2 text-center" id="banner">
+  <div style="margin-top:50px;" class="large">
+  <p>The Microservices Community</p>
+  <h1>1<sup>st</sup> GENERAL ASSEMBLY</h1>
+  <p>will take place on March 24th, 2021</p>
+  <p style="margin-top:1em;"><a href="/events/1st_general_assembly">Read more to know how to participate</a></p>
+  </div>
+</div>
+
 {% include home_carousel.html height="20" unit="%" duration="7" %}
 
 <section style="margin-bottom:50px;">
