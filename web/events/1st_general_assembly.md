@@ -29,7 +29,7 @@ As per the [statutes](/statutes) of the Community:
 
   The General Assembly is chaired (prioritised) by the President, the Vice-President, a Council Member or a member elected by the Council.
 
-  <small class="text-muted text-right" style="margin-top:2em;" >Except from the <cite title="Source Title">Microservices Community Statutes</cite></small>
+  <small class="text-muted text-right" style="margin-top:2em;" >Excerpt from the <cite title="Source Title">Microservices Community Statutes</cite></small>
 </blockquote>
 
 <div class="section-title" markdown="1">
