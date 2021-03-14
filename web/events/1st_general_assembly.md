@@ -40,10 +40,10 @@ As per the [statutes](/statutes) of the Community:
 - Introduction to Community Group Structure (Fabrizio Montesi)
 - Reports from the Community Groups
   - Communication (TBD)
-  - Ethics (TBD)
   - Education (TBD)
   - Industrial Applications (Claudio Guidi)
   - Joint Research and Innovation Projects (Christian Walther Bruun)
+  - Ethics (TBD)
 - Round table with introductions and indications of interest
 
 <div class="section-title" markdown="1">
