@@ -25,7 +25,7 @@ groups:
       Christian Walther Bruun (MC Board) will present the community group on R&I. The group will work together to identify opportunities to obtain funding aimed at developing joint projects. This will especially be focused on European funds such as Horizon Europe that supports research and innovation activities for companies, universities and organisations interested in developing joint European projects.
   - id: 5
     name: Ethics
-    speaker: TBD
+    speaker: Larisa Safina
     abstract: TBA
 ---
 
