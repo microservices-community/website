@@ -2,6 +2,7 @@
 layout: page
 title: Join the Community
 permalink: /bopl2020_join/
+redirect_to: /join
 ---
 
 <div class="container">
