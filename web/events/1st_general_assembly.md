@@ -2,6 +2,31 @@
 layout: page
 title: Microservices Community 1st General Assembly
 permalink: /events/1st_general_assembly
+groups:
+  - id: 1
+    name: Communication
+    speaker: TBD
+    abstract: TBA
+  - id: 2
+    name: Education
+    speaker: TBD
+    abstract: |
+      The term "microservices" refers to software architecture and the multiple consequent ramifications of it, including (development) process and (governing) technology concerns. Intellectual mastery of the triad "design-process-technology" is crucial to the software engineering profession. As such, it should rank high in the learning outcomes of higher education. The university instructors, however, know full well how difficult it is to devise and actuate instructional designs truly valid to that effect. Ingredients that help bridge the gap include (1) communitarian sharing of learning practices and the lessons learned with them, and (2) collaborative dialogue with industrial practitioners, best placed at measuring the distance between the level of triadic maturity achieved by undergrad and graduate students who enter the profession and what full proficiency in it would require, besides life experience.
+      
+      With that premise in mind, we are creating the Community Group "Education", with the initial goal to make progress toward ingredient (1), and the medium-term prospect of broadening action to ingredient (2). The zero-level concrete objective of such a Community Group would be the production of a living collection of learning practices that can be shared and trialled by institutions at large and can be improved by user feedback. A natural by-product of that effort would be the derivation of material worth publishing in reputable academic venues interested in Computer Science Education. The Community Group plans to begin work by June 2021, by regular (monthly to bi-monthly) meetings, initially virtual and then in presence, whether dedicated or opportunistically latched to other events.
+  - id: 3
+    name: Industrial Applications
+    speaker: Claudio Guidi
+    abstract: TBA
+  - id: 4
+    name: Joint Research and Innovation Projects
+    speaker: Christian Walther Bruun
+    abstract: |
+      Christian Walther Bruun (MC Board) will present the community group on R&I. The group will work together to identify opportunities to obtain funding aimed at developing joint projects. This will especially be focused on European funds such as Horizon Europe that supports research and innovation activities for companies, universities and organisations interested in developing joint European projects.
+  - id: 5
+    name: Ethics
+    speaker: TBD
+    abstract: TBA
 ---
 
 <div class="container">
@@ -36,15 +61,21 @@ As per the [statutes](/statutes) of the Community:
 ### Agenda
 </div>
 
-- Welcome by the President of the Community Council (Fabrizio Montesi)
-- Introduction to Community Group Structure (Fabrizio Montesi)
-- Reports from the Community Groups
-  - Communication (TBD)
-  - Education (TBD)
-  - Industrial Applications (Claudio Guidi)
-  - Joint Research and Innovation Projects (Christian Walther Bruun)
-  - Ethics (TBD)
-- Round table with introductions and indications of interest
+<ul>
+  <li>Welcome by the President of the Community Council (Fabrizio Montesi)</li>
+  <li>Introduction to Community Group Structure (Fabrizio Montesi)</li>
+  <li>Reports from the Community Groups <small>(Click on the items below to show/hide the abstract of each group's presentation)</small></li>
+  <ul>
+  {% for group in page.groups %}
+  <li>
+    <a data-toggle="collapse" href="#abstract-{{ group.id }}" role="button" aria-expanded="false" aria-controls="abstract-{{ group.id }}">{{ group.name }}</a>
+    ({{ group.speaker }})
+    <div class="collapse" id="abstract-{{ group.id }}"><div class="card card-body"><small>{{ group.abstract | markdownify }}</small></div></div>
+  </li>
+  {% endfor %}
+  </ul>
+  <li>Round table with introductions and indications of interest</li>
+</ul>
 
 <div class="section-title" markdown="1">
 ### Participation and Registration
