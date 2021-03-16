@@ -26,7 +26,7 @@ groups:
   - id: 5
     name: Ethics
     speaker: Larisa Safina
-    abstract: TBA
+    abstract: The Microservices Community strives to maintain a positive environment, where each participant feels appreciated and respected. However, misunderstandings and disagreements could still happen and the [Ethics Group](https://www.microservices.community/boards-and-groups/#Ethics-Committee) is responsible for their mitigation. The accepted and acceptable behaviors, together with all relevant procedures are formalized in the [Code of Ethics and Conduct](https://www.microservices.community/coc/). Any member of the community, having an issue with someone’s behavior, can report it to the group. All complaints will be taken seriously, kept confidential, and will receive a response.
 ---
 
 <div class="container">
