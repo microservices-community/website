@@ -5,8 +5,11 @@ permalink: /events/1st_general_assembly
 groups:
   - id: 1
     name: Communication
-    speaker: TBD
-    abstract: TBA
+    speaker: Marco Peressotti
+    abstract: |
+      The Communication group is responsible for the communication and branding aspects of the Microservices Community (MC). The tasks of the group involve (i) coordination of the presence of the MC in events organised or endorsed by the MC; (ii) curation of the social media and online presence of the MC; and (iii) maintenance of media assets of the MC.
+
+      In their talk, the Communication group will present the various activities it conducted since the inception of the MC and also give a brief outlook on activities concerning the future outreach of the MC.
   - id: 2
     name: Education
     speaker: Tullio Vardanega
