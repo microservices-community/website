@@ -20,7 +20,8 @@ groups:
   - id: 3
     name: Industrial Applications
     speaker: Claudio Guidi
-    abstract: TBA
+    abstract: |
+        The group aims at collecting the point of view of industries and final users, by identifying critical scenarios and new challenges where the communiy can help in understanding and finding solutions and strategies. Moreover, the group aims at creating a positive network where triggering valueable discussions about the future vision and evolution of microservices and distributed applications in the networked era.
   - id: 4
     name: Joint Research and Innovation Projects
     speaker: Christian Walther Bruun
