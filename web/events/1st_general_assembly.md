@@ -66,8 +66,8 @@ As per the [statutes](/statutes) of the Community:
 </div>
 
 <ul>
-  <li>Welcome by the President of the Community Council (Fabrizio Montesi)</li>
-  <li>Introduction to Community Group Structure (Fabrizio Montesi)</li>
+  <li>Welcome by the President of the Community Council (Balint Maschio)</li>
+  <li>Introduction to Community Group Structure (Balint Maschio)</li>
   <li>Reports from the Community Groups <small>(Click on the items below to show/hide the abstract of each group's presentation)</small></li>
   <ul>
   {% for group in page.groups %}
