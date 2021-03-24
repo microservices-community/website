@@ -6,7 +6,7 @@ groups:
   - id: 1
     name: Security
     speaker: Saverio Giallorenzo
-    abstract: TBD
+    abstract: This is a proposal for the constitution of a Security group interested in all aspects that link Microservices with Security. The goal of group is to stimulate discussion about current security trends in (Design, Development, Deployment, Runtime) and the human aspects of those traits.
   - id: 2
     name: Communication
     speaker: Marco Peressotti
