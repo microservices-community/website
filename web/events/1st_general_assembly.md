@@ -4,30 +4,34 @@ title: Microservices Community 1st General Assembly
 permalink: /events/1st_general_assembly
 groups:
   - id: 1
+    name: Security
+    speaker: Saverio Giallorenzo
+    abstract: TBD
+  - id: 2
     name: Communication
     speaker: Marco Peressotti
     abstract: |
       The Communication group is responsible for the communication and branding aspects of the Microservices Community (MC). The tasks of the group involve (i) coordination of the presence of the MC in events organised or endorsed by the MC; (ii) curation of the social media and online presence of the MC; and (iii) maintenance of media assets of the MC.
 
       In their talk, the Communication group will present the various activities it conducted since the inception of the MC and also give a brief outlook on activities concerning the future outreach of the MC.
-  - id: 2
+  - id: 3
     name: Education
     speaker: Tullio Vardanega
     abstract: |
       The term "microservices" refers to software architecture and the multiple consequent ramifications of it, including (development) process and (governing) technology concerns. Intellectual mastery of the triad "design-process-technology" is crucial to the software engineering profession. As such, it should rank high in the learning outcomes of higher education. The university instructors, however, know full well how difficult it is to devise and actuate instructional designs truly valid to that effect. Ingredients that help bridge the gap include (1) communitarian sharing of learning practices and the lessons learned with them, and (2) collaborative dialogue with industrial practitioners, best placed at measuring the distance between the level of triadic maturity achieved by undergrad and graduate students who enter the profession and what full proficiency in it would require, besides life experience.
 
       With that premise in mind, we are creating the Community Group "Education", with the initial goal to make progress toward ingredient (1), and the medium-term prospect of broadening action to ingredient (2). The zero-level concrete objective of such a Community Group would be the production of a living collection of learning practices that can be shared and trialled by institutions at large and can be improved by user feedback. A natural by-product of that effort would be the derivation of material worth publishing in reputable academic venues interested in Computer Science Education. The Community Group plans to begin work by June 2021, by regular (monthly to bi-monthly) meetings, initially virtual and then in presence, whether dedicated or opportunistically latched to other events.
-  - id: 3
+  - id: 4
     name: Industrial Applications
     speaker: Claudio Guidi
     abstract: |
         The group aims at collecting the point of view of industries and final users, by identifying critical scenarios and new challenges where the communiy can help in understanding and finding solutions and strategies. Moreover, the group aims at creating a positive network where triggering valueable discussions about the future vision and evolution of microservices and distributed applications in the networked era.
-  - id: 4
+  - id: 5
     name: Joint Research and Innovation Projects
     speaker: Christian Walther Bruun
     abstract: |
       Christian Walther Bruun (MC Board) will present the community group on R&I. The group will work together to identify opportunities to obtain funding aimed at developing joint projects. This will especially be focused on European funds such as Horizon Europe that supports research and innovation activities for companies, universities and organisations interested in developing joint European projects.
-  - id: 5
+  - id: 6
     name: Ethics
     speaker: Larisa Safina
     abstract: The Microservices Community strives to maintain a positive environment, where each participant feels appreciated and respected. However, misunderstandings and disagreements could still happen and the [Ethics Group](https://www.microservices.community/boards-and-groups/#Ethics-Committee) is responsible for their mitigation. The accepted and acceptable behaviors, together with all relevant procedures are formalized in the [Code of Ethics and Conduct](https://www.microservices.community/coc/). Any member of the community, having an issue with someone’s behavior, can report it to the group. All complaints will be taken seriously, kept confidential, and will receive a response.
