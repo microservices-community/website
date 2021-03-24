@@ -4,6 +4,7 @@ title: Microservices Community
 permalink: /
 ---
 
+{% comment %}
 <style>
 .carousel__holder {
   z-index: 1
@@ -41,6 +42,8 @@ $( window ).resize( adjustBannerPosition );
   <p style="margin-top:1vw;"><a href="/events/1st_general_assembly.html">Read more to know how to participate</a></p>
   </div>
 </div>
+{% endcomment %}
+
 
 {% include home_carousel.html height="20" unit="%" duration="7" %}
 
