@@ -1,0 +1,14 @@
+name: "Ethics"
+mission: 
+  short: The Ethics Group is responsible for all aspects related to the ethics of the Community and the conduct of its members.
+  long: |
+    The Ethics Group is responsible for all aspects related to the ethics of the Community and the conduct of its members.
+    These are codified in the [Code of Ethics and Conduct](/coc/) together with all relevant procedures.
+contact_email: "ethics@microservices.community"
+members: 
+  - name: Sabine Sachweh
+    affiliation: University of Applied Sciences and Arts Dortmund, DE
+  - name: Balint Maschio
+    affiliation: Pixis.co, FR
+  - name: Larisa Safina
+    affiliation: National Institute for Research in Digital Science and Technology (INRIA), FR

@@ -1,0 +1,26 @@
+name: "Communication"
+mission: 
+  short: The Communication Group is responsible for communication and branding aspects of the Community.
+  long: |
+    The Communication Group is responsible for communication and branding aspects of the Community:
+    * It curates the social media and online presence of the Community.
+    * It coordinates the presence of the Community in events organised or endorsed by the Community and its outreach activities in general.
+    * It maintains media assets of the Community.
+
+    Until the creation of the [Ethics Group](ethics), this committee was also tasked with the creation of the [Code of Ethics and Conduct](/coc/) of the Community.
+contact_email: "communication@microservices.community"
+members: 
+  - name: Saverio Giallorenzo
+    affiliation: Department of Computer Science and Engineering, Università di Bologna, IT
+  - name: Marco Peressotti
+    affiliation: Department of Mathematics and Computer Science, University of Southern Denmark, DK
+  - name: Florian Rademacher
+    affiliation: University of Applied Sciences and Arts Dortmund, DE
+  - name: Jonas Sorgalla
+    affiliation: University of Applied Sciences and Arts Dortmund, DE
+more_content: |
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur lacus vitae metus ultricies, eu porta odio maximus. Nam risus turpis, efficitur eget risus non, viverra efficitur velit. Aenean tempus cursus nibh nec sodales. Morbi auctor mattis metus, et eleifend diam tristique rutrum. Praesent eu pretium velit. Nullam non faucibus lorem. Curabitur quis feugiat tellus.
+
+  Nam et lorem in magna egestas vulputate non a ligula. Quisque nec leo sit amet sapien imperdiet pellentesque. Nunc condimentum lacus dui, sit amet pellentesque orci tincidunt non. Integer metus magna, iaculis vel vulputate eget, lacinia eget orci. Duis a tellus scelerisque ipsum dignissim tincidunt. Nulla facilisi. Aenean cursus, elit nec sagittis luctus, tellus justo rhoncus felis, ac hendrerit ex dolor quis lacus. Vivamus ut augue tincidunt, semper nisi eu, ultrices justo. Nunc non ipsum vitae lacus tempor dictum in sollicitudin ante. Aenean quis dignissim nunc, a faucibus lectus. Etiam volutpat convallis orci, a vehicula neque aliquam et. Integer egestas id nunc eget ultrices. Aliquam ac cursus elit. Morbi ullamcorper velit vel vulputate ullamcorper.
+
+  Maecenas nibh orci, pellentesque sed erat a, lobortis pharetra orci. Nunc aliquet metus sed sollicitudin suscipit. Morbi tellus odio, feugiat in dictum et, imperdiet non ipsum. Nulla egestas enim at sollicitudin fermentum. Morbi vitae ultrices odio. Nulla sit amet lectus vestibulum lacus vulputate molestie. Sed at elit tempor, pretium elit eu, interdum ipsum. 

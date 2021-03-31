@@ -1,0 +1,54 @@
+---
+layout: page
+---
+
+<section style="margin-bottom:25px;">
+  <div class="container">
+    <div class="section-title">
+      <h2>{{page.title}} Group</h2>
+    </div>
+
+    <h3>Mission</h3>
+    {{ page.mission.long | liquify | markdownify }}
+
+    {%- if page.contact_email -%}
+    <h3>Contacts</h3>
+    You can contact the {{ page.title }} Group at the address <a href="mailto:{{ page.contact_email }}?subject=Inquiry to the {{ page.title }} Group of the Microservices Community">{{ page.contact_email }}</a>.
+    {%- endif -%}
+
+    {%- if page.members.size > 0 -%}
+    <h3>Members</h3>
+    <table class="table text-left">
+      <thead>
+        <tr>
+          <th scope="col">Member</th>
+          <th scope="col">Organisation</th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for member in page.members -%}
+        <tr>
+          <td>
+            {%- if member.link -%}
+              <a href="{{ member.link }}" target="_blank">{{ member.name }}</a>
+            {%- else -%}
+              {{ member.name }}
+            {%- endif -%}
+          </td>
+          <td>{{ member.affiliation }}</td>
+        </tr>
+        {%- endfor -%}
+      </tbody>
+    </table>
+    {%- endif -%}
+
+    
+    {%- if page.more_content -%}
+    <hr>
+
+    <h3>More</h3>
+    {{ page.more_content | liquify | markdownify }}
+
+    {%- endif -%}
+</div>
+</section> 

@@ -24,6 +24,15 @@ markdown: kramdown
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-datapage-generator
+
+page_gen-dirs: false
+page_gen:
+  - data: 'groups'
+    template: 'community-group-page'
+    name: 'name'
+    title: 'name'
+    dir: 'community-groups'
 
 emails:
   balint: "bmaschio@microservices.community"
