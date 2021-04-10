@@ -7,15 +7,15 @@ mission:
     * It coordinates the presence of the Community in events organised or endorsed by the Community and its outreach activities in general.
     * It maintains media assets of the Community.
 
-    Until the creation of the [Ethics Group](ethics), this committee was also tasked with the creation of the [Code of Ethics and Conduct](/coc/) of the Community.
+    Until the creation of the [Ethics Group](ethics.html), this committee was also tasked with the creation of the [Code of Ethics and Conduct](/coc/) of the Community.
 contact_email: "communication@microservices.community"
 members: 
-  - name: Florian Rademacher
+  - name: Jonas Sorgalla
     affiliation: University of Applied Sciences and Arts Dortmund, DE
-    position: Head
+    position: Group Coordinator
   - name: Saverio Giallorenzo
     affiliation: Department of Computer Science and Engineering, Università di Bologna, IT
   - name: Marco Peressotti
     affiliation: Department of Mathematics and Computer Science, University of Southern Denmark, DK
-  - name: Jonas Sorgalla
+  - name: Florian Rademacher
     affiliation: University of Applied Sciences and Arts Dortmund, DE
