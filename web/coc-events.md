@@ -60,10 +60,8 @@ Harassment may include but is not limited to the following:
 <div class="section-title" markdown="1">
 ### Reporting and Enforcement
 </div>
-
 - If you are the subject of, or witness to any violations of this Code of Conduct, please contact us by filing an [incident report](/Microservices_Community_Incident_Report.docx)
-  and sending it via e-mail to Sabine Sachweh (`ssachweh [at] microservices [dot] community`) or Balint Maschio (`bmaschio [at] microservices [dot] community`).
-  All complaints and reports will be taken seriously, kept confidential, and will receive a response.
+  and sending it via e-mail to the [Ethics Group](/community-groups/ethics.html). You can contact the Ethics Group at its main email address or its members directly. All complaints will be taken seriously, kept confidential, and will receive a response. 
 - If necessary, event staff are empowered to take appropriate actions that may include, but are not limited to, warnings, expulsion from the event without refund, and referrals to venue security or local law enforcement.
 
 <div class="section-title" markdown="1">

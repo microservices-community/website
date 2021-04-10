@@ -42,18 +42,19 @@ emails:
   join: "join@microservices.community"
 
 navigation_header:
-  Home: /
   Join the Community: /join
+  Community Groups: /community-groups
   Events: /events
-  Activities: /activities
-  Members: /members
-  Publications: /publications
-  dropdown:
-    title: Governance
+  Activities:
     submenu:
-      Governance and Groups: /boards-and-groups
+      Publications: /publications
+      Support and Promotion: /support  
+  Members: /members 
+  Governance:
+    submenu:
+      Board and Council: /governance
       Statutes: /statutes  
-      Code of Ethics and Conduct: /coc  
+      Code of Ethics and Conduct: /coc 
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"

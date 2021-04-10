@@ -34,15 +34,10 @@
                     id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                       {% for item in site.navigation_header %}
-                      {% if item[0] != "dropdown" %}
-                      <li>
-                        <a href="{{ item[1] }}" title="Page - {{ item[0] }}"><small>{{ item[0] }}</small></a>
-                      </li>
-                      {% endif %}
-                      {% if item[0] == "dropdown" %}
+                      {% if item[1].submenu %}
                       <li><div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                          <small>{{ item[1].title }}</small>
+                          <small>{{ item[0] }}</small>
                           <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
@@ -51,6 +46,10 @@
                           {% endfor %}
                         </ul>
                       </div></li>
+                      {% else %}
+                      <li>
+                        <a href="{{ item[1] }}" title="Page - {{ item[0] }}"><small>{{ item[0] }}</small></a>
+                      </li>
                       {% endif %}
                       {% endfor %}
                       <li>

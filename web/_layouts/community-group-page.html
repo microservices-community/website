@@ -23,6 +23,7 @@ layout: page
         <tr>
           <th scope="col">Member</th>
           <th scope="col">Organisation</th>
+          <th scope="col">Position</th>
         </tr>
       </thead>
       <tbody>
@@ -36,6 +37,7 @@ layout: page
             {%- endif -%}
           </td>
           <td>{{ member.affiliation }}</td>
+          <td>{{ member.position }}</td>
         </tr>
         {%- endfor -%}
       </tbody>
