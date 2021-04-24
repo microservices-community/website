@@ -9,7 +9,8 @@ permalink: /community-groups/
       <h2>{{page.title}}</h2>
     </div>
     <p>Community Groups are established by the Council to tend to specific aspects and functions of the community. Members of a committee are appointed by the Council.</p>
-    {%- for group_hash in site.data.groups -%}
+    {% assign groups = site.data.groups | sort %}
+    {%- for group_hash in groups -%}
       {% assign group = group_hash[1] %}
       <h3>{{ group.name }} Group</h3>
       <ul class="fa-ul">

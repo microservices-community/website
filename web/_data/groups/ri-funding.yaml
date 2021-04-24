@@ -1,0 +1,13 @@
+name: "R&I Funding"
+mission:
+  short: |
+    To facilitate joint projects among the MC members in the use and applying microservices.
+  long: |
+    The group will work together to identify opportunities to obtain funding aimed at developing joint projects. This will especially be focused on
+    European funds such as Horizon Europe that supports research and innovation activities for companies, universities and organisations interested
+    in developing joint European projects.
+contact_email: "ri-funding@microservices.community"
+members:
+  - name: Christian Walther Bruun
+    affiliation: Grøn/Bruun, DK
+    position: Group Coordinator

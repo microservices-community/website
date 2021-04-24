@@ -31,6 +31,13 @@ page_gen:
   - data: 'groups'
     template: 'community-group-page'
     name: 'name'
+    # Custom Ruby expression to generate file names that conform to Liquid's
+    # "slugify" filter. Adapts the default expression from the sanitize_filename()
+    # function of the jekyll-datapage_gen Gem (cf. https://github.com/avillafiorita/
+    # jekyll-datapage_gen/blob/67e8fd61037959700052f77f7c50494908f48346/lib/
+    # jekyll-datapage-generator.rb#L14) to replace non-word characters with a
+    # dash instead of an empty string (cf. the last call to gsub()).
+    name_expr: record['name'].downcase.strip.gsub(' ', '-').gsub(/[^\w.-]/, '-')
     title: 'name'
     dir: 'community-groups'
 
@@ -48,13 +55,13 @@ navigation_header:
   Activities:
     submenu:
       Publications: /publications
-      Support and Promotion: /support  
-  Members: /members 
+      Support and Promotion: /support
+  Members: /members
   Governance:
     submenu:
       Board and Council: /governance
-      Statutes: /statutes  
-      Code of Ethics and Conduct: /coc 
+      Statutes: /statutes
+      Code of Ethics and Conduct: /coc
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"

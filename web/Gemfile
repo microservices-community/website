@@ -4,3 +4,4 @@ gemspec
 # C liquid engine
 gem "liquid-c"
 gem "webrick", "~> 1.7"
+gem "jekyll-datapage-generator"

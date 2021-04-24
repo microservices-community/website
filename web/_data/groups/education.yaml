@@ -1,0 +1,29 @@
+name: "Education"
+mission:
+  short: |
+    To share learning practices and lessons learned from them, related with the exposure and the practice of
+    microservices. To instigate dialogue with industrial practitioners to better direct the learning efforts at academic level.
+  long: |
+    The term "microservices" refers to software architecture and the multiple consequent ramifications of it, including (development)
+    process and (governing) technology concerns. Intellectual mastery of the triad "design-process-technology" is crucial to the software
+    engineering profession. As such, it should rank high in the learning outcomes of higher education. The university instructors, however,
+    know full well how difficult it is to devise and actuate instructional designs truly valid to that effect. Ingredients that help bridge
+    the gap include (1) communitarian sharing of learning practices and the lessons learned with them, and (2) collaborative dialogue with
+    industrial practitioners, best placed at measuring the distance between the level of triadic maturity achieved by undergrad and graduate
+    students who enter the profession and what full proficiency in it would require, besides life experience.
+
+    The Community Group "Education" was created with that premise in mind, and with the initial goal to make progress toward ingredient (1),
+    and the medium-term prospect of broadening action to ingredient (2). The base objective of the Education Group is the production of a living
+    collection of learning practices that can be shared and trialed by institutions at large and can be improved by user feedback. A natural
+    by-product of that effort would be the derivation of material worth publishing in reputable academic venues interested in Computer Science
+    Education. The Community Group plans to hold regular (monthly to bi-monthly) meetings, initially virtual and then in presence, whether dedicated
+    or opportunistically latched to other events.
+contact_email: "education@microservices.community"
+members:
+  - name: Tullio Vardanega
+    affiliation: University of Padova, IT
+    position: Group Coordinator
+  - name: Jacopo Mauro
+    affiliation: University of Southern Denmark, DK
+  - name: Sven Jörges
+    affiliation: University of Applied Sciences and Arts Dortmund, DE

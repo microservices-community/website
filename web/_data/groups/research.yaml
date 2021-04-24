@@ -1,0 +1,21 @@
+name: "Research"
+mission:
+  short: |
+    The Research Community Group aims at structuring a research community on microservices, which comprises both researchers and practitioners
+    daily working with microservices.
+  long: |
+    The goal of the Research Community Group is to organize and promote a fruitful exchange of information among researchers and practitioners
+    working with microservices, as well as to promote research directions on microservices, their engineering, and exploitation. Each task
+    force of the community group is focused on a specific microservices-related research topic, and all task forces interoperate to achieve common
+    research results.
+contact_email: "research@microservices.community"
+members:
+  - name: Jacopo Soldani
+    affiliation: University of Pisa, IT
+    position: Group Coordinator
+  - name: Ivan Lanese
+    affiliation: University of Bologna, IT
+  - name: Silvia Lizeth Tapia Tarifa
+    affiliation: University of Oslo, NO
+  - name: Florian Rademacher
+    affiliation: University of Applied Sciences and Arts Dortmund, DE
