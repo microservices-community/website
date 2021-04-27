@@ -1,0 +1,53 @@
+name: "Security for Microservices"
+mission:
+  short: |
+    The goal of the Security for Microservices Group is to stimulate discussion about current security trends regarding the design, development and
+    deployment of microservice architectures
+  long: |
+    Microservices is an emerging paradigm for developing distributed systems. With their widespread adoption, more and more work investigated the
+    relation between microservices and security. In fact all the big advantages that microservices introduces come at a cost: distributed systems
+    are hard to manage, and increasing the number of services of an application gives malicious actors a larger attack surface. Several security
+    concerns that are particularly relevant for microservices have been identified, and early research has already shown that the application of
+    standard patterns for system reliability needs to take new parameters into consideration—like the locations at which the patterns are deployed.
+    The importance of security in microservices creates the need for understanding and analysing the state of the art for securing this kind of
+    architectures. It is particularly important to understand which problems are especially relevant for microservice systems, and how existing
+    techniques can contribute to addressing them. The goal of the proposed group it will be to stimulate discussion about current security trends in
+    microservice architectures, such as:
+    <ul>
+        <li>Design</li>
+        <ul>
+            <li>Formal methods for secure distributed systems design Development</li>
+        </ul>
+
+        <li>Development</li>
+        <ul>
+            <li>Best practices</li>
+            <li>Security-oriented languages and development processes</li>
+            <li>Toolchain security, automated compliance check</li>
+        </ul>
+
+        <li>Deployment</li>
+        <ul>
+            <li>Compliance checking before admission / static analysis</li>
+            <li>Integrated IDS/IPS features in gateways</li>
+        </ul>
+
+        <li>Runtime</li>
+        <ul>
+            <li>Data provenance tracking, authentication and monitoring frameworks</li>
+        </ul>
+    </ul>
+
+    Of course the group will be act also as a latest news feeder for what concerns the last vulnerabilities
+    or attacks that may be linked to some of the most used technologies into the microservice world.
+    The dissemination plan for this group will be done mainly through the social platform already
+    active such as the Discord (or Slack) Channels, with the goal to create a workshop that aim to
+    collect all the work-in-progress activities about this topic.
+contact_email: "security@microservices.community"
+members:
+  - name: Andrea Melis
+    affiliation: University of Bologna, IT
+    position: Group Coordinator
+  - name:  Alessandro Molari
+    affiliation: CyberLoop Consulting, IT
+    position: Group Coordinator
