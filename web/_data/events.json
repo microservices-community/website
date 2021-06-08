@@ -1,11 +1,6 @@
 {
   "upcoming": [
     {
-      "title": "Introductory Lesson on Microservices",
-      "link": "https://strive.school/",
-      "date": "June 3<sup>rd</sup> 2021, 9:00&ndash;13:00"
-    },
-    {
       "title": " The Jolie programming language: reducing the distance between service models and code.",
       "date": "June 9<sup>th</sup>, 2021, 09:00&ndash;10:30",
       "longtext" : "<ul style=\"margin-left:-2em;\">
@@ -32,6 +27,11 @@
     }
   ],
   "past": [
+    {
+      "title": "Introductory Lesson on Microservices",
+      "link": "https://strive.school/",
+      "date": "June 3<sup>rd</sup> 2021, 9:00&ndash;13:00"
+    },
     {
       "title": "Microservices Community 1st General Assembly, Online Event",
       "link": "https://www.microservices.community/events/1st_general_assembly.html",
