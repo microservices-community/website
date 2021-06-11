@@ -1,6 +1,19 @@
 {
   "upcoming": [
     {
+      "title": "23rd International Conference on Coordination Models and Languages (COORDINATION 2021)",
+      "link": "https://www.discotec.org/2021/coordination",
+      "date": "June 14<sup>th</sup>&ndash;18<sup>th</sup> 2021"
+    },
+    {
+      "title": "International Workshop on Agility with Microservices Programming (AMP 2021)",
+      "link": "https://amp.fe.up.pt/2021/",
+      "date": "June 14<sup>th</sup>, 2021, 15:00&ndash;18:30",
+      "comment" : "affiliated with <a href=\"https://www.agilealliance.org/xp2021/\">XP 2021</a>"
+    }
+  ],
+  "past": [
+    {
       "title": " The Jolie programming language: reducing the distance between service models and code.",
       "date": "June 9<sup>th</sup>, 2021, 09:00&ndash;10:30",
       "longtext" : "<ul style=\"margin-left:-2em;\">
@@ -14,19 +27,6 @@
                     </li>
                     </ul>"
     },
-    {
-      "title": "23rd International Conference on Coordination Models and Languages (COORDINATION 2021)",
-      "link": "https://www.discotec.org/2021/coordination",
-      "date": "June 14<sup>th</sup>&ndash;18<sup>th</sup> 2021"
-    },
-    {
-      "title": "International Workshop on Agility with Microservices Programming (AMP 2021)",
-      "link": "https://amp.fe.up.pt/2021/",
-      "date": "June 14<sup>th</sup>, 2021, 15:00&ndash;18:30",
-      "comment" : "affiliated with <a href=\"https://www.agilealliance.org/xp2021/\">XP 2021</a>"
-    }
-  ],
-  "past": [
     {
       "title": "Introductory Lesson on Microservices",
       "link": "https://strive.school/",
