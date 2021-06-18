@@ -44,13 +44,22 @@ layout: page
     </table>
     {%- endif -%}
 
-    
+
     {%- if page.more_content -%}
     <hr>
 
-    <h3>More</h3>
-    {{ page.more_content | liquify | markdownify }}
+    {%- if page.more_content.title -%}
+        <h3>{{ page.more_content.title }}</h3>
+    {%- else -%}
+        <h3>More</h3>
+    {%- endif -%}
+
+    {%- if page.more_content.content -%}
+        {{ page.more_content.content | liquify | markdownify }}
+    {%- else -%}
+        {{ page.more_content | liquify | markdownify }}
+    {%- endif -%}
 
     {%- endif -%}
 </div>
-</section> 
+</section>

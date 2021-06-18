@@ -29,3 +29,41 @@ members:
     affiliation: University of Applied Sciences and Arts Dortmund, DE
   - name: Silvia Lizeth Tapia Tarifa
     affiliation: University of Oslo, NO
+more_content:
+    title: Task Forces
+    content: |
+      <h4 style="margin-top: 20px">Microservices & AI</h4>
+      <i>Coordinator</i>&#58; Ivan Lanese
+
+      <i>Description</i>&#58; Currently, microservices are used in a number of
+      application areas. It is clear that AI and machine learning are at this
+      stage a particularly relevant application area, pushed both by private
+      companies and public stakeholders. While most of the microservice features
+      and techniques are independent of the application area, this is not always
+      the case, and specific needs, approaches and solutions may be more relevant
+      in one area than in others. The task force on "Microservices & AI" aims at
+      discussing and understanding the interplay between microservices on one side
+      and AI and machine learning on the other side. Activities include, but are
+      not limited to&#58;
+      <ul>
+          <li>facilitating discussion and joint work among people interested in
+              the topic</li>
+          <li>organization of seminars on the topic</li>
+          <li>organization of workshops or tracks on the topic, inside
+              microservice or AI conferences</li>
+      </ul>
+
+      <h4 style="margin-top: 20px">Microservices Management</h4>
+      <i>Coordinator</i>&#58; Silvia Lizeth Tapia Tarifa
+
+      <i>Description</i>&#58; Microservices are built to run scalable applications
+      and are easy to adapt to distributed hardware. Containers encapsulate
+      execution environments for Microservices, allowing services to be managed,
+      e.g., with respect to service performance, resource utilisation, etc.
+      Technology for the systematic management of containerised applications
+      across multiple hosts is an interesting area to study challenges related to
+      orchestration, deployment, scalability, resource analysis, failure recovery,
+      etc. This research task force can focus on facilitate the collaboration and
+      dissemination of results, and facilitate discussions to identify research
+      interest and challenges related to technology for the systematic management
+      of microservices.
