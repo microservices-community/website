@@ -3,53 +3,81 @@ layout: page
 title: Microservices Community
 permalink: /
 ---
-
-{% comment %}
-<style>
-.carousel__holder {
-  z-index: 1
-}
-#banner {
-  margin-top: 1vw;
-  border-top-left-radius: 1vw;
-  border-bottom-right-radius: 1vw;
-  background: #e37900c9;
-  z-index: 2;
-  border: 5px solid #ffffffbf;
-  color: white;
-  font-weight: 600;
-}
-#banner h1 { font-size: max(3em, 4vw) !important; }
-#banner p { font-size: max(1.5em, 1.5vw) !important; font-weight: 900 !important; }
-</style>
-<script>
-var adjustBannerPosition = () => {
-  console.log( "Windows width:" + $( window ).width() );
-if( $( window ).width() < 1500 ){
-    $( ".carousel__holder" ).css("margin", ( $( "#banner" ).height()*1.5 ) + "px 0px 0px 0px");
-  } else {
-    $( ".carousel__holder" ).removeAttr( "style" );
-  }
-};
-$( document ).ready( adjustBannerPosition );
-$( window ).resize( adjustBannerPosition );
-</script>
-<div class="col-xs-12 col-sm-offset-2 col-sm-8  text-center" id="banner">
-  <div style="margin-top:1vw;" class="large">
-  <p>The Microservices Community</p>
-  <h1>1<sup>st</sup> GENERAL ASSEMBLY</h1>
-  <p>will take place on March 24th, 2021</p>
-  <p style="margin-top:1vw;"><a href="/events/1st_general_assembly.html">Read more to know how to participate</a></p>
-  </div>
+<section style="margin-bottom:15px;">
+  <div class="container">
+    <div style="margin-bottom: 2em;">
+    <h1>Featured Events</h1>
+    </div>
+    <div class="row">
+{% for event in site.data.events limit: 3 %}
+<div class="col-xs-3">
+<div class="thumbnail" style="margin-left: -10px; margin-right: -10px;">
+      <a target="_blank" href="{{ event.link }}">
+        {% if event.thumbnail %}
+        <img src="/assets/images/events/{{ event.thumbnail }}">
+        {% else %}
+        <img src="/assets/images/events/placeholder.png">
+        {% endif %}
+      </a>
+      <div class="caption">
+        <a target="_blank" href="{{ event.link }}">
+          <h5>{{ event.title }}</h5>
+        </a>
+        <p>{{ event.date }}</p>
+        <p>
+          {% capture text %}
+            {% if event.abstract %} event.abstact {% else %} Suspendisse potenti. Sed auctor neque at venenatis posuere. Donec porttitor aliquam metus, sit amet pulvinar lacus cursus eget. Suspendisse id accumsan mauris, eu sagittis justo. Suspendisse potenti. Etiam luctus vestibulum mi nec viverra. Morbi ligula massa, porta a egestas non, dictum ut est. Nam scelerisque aliquet nisi, quis bibendum sem laoreet ut. Suspendisse interdum molestie lacus vel sagittis. Nulla lectus elit, pretium a felis auctor, imperdiet sagittis felis. Etiam mollis scelerisque blandit. Fusce et purus iaculis, condimentum nibh accumsan, facilisis odio. Praesent iaculis faucibus diam, a rutrum libero sodales a. Suspendisse augue massa, scelerisque at venenatis ut, malesuada a orci. {% endif %}
+          {% endcapture %}
+          {{ text | truncate: 128 }}
+          <a target="_blank" href="{{ event.link }}"><button type="button" class="btn btn-primary" style="margin-top:6px; float: right;">Read more</button></a>
+        </p>
+      </div>
+    </div>
+    </div>
+{% endfor %}
+<div class="col-xs-3 thumbnail" style="text-align: center; margin-right: -48px; padding-top:4.85em;padding-bottom: 4.85em; padding-left: .5em; padding-right: .5em;">
+  <p>To know more about the events supported by the Microservices Community visit our</p>
+  <a target="_blank" href="/events.html"><div class="btn btn-primary" style="text-align: center; padding: 1em;"><p style="font-size:large;">Events page</p></div></a>
 </div>
-{% endcomment %}
+</div>
+</div>
+</section>
 
+<section style="margin-bottom:25px;">
+<div class="container">
+<div class="row">
+  <div class="col-xs-6">
+  <h1>Instant Messaging</h1>
+  <div class="col-xs-12"><h2><img style="margin-top:-.25em; width:250px;" src="assets/images/media/discord.png" alt=""> Channels</h2></div>
+  <div class="clearfix"></div>
+  <div style="background-color: #2c2f33; font-weight: bold; font-size: x-large; border-radius: 6px; margin-left: 6px; padding: 10px;">
+    <div>
+      <ul style="list-style: none;">
+      {% for channel in site.data.discord_channels %}
+      <a style="color: #99aab5 !important;" href="{% if channel.link %}{{ channel.link }}{% else %}https://discord.gg/BmsrHMC{% endif %}"><li style="margin-top: .7em; margin-bottom: .7em;"># {{ channel.name }}</li></a>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+  </div>
+<div class="col-xs-6">
+<h1>Social Media</h1>
+<div class="col-xs-12" style="height:565px; overflow:scroll;"><a class="twitter-timeline" data-tweet-limit="10" href="https://twitter.com/c_microservices">Latest Tweet from the Microservices Community</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div>
+<div class="col-xs-12" style="margin-top:2em; text-align: center;">
+  <h2>Follow the community on: &nbsp;<a href="https://twitter.com/c_microservices"><img src="assets/images/media/twitter.png" alt=""></a>
+  <a target="_blank" href="https://www.facebook.com/MicroservicesCommunity/"><img src="assets/images/media/facebook.png" alt=""></a>
+  <a target="_blank" href="https://www.linkedin.com/company/microservices-community"><img src="assets/images/media/linkedin.png" alt=""></a>
+</h2>
+</div>
+</div>
+</div>
+</section>
 
-{% include home_carousel.html height="20" unit="%" duration="7" %}
 
 <section style="margin-bottom:50px;">
 <div class="container">
-<div class="section-title" markdown="1" style="margin-bottom:20px;">
+<div id="about_us" class="section-title" markdown="1" style="margin-bottom:20px;">
 ## Who we are
 </div>
 

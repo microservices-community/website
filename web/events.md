@@ -30,7 +30,8 @@ redirect_from:
 
 <strong>Upcoming Events</strong>
 <ul>
-{% for event in site.data.events.upcoming %}
+{% for event in site.data.events %}
+{% if event.status == "upcoming" %}
 <li>
   <a href="{{ event.link }}">
   {{ event.title }}
@@ -44,12 +45,15 @@ redirect_from:
   <div style="font-size: 1.4rem;">{{ event.longtext }}</div>
   {% endif %}
 </li>
+{% endif %}
 {% endfor %}
 </ul>
 
+
 <strong>Past Events</strong>
 <ul>
-{% for event in site.data.events.past %}
+{% for event in site.data.events %}
+{% if event.status == "past" %}
 <li>
   <a href="{{ event.link }}">
   {{ event.title }}
@@ -59,6 +63,7 @@ redirect_from:
   {% endif %}
   - {{ event.date }}
 </li>
+{% endif %}
 {% endfor %}
 </ul>
 </div>
@@ -67,7 +72,7 @@ redirect_from:
     <!-- BEGIN Social Media Column -->
 <div class="col-xs-12 col-md-offset-1 col-md-4" markdown="1">
 ### Social Media
-<div><a class="twitter-timeline" data-tweet-limit="2" data-height="400" href="https://twitter.com/c_microservices">Last Tweet from the Microservices Community</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+<div><a class="twitter-timeline" data-tweet-limit="2" data-height="400" href="https://twitter.com/c_microservices">Latest Tweet from the Microservices Community</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 </div>
     <!-- END Social Media Column -->
 

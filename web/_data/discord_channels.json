@@ -1,0 +1,11 @@
+[
+  { "name": "architectures" },
+  { "name": "communication-group" },
+  { "name": "microservices conference" },
+  { "name": "microservices-dsls" },
+  { "name": "programming-languages" },
+  { "name": "research" },
+  { "name": "security" },
+  { "name": "serverless" },
+  { "name": "teaching" }
+]
