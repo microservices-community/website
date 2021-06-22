@@ -1,335 +1,207 @@
-{
-  "upcoming": [
-    {
-      "title": "Second Technical Meeting of the MC Community Group on Education",
-      "date": "November 8<sup>th</sup>, 2021, 16:30&ndash;17:30 CET",
-      "longtext" : "<ul style=\"margin-left:-2em;\">
-                    <li><strong>Description:</strong>
-                    At its inaugural meeting on 8-September, the MCEG decided to
-                    schedule two technical events, one month apart from each
-                    other, this side of the end of 2021,
-                    to begin <strong>an exploration of initiatives into the</strong>
-                    <strong>teaching and learning of microservices</strong>.
-                    The group chose to schedule such events on <strong>Mondays, at 16:30 CET</strong>,
-                    at Zoom.
-                    Each such event will be constituted by two 20-minute guest
-                    talks, followed by 20-minute group discussion, for a total
-                    duration of 1 hour.
-                    The second event will take place on <strong>8 November</strong>,
-                    with Kay Bromose and Tullio Vardanega as guest speakers.
-                    In order to receive notice of the meeting coordinates,
-                    please contact the convener, Tullio Vardanega at
-                    <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
-                    </li>
+[
+  {
+    "title": "23rd International Conference on Coordination Models and Languages (COORDINATION 2021)",
+    "link": "https://www.discotec.org/2021/coordination",
+    "date": "June 14<sup>th</sup>&ndash;18<sup>th</sup> 2021",
+    "status" : "upcoming"
+  },
+  {
+    "title": "International Workshop on Agility with Microservices Programming (AMP 2021)",
+    "link": "https://amp.fe.up.pt/2021/",
+    "date": "June 14<sup>th</sup>, 2021, 15:00&ndash;18:30",
+    "comment" : "affiliated with <a href=\"https://www.agilealliance.org/xp2021/\">XP 2021</a>",
+    "status" : "upcoming"
+  },
+  {
+    "title": " The Jolie programming language: reducing the distance between service models and code.",
+    "date": "June 9<sup>th</sup>, 2021, 09:00&ndash;10:30",
+    "longtext" : "<ul style=\"margin-left:-2em;\">
+    <li><strong>Description:</strong>
+    Virtual guest lecture @ <a href=\"https://www.fh-dortmund.de/en/index.php\">FH Dortmund</a>. Everybody interested can attend for free.</li>
 
-                    <li><strong>Registration:</strong> Sign up by sending an e-mail to
-                    <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
-                    </li>
-                    </ul>"
-    },
-    {
-      "title": "9th European Conference on Service-Oriented and Cloud Computing (ESOCC 2022)",
-      "link": "https://esocc-conf.eu",
-      "date": "March 22<sup>nd</sup>&ndash;24<sup>th</sup> 2022, Lutherstadt Wittenberg, Germany",
-      "longtext" : "The European Conference on Service-Oriented and Cloud Computing (ESOCC) is the premier
-                    conference on advances in the state of the art and practice of Service-Oriented Computing
-                    and Cloud Computing in Europe. The main objectives of this conference are to facilitate the
-                    exchange between researchers and practitioners in the areas of Service-oriented Computing
-                    and Cloud Computing and to foster future collaborations in Europe and beyond."
-    }
-  ],
-  "past": [
-    {
-      "title": "Taming Complexity: On Studying the Application of MDE to the Design, Development, and Operation of Microservice Architectures",
-      "date": "October 20<sup>th</sup>, 2021, 14:30&ndash;15:30 CEST",
-      "longtext" : "<ul style=\"margin-left:-2em;\">
-                    <li><strong>Description:</strong>
-                    First open webinar of the Microservice Community's
-                    <a href=\"microservices.community/community-groups/research.html\">Research Group</a>.
-                    </li>
+    <li><strong>Registration:</strong> Sign up by sending an
+    e-mail to <a href=\"mailto:florian.rademacher@fh-dortmund.de\">
+    Florian Rademacher</a>
+    no later than June 7<sup>th</sup>, 2021, 12:00 CET.
+    </li>
+    </ul>",
+    "status" : "past"
+  },
+  {
+    "title": "Introductory Lesson on Microservices",
+    "link": "https://strive.school/",
+    "date": "June 3<sup>rd</sup> 2021, 9:00&ndash;13:00",
+    "status" : "past"
+  },
+  {
+    "title": "Microservices Community 1st General Assembly, Online Event",
+    "link": "https://www.microservices.community/events/1st_general_assembly.html",
+    "date": "March 24<sup>th</sup>, 2021, 14:00&ndash;16:00",
+    "longtext" : "<ul style=\"margin-left:-2em;\">
+    <li><strong>Description:</strong>
+    The Microservices Community will host its 1st General Assembly, which holds the highest authority and where all members of the MC have the right to participate and vote. The agenda will include the introduction to the Community Group Structure, reports from the Community Groups (Communication, Ethics, Education, Industrial Applications) , and a final round table with introductions and indications of interest.</li>
 
-                    <li><strong>Invited Speaker:</strong>
-                    Florian Rademacher (University of Applied Sciences and Arts, Dortmund, DE)
-                    </li>
+    <li><strong>Registration:</strong> Sign up by sending an
+    e-mail to <a href=\"mailto:cwb@groenbruun.eu\">
+    MC Board Member Christian Walther Bruun</a> from Grøn/Bruun
+    no later than March 22<sup>nd</sup>, 2021, 12:00 CET.
+    </li>
+    </ul>",
+    "status" : "past"
+  },
+  {
+    "title": "Ballerina: OS cloud-native programming language",
+    "link": "https://www.eventbrite.it/e/biglietti-lunch-learn-ballerina-os-cloud-native-programming-language-134412004925",
+    "date": "February 5<sup>th</sup>, 2021, 13:00&ndash;14:00",
+    "longtext": "<ul style=\"margin-left:-2em;\">
 
-                    <li><strong>Talk Abstract:</strong>
-                    Microservice Architecture (MSA) is an approach to the realization of software architectures that aims to foster scalability,
-                    maintainability, and robustness. To this end, MSA proposes architecture decomposition into microservices, i.e., software
-                    components that (i) provide distinct capabilities; (ii) are as independent as possible from other components; and (iii) are
-                    solely responsible for their interactions with other components. However, when compared to monolithic software systems, the
-                    adoption of MSA usually results in a significant complexity increase concerning architecture design, development, and operation.
-                    <br/><br/>
-                    In our current line of research, we pursue the goal to mitigate this complexity by investigating the application of
-                    Model-driven Engineering (MDE) to MSA engineering and introducing supportive abstractions to certain activities of the latter. In
-                    our webinar talk, we will (i) motivate our research on MDE for MSA; (ii) present an ecosystem of modeling languages, which aims to
-                    enable stakeholders in MSA engineering to express their specific concerns towards a microservice architecture in a concise and
-                    efficient manner; (iii) demonstrate the ecosystem’s practical applicability; and (iv) summarize the most recent insights from our
-                    ongoing research. In addition, we will give an outlook on potential future research activities, including both the reconstruction and
-                    collaborative specification of microservice architectures in a model-driven fashion.
-                    </li>
+    <li><strong>Description:</strong> In this joint event with
+    <a href=\"https://www.imolainformatica.it/home-en/\">Imola Informatica</a>, you will learn about Ballerina, a cloud-native
+    programming language. Developers spend more time integrating cloud-native technologies to their programming language,
+    compared to the core business logic. Ballerina offers language integrated features, such as network awareness through a
+    built-in services concept, communication resilience, observability, and deployment technology awareness, such as Kubernetes.
+    It's an open source project, Apache 2 licensed.
+    </li>
 
-                    <li><strong>Registration:</strong> Sign up by sending an e-mail to
-                    <a href=\"mailto:research@microservices.community\">research@microservices.community</a>.
-                    </li>
-                    </ul>"
-    },
-    {
-      "title": "Technical Meeting of the MC Community Group on Education.",
-      "date": "October 11<sup>th</sup>, 2021, 16:30&ndash;17:30 CEST",
-      "longtext" : "<ul style=\"margin-left:-2em;\">
-                    <li><strong>Description:</strong>
-                    At its inaugural meeting on 8-September, the MCEG decided to
-                    schedule two technical events, one month apart from each
-                    other, this side of the end of 2021,
-                    to begin <strong>an exploration of initiatives into the</strong>
-                    <strong>teaching and learning of microservices</strong>.
-                    The group chose to schedule such events on <strong>Mondays, at 16:30 CEST</strong>,
-                    at Zoom.
-                    Each such event will be constituted by two 20-minute guest
-                    talks, followed by 20-minute group discussion, for a total
-                    duration of 1 hour.
-                    The first event will take place on <strong>11 October</strong>,
-                    with Henrik Christensen and Jacopo Mauro as guest speakers.
-                    In order to receive notice of the meeting coordinates,
-                    please contact the convener, Tullio Vardanega at
-                    <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
-                    </li>
+    <li><strong>Registration:</strong> The event is <b>free of charge</b> and <b>open to everyone</b>. Please follow
+    <a href=\"https://www.eventbrite.it/e/biglietti-lunch-learn-ballerina-os-cloud-native-programming-language-134412004925\">
+    this link
+    </a> to sign up for the event.
+    </li>
 
-                    <li><strong>Registration:</strong> Sign up by sending an e-mail to
-                    <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
-                    </li>
-                    </ul>"
-    },
-    {
-      "title": "Inaugural Meeting of the MC Community Group on Education.",
-      "date": "September 8<sup>th</sup>, 2021, 16:30&ndash;18:00 CEST",
-      "longtext" : "<ul style=\"margin-left:-2em;\">
-                    <li><strong>Description:</strong>
-                    The <strong>Microservices Community</strong> has recently
-                    launched a
-                    <a href=\"https://microservices.sdu.dk/community-groups/education.html\"><strong>Community Group on Education</strong></a>, MCGE.
-                    The MCGE will hold an <strong>inaugural meeting</strong>,
-                    open to all interested parties, on
-                    <strong>Wednesday, 8 September, 16:30-18:00 CEST</strong>,
-                    on Zoom.
-                    In order to receive notice of the meeting coordinates,
-                    please contact the convener, Tullio Vardanega, <strong>before</strong>
-                    Tuesday 7-Sep at 18:00 hours CEST, at
-                    <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
-                    Personalized notification will soon follow that deadline.
-                    <br/>
-                    The group’s primary goal is to promote the sharing of
-                    teaching-and-learning practices in the &quot;Microservices
-                    sphere&quot;, drawing insight from both instructor and the
-                    practitioner perspectives. Desirable outcomes of such effort
-                    should be outlines of open-source student projects, catalogues
-                    of candidate technologies, skill profiles and body of
-                    knowledge, experience reports and data collections that
-                    could feed scientific publications and white books.
-                    <br/>
+    </ul>",
+    "status" : "past"
+  },
+  {
+    "title": "Online Seminar: Microservices-Based Architectures for Next-Gen Industrial Applications",
+    "link": "https://www.crit-research.it/en/eventi/microservies-based-architectures-for-next-gen-industrial-applications/",
+    "date": "January 20<sup>th</sup>, 2021, 14:30&ndash;16:00",
+    "longtext": "<ul style=\"margin-left:-2em;\">
 
-                    <li><strong>Agenda:</strong>
-                    The inaugural meeting will consist of four elements:
-                    <ol>
-                        <li>coordinator’s introduction to MCGE goals and plans</li>
-                        <li>tour-de-table, with brief self-presentation by each
-                        participant, with focus on motivations and expectations</li>
-                        <li>open discussion on groups’ goals and plans</li>
-                        <li>schedule of future activities</li>
-                    </ol>
-                    </li>
-                    </li>
+    <li><strong>Description:</strong> In this joint event with
+    <a href=\"https://www.crit-research.it\">CRIT</a>, members of
+    the Microservices Community will learn about
+    <ul style=\"margin-left:-2em;\">
+    <li>Edge Microservices and Industrial IoT for Digital Manufacturing</li>
+    <li>Serverless Architecture vs Microservice Architecture</li>
+    <li>Next-Generation Programming Languages: Jolie and Ballerina</li>
+    </ul>
+    </li>
 
-                    <li><strong>Registration:</strong> Sign up by sending an
-                    e-mail before Tuesday 7-Sep at 18:00 hours CEST to
-                    <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
-                    </li>
-                    </ul>"
-    },
-    {
-      "title": "23rd International Conference on Coordination Models and Languages (COORDINATION 2021)",
-      "link": "https://www.discotec.org/2021/coordination",
-      "date": "June 14<sup>th</sup>&ndash;18<sup>th</sup> 2021"
-    },
-    {
-      "title": "International Workshop on Agility with Microservices Programming (AMP 2021)",
-      "link": "https://amp.fe.up.pt/2021/",
-      "date": "June 14<sup>th</sup>, 2021, 15:00&ndash;18:30",
-      "comment" : "affiliated with <a href=\"https://www.agilealliance.org/xp2021/\">XP 2021</a>"
-    },
-    {
-      "title": " The Jolie programming language: reducing the distance between service models and code.",
-      "date": "June 9<sup>th</sup>, 2021, 09:00&ndash;10:30",
-      "longtext" : "<ul style=\"margin-left:-2em;\">
-                    <li><strong>Description:</strong>
-                    Virtual guest lecture @ <a href=\"https://www.fh-dortmund.de/en/index.php\">FH Dortmund</a>. Everybody interested can attend for free.</li>
+    <li><strong>Registration:</strong> Members of the Microservices
+    Community can sign up for the seminar by sending an e-mail to
+    MC Council member <a href=\"mailto:cguidi@italianasoftware.com\">Claudio Guidi</a>.
+    </li>
 
-                    <li><strong>Registration:</strong> Sign up by sending an
-                    e-mail to <a href=\"mailto:florian.rademacher@fh-dortmund.de\">
-                    Florian Rademacher</a>
-                    no later than June 7<sup>th</sup>, 2021, 12:00 CET.
-                    </li>
-                    </ul>"
-    },
-    {
-      "title": "Introductory Lesson on Microservices",
-      "link": "https://strive.school/",
-      "date": "June 3<sup>rd</sup> 2021, 9:00&ndash;13:00"
-    },
-    {
-      "title": "Microservices Community 1st General Assembly, Online Event",
-      "link": "https://www.microservices.community/events/1st_general_assembly.html",
-      "date": "March 24<sup>th</sup>, 2021, 14:00&ndash;16:00",
-      "longtext" : "<ul style=\"margin-left:-2em;\">
-                    <li><strong>Description:</strong>
-                    The Microservices Community will host its 1st General Assembly, which holds the highest authority and where all members of the MC have the right to participate and vote. The agenda will include the introduction to the Community Group Structure, reports from the Community Groups (Communication, Ethics, Education, Industrial Applications) , and a final round table with introductions and indications of interest.</li>
+    </ul>",
+    "status" : "past"
+  },
+  {
+    "title": "Online seminar on R&I funding for Microservices in Horizon Europe",
+    "link": "https://www.microservices.community/events/horizon_europe2020.html",
+    "date": "December 15<sup>th</sup>, 2020, 10:00&ndash;11:30",
+    "longtext" : "<ul style=\"margin-left:-2em;\">
 
-                    <li><strong>Registration:</strong> Sign up by sending an
-                    e-mail to <a href=\"mailto:cwb@groenbruun.eu\">
-                    MC Board Member Christian Walther Bruun</a> from Grøn/Bruun
-                    no later than March 22<sup>nd</sup>, 2021, 12:00 CET.
-                    </li>
-                    </ul>"
-    },
-    {
-      "title": "Ballerina: OS cloud-native programming language",
-      "link": "https://www.eventbrite.it/e/biglietti-lunch-learn-ballerina-os-cloud-native-programming-language-134412004925",
-      "date": "February 5<sup>th</sup>, 2021, 13:00&ndash;14:00",
-      "longtext": "<ul style=\"margin-left:-2em;\">
+    <li><strong>Description:</strong> Microservice Community
+    members and non-members will get insight into the opportunities
+    of obtaining EU funding via the upcoming framework programme
+    <a href=\"https://ec.europa.eu/info/horizon-europe-next-research-and-innovation-framework-programme_en\">
+    Horizon Europe</a>. The funding supports research and
+    innovation activities for companies, universities and
+    organisations interested in developing joint European projects.
+    </li>
 
-                    <li><strong>Description:</strong> In this joint event with
-                      <a href=\"https://www.imolainformatica.it/home-en/\">Imola Informatica</a>, you will learn about Ballerina, a cloud-native
-                      programming language. Developers spend more time integrating cloud-native technologies to their programming language,
-                      compared to the core business logic. Ballerina offers language integrated features, such as network awareness through a
-                      built-in services concept, communication resilience, observability, and deployment technology awareness, such as Kubernetes.
-                      It's an open source project, Apache 2 licensed.
-                    </li>
+    <li><strong>Cost:</strong> Free of charge.</li>
 
-                    <li><strong>Registration:</strong> The event is <b>free of charge</b> and <b>open to everyone</b>. Please follow
-                        <a href=\"https://www.eventbrite.it/e/biglietti-lunch-learn-ballerina-os-cloud-native-programming-language-134412004925\">
-                        this link
-                        </a> to sign up for the event.
-                    </li>
+    <li><strong>Registration:</strong> Sign up by sending an
+    e-mail to <a href=\"mailto:cwb@groenbruun.eu\">
+    MC Board Member Christian Walther Bruun</a> from Grøn/Bruun
+    no later than December 10<sup>th</sup>, 2020, 12:00.
+    </li>
 
-                    </ul>"
-    },
-    {
-      "title": "Online Seminar: Microservices-Based Architectures for Next-Gen Industrial Applications",
-      "link": "https://www.crit-research.it/en/eventi/microservies-based-architectures-for-next-gen-industrial-applications/",
-      "date": "January 20<sup>th</sup>, 2021, 14:30&ndash;16:00",
-      "longtext": "<ul style=\"margin-left:-2em;\">
-
-                    <li><strong>Description:</strong> In this joint event with
-                      <a href=\"https://www.crit-research.it\">CRIT</a>, members of
-                      the Microservices Community will learn about
-                      <ul style=\"margin-left:-2em;\">
-                        <li>Edge Microservices and Industrial IoT for Digital Manufacturing</li>
-                        <li>Serverless Architecture vs Microservice Architecture</li>
-                        <li>Next-Generation Programming Languages: Jolie and Ballerina</li>
-                      </ul>
-                    </li>
-
-                    <li><strong>Registration:</strong> Members of the Microservices
-                    Community can sign up for the seminar by sending an e-mail to
-                    MC Council member <a href=\"mailto:cguidi@italianasoftware.com\">Claudio Guidi</a>.
-                    </li>
-
-                    </ul>"
-    },
-    {
-      "title": "Online seminar on R&I funding for Microservices in Horizon Europe",
-      "link": "https://www.microservices.community/events/horizon_europe2020.html",
-      "date": "December 15<sup>th</sup>, 2020, 10:00&ndash;11:30",
-      "longtext" : "<ul style=\"margin-left:-2em;\">
-
-                    <li><strong>Description:</strong> Microservice Community
-                    members and non-members will get insight into the opportunities
-                    of obtaining EU funding via the upcoming framework programme
-                    <a href=\"https://ec.europa.eu/info/horizon-europe-next-research-and-innovation-framework-programme_en\">
-                        Horizon Europe</a>. The funding supports research and
-                    innovation activities for companies, universities and
-                    organisations interested in developing joint European projects.
-                    </li>
-
-                    <li><strong>Cost:</strong> Free of charge.</li>
-
-                    <li><strong>Registration:</strong> Sign up by sending an
-                    e-mail to <a href=\"mailto:cwb@groenbruun.eu\">
-                    MC Board Member Christian Walther Bruun</a> from Grøn/Bruun
-                    no later than December 10<sup>th</sup>, 2020, 12:00.
-                    </li>
-
-                    </ul>"
-    },
-    {
-      "title": "Online talk: Microservices, il development mission log in una start up",
-      "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWQ3NDAyMmEtNDE3Yy00NWIzLTkzNTItZDA0MjRiOWE0YzJk%40thread.v2/0?context=%7b%22Tid%22%3a%22e99647dc-1b08-454a-bf8c-699181b389ab%22%2c%22Oid%22%3a%22080683d2-51aa-4842-aa73-291a43203f71%22%7d",
-      "date": "Novemer 20<sup>th</sup>, 2020, 09:00&ndash;11:00"
-    },
-    {
-      "title": "CyberSecurity Days 2020",
-      "link": "https://cyberdays2020.sdu.dk",
-      "date": "October 29<sup>th</sup>-30<sup>th</sup>, 2020"
-    },
-    {
-      "title": "International Conference on Microservices (Microservices 2020)",
-      "link": "http://conf-micro.services/2020/index.html",
-      "date": "September 8<sup>th</sup>-10<sup>th</sup> 2020"
-    },
-    {
-      "title": "Cloud Native And Dev Ops (CNADO 2020)",
-      "link": "https://dsd-seaa2020.um.si/seaa/CNADO.html",
-      "date": "August 26<sup>th</sup>-28<sup>th</sup>, 2020",
-      "comment" : "technical track at <a href=\"https://dsd-seaa2020.um.si/seaa/index.html\">SEAA 2020</a>"
-    },
-    {
-      "title": "15th International Federated Conference on Distributed Computing Techniques (DisCoTec 2020)",
-      "link": "http://www.discotec.org/2020/",
-      "date": "June 15<sup>th</sup>-19<sup>th</sup> 2020"
-    },
-    {
+    </ul>",
+    "status" : "past"
+  },
+  {
+    "title": "Online talk: Microservices, il development mission log in una start up",
+    "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWQ3NDAyMmEtNDE3Yy00NWIzLTkzNTItZDA0MjRiOWE0YzJk%40thread.v2/0?context=%7b%22Tid%22%3a%22e99647dc-1b08-454a-bf8c-699181b389ab%22%2c%22Oid%22%3a%22080683d2-51aa-4842-aa73-291a43203f71%22%7d",
+    "date": "Novemer 20<sup>th</sup>, 2020, 09:00&ndash;11:00",
+    "status" : "past"
+  },
+  {
+    "title": "CyberSecurity Days 2020",
+    "link": "https://cyberdays2020.sdu.dk",
+    "date": "October 29<sup>th</sup>-30<sup>th</sup>, 2020",
+    "status" : "past"
+  },
+  {
+    "title": "International Conference on Microservices (Microservices 2020)",
+    "link": "http://conf-micro.services/2020/index.html",
+    "date": "September 8<sup>th</sup>-10<sup>th</sup> 2020",
+    "status" : "past"
+  },
+  {
+    "title": "Cloud Native And Dev Ops (CNADO 2020)",
+    "link": "https://dsd-seaa2020.um.si/seaa/CNADO.html",
+    "date": "August 26<sup>th</sup>-28<sup>th</sup>, 2020",
+    "comment" : "technical track at <a href=\"https://dsd-seaa2020.um.si/seaa/index.html\">SEAA 2020</a>",
+    "status" : "past"
+  },
+  {
+    "title": "15th International Federated Conference on Distributed Computing Techniques (DisCoTec 2020)",
+    "link": "http://www.discotec.org/2020/",
+    "date": "June 15<sup>th</sup>-19<sup>th</sup> 2020",
+    "status" : "past"
+  },
+  {
     "title": "International Workshop on Agility with Microservices Programming (AMP 2020)",
     "link": "https://amp.fe.up.pt/2020/",
     "date": "June 12<sup>th</sup>, 2020",
     "comment" : "affiliated with <a href=\"https://www.agilealliance.org/xp2020/\">XP 2020</a>"
-    },
-    {
+  },
+  {
     "title": "Architetture a Microservizi/Architecting with Microservices",
     "link": "https://www.crit-research.it/it/eventi/architetture-a-microservizi/",
     "date": "March 31<sup>st</sup>, 2020",
-    "comment" : "organized in collaboration with <a href=\"https://www.crit-research.it/en\">CRIT SRL</a>"
-    },
-    {
-      "title": "CyberSecurity Days 2019",
-      "link": "https://cyberdays2019.sdu.dk",
-      "date": "October 22<sup>nd</sup>-23<sup>rd</sup>, 2019"
-    },
-    {
-      "title": "Microservices, DevOps, and Service-Oriented Architecture @ SAC",
-      "link": "https://midos2019.sdu.dk",
-      "date": "April 8<sup>th</sup>-12<sup>th</sup>, 2019",
-      "comment": "MiDOS, continuation of the historic SOAP track"
-    },
-    {
-      "title": "International Conference on Microservices (Microservices 2019)",
-      "date": "February 19<sup>th</sup>-21<sup>st</sup>, 2019",
-      "link": "http://conf-micro.services/2019/index.html",
-      "comment": "Co-located with the second edition of the Meeting on Microservices"
-    },
-    {
-      "title": "International Workshop on Microservices: Agile and DevOps Experience, Second Edition",
-      "link": "https://sites.google.com/view/made18/",
-      "date": "May 21<sup>st</sup>, 2018"
-    },
-    {
-      "title": "International Conference on Microservices (Microservices 2017)",
-      "link": "http://conf-micro.services/2017/index.html",
-      "date": "October 25<sup>th</sup>-26<sup>th</sup>, 2017"
-    },
-    {
-      "title": "Meeting on Microservices 2016, First Edition",
-      "link": "http://www.italianasoftware.com/mom2016_eng.html",
-      "date": "December 20<sup>th</sup>, 2016"
-    }
-  ]
-}
+    "comment" : "organized in collaboration with <a href=\"https://www.crit-research.it/en\">CRIT SRL</a>",
+    "status" : "past"
+  },
+  {
+    "title": "CyberSecurity Days 2019",
+    "link": "https://cyberdays2019.sdu.dk",
+    "date": "October 22<sup>nd</sup>-23<sup>rd</sup>, 2019",
+    "status" : "past"
+  },
+  {
+    "title": "Microservices, DevOps, and Service-Oriented Architecture @ SAC",
+    "link": "https://midos2019.sdu.dk",
+    "date": "April 8<sup>th</sup>-12<sup>th</sup>, 2019",
+    "comment": "MiDOS, continuation of the historic SOAP track",
+    "status" : "past"
+  },
+  {
+    "title": "International Conference on Microservices (Microservices 2019)",
+    "date": "February 19<sup>th</sup>-21<sup>st</sup>, 2019",
+    "link": "http://conf-micro.services/2019/index.html",
+    "comment": "Co-located with the second edition of the Meeting on Microservices",
+    "status" : "past"
+  },
+  {
+    "title": "International Workshop on Microservices: Agile and DevOps Experience, Second Edition",
+    "link": "https://sites.google.com/view/made18/",
+    "date": "May 21<sup>st</sup>, 2018",
+    "status" : "past"
+  },
+  {
+    "title": "International Conference on Microservices (Microservices 2017)",
+    "link": "http://conf-micro.services/2017/index.html",
+    "date": "October 25<sup>th</sup>-26<sup>th</sup>, 2017",
+    "status" : "past"
+  },
+  {
+    "title": "Meeting on Microservices 2016, First Edition",
+    "link": "http://www.italianasoftware.com/mom2016_eng.html",
+    "date": "December 20<sup>th</sup>, 2016",
+    "status" : "past"
+  }
+]
