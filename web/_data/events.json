@@ -1,5 +1,20 @@
 {
   "upcoming": [
+    {
+      "title": "Inaugural Meeting of the MC Community Group on Education.",
+      "date": "September 8<sup>th</sup>, 2021, 16:30&ndash;18:00 CEST",
+      "longtext" : "<ul style=\"margin-left:-2em;\">
+                    <li><strong>Description:</strong>
+                    The Microservices Community has recently launched a
+                    <a href=\"https://microservices.sdu.dk/community-groups/education.html\">Community Group on Education</a>,
+                    which will held its virtuall inaugural meeting via Zoom. Everybody interested can attend for free.
+                    </li>
+
+                    <li><strong>Registration:</strong> Sign up by sending an
+                    e-mail to <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
+                    </li>
+                    </ul>"
+    }
   ],
   "past": [
     {
