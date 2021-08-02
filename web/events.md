@@ -15,6 +15,8 @@ redirect_from:
   - /e/microservices2020/
   - /e/microservices2019
   - /e/microservices2019/
+  - /e/bigservices2021/
+  - /e/bigservices2021
 ---
 
 <section><div class="container"><div class="row"><div class="col-xs-12" markdown="1">
