@@ -1,0 +1,48 @@
+- - - - - - - - BADGE - - - - - - - - 
+
+<a href="https://www.microservices.community/e/EVENTYEAR">
+<img src="https://www.microservices.community/assets/images/Badge_MC_Supported_black.png" title="EVENTYEAR">
+</a>
+
+- - - - - - - - NEWS FEED - - - - - - - - 
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+  <strong>Microservices Community Events</strong>
+  </div>
+  <ul class="list-group">
+  <li class="list-group-item"> 
+    <div>Upcoming events</div>
+    <div id="microservices_community_events_upcoming"></div>
+  </li>
+  <li class="list-group-item"> 
+    <div>Latests past events</div>
+    <div id="microservices_community_events_past"></div>
+  </li>
+  </div>
+</div>
+
+<script>
+function microservices_community_events( data ){
+  const upcoming = document.getElementById( "microservices_community_events_upcoming" );
+  data.upcoming.forEach( element => {
+    upcoming.append( document.createRange().createContextualFragment(
+      `<div>
+      <a target="_blank" href="${ element.link }">
+        <div class="microservices_community_event" >${ element.title }</div>
+      </a>
+      </div>` ) );
+  });
+  const past = document.getElementById( "microservices_community_events_past" );
+  data.past.forEach( ( element, index ) => {
+    if( index > 2 ){ return }
+    past.append( document.createRange().createContextualFragment(
+      `<div>
+      <a target="_blank" href="${ element.link }">
+        <div class="microservices_community_event" >${ element.title }</span>
+      </a>
+      </div>` ) );
+  });
+}
+</script>
+<script src="https://www.microservices.community/events.json?callback=microservices_community_events"></script>
