@@ -1,5 +1,5 @@
 {
-  "upcoming": [
+  "past": [
     {
       "title": "Inaugural Meeting of the MC Community Group on Education.",
       "date": "September 8<sup>th</sup>, 2021, 16:30&ndash;18:00 CEST",
@@ -45,9 +45,7 @@
                     <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
                     </li>
                     </ul>"
-    }
-  ],
-  "past": [
+    },
     {
       "title": "23rd International Conference on Coordination Models and Languages (COORDINATION 2021)",
       "link": "https://www.discotec.org/2021/coordination",
