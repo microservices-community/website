@@ -35,7 +35,10 @@ permalink: /
             {% if event.abstract %} event.abstact {% else %} Suspendisse potenti. Sed auctor neque at venenatis posuere. Donec porttitor aliquam metus, sit amet pulvinar lacus cursus eget. Suspendisse id accumsan mauris, eu sagittis justo. Suspendisse potenti. Etiam luctus vestibulum mi nec viverra. Morbi ligula massa, porta a egestas non, dictum ut est. Nam scelerisque aliquet nisi, quis bibendum sem laoreet ut. Suspendisse interdum molestie lacus vel sagittis. Nulla lectus elit, pretium a felis auctor, imperdiet sagittis felis. Etiam mollis scelerisque blandit. Fusce et purus iaculis, condimentum nibh accumsan, facilisis odio. Praesent iaculis faucibus diam, a rutrum libero sodales a. Suspendisse augue massa, scelerisque at venenatis ut, malesuada a orci. {% endif %}
           {% endcapture %}
           {{ text | truncate: 128 }}
-          <a target="_blank" href="{{ event.link }}"><button type="button" class="btn btn-primary" style="margin-top:6px; float: right;">Read more</button></a>
+          {% capture event_link %}
+            {% if event.id %}events/#{{ event.id }}{% else %}{{ event.link }}{% endif %}
+          {% endcapture %}
+          <a target="_blank" href="{{ event_link }}"><button type="button" class="btn btn-primary" style="margin-top:6px; float: right;">Read more</button></a>
         </p>
       </div>
     </div>

@@ -32,7 +32,7 @@ redirect_from:
 <ul>
 {% for event in site.data.events %}
 {% if event.status == "upcoming" %}
-<li>
+<li id="{{ event.id }}">
   <a href="{{ event.link }}">
   {{ event.title }}
   </a>
@@ -54,7 +54,7 @@ redirect_from:
 <ul>
 {% for event in site.data.events %}
 {% if event.status == "past" %}
-<li>
+<li id="{{ event.id }}">
   <a href="{{ event.link }}">
   {{ event.title }}
   </a>
