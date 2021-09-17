@@ -1,16 +1,61 @@
 [
   {
+    "title": "Inaugural Meeting of the MC Community Group on Education",
+    "date": "September 8<sup>th</sup>, 2021, 16:30&ndash;18:00",
+    "longtext" : "<ul style=\"margin-left:-2em;\">
+                    <li><strong>Description:</strong>
+                    The <strong>Microservices Community</strong> has recently
+                    launched a
+                    <a href=\"https://microservices.sdu.dk/community-groups/education.html\"><strong>Community Group on Education</strong></a>, MCGE.
+                    The MCGE will hold an <strong>inaugural meeting</strong>,
+                    open to all interested parties, on
+                    <strong>Wednesday, 8 September, 16:30-18:00 CEST</strong>,
+                    on Zoom.
+                    In order to receive notice of the meeting coordinates,
+                    please contact the convener, Tullio Vardanega, <strong>before</strong>
+                    Tuesday 7-Sep at 18:00 hours CEST, at
+                    <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
+                    Personalized notification will soon follow that deadline.
+                    <br/>
+                    The group’s primary goal is to promote the sharing of
+                    teaching-and-learning practices in the &quot;Microservices
+                    sphere&quot;, drawing insight from both instructor and the
+                    practitioner perspectives. Desirable outcomes of such effort
+                    should be outlines of open-source student projects, catalogues
+                    of candidate technologies, skill profiles and body of
+                    knowledge, experience reports and data collections that
+                    could feed scientific publications and white books.
+                    <br/>
+                    <li><strong>Agenda:</strong>
+                    The inaugural meeting will consist of four elements:
+                    <ol>
+                        <li>coordinator’s introduction to MCGE goals and plans</li>
+                        <li>tour-de-table, with brief self-presentation by each
+                        participant, with focus on motivations and expectations</li>
+                        <li>open discussion on groups’ goals and plans</li>
+                        <li>schedule of future activities</li>
+                    </ol>
+                    </li>
+                    </li>
+                    <li><strong>Registration:</strong> Sign up by sending an
+                    e-mail before Tuesday 7-Sep at 18:00 hours CEST to
+                    <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
+                    </li>
+                    </ul>",
+    "status" : "past"
+  },
+  {
     "title": "23rd International Conference on Coordination Models and Languages (COORDINATION 2021)",
     "link": "https://www.discotec.org/2021/coordination",
     "date": "June 14<sup>th</sup>&ndash;18<sup>th</sup> 2021",
-    "status" : "upcoming"
+    "status" : "past"
   },
   {
     "title": "International Workshop on Agility with Microservices Programming (AMP 2021)",
     "link": "https://amp.fe.up.pt/2021/",
     "date": "June 14<sup>th</sup>, 2021, 15:00&ndash;18:30",
     "comment" : "affiliated with <a href=\"https://www.agilealliance.org/xp2021/\">XP 2021</a>",
-    "status" : "upcoming"
+    "status" : "past"
   },
   {
     "title": " The Jolie programming language: reducing the distance between service models and code.",
@@ -18,7 +63,7 @@
     "longtext" : "<ul style=\"margin-left:-2em;\">
     <li><strong>Description:</strong>
     Virtual guest lecture @ <a href=\"https://www.fh-dortmund.de/en/index.php\">FH Dortmund</a>. Everybody interested can attend for free.</li>
-    
+
     <li><strong>Registration:</strong> Sign up by sending an
     e-mail to <a href=\"mailto:florian.rademacher@fh-dortmund.de\">
     Florian Rademacher</a>
@@ -40,7 +85,7 @@
     "longtext" : "<ul style=\"margin-left:-2em;\">
     <li><strong>Description:</strong>
     The Microservices Community will host its 1st General Assembly, which holds the highest authority and where all members of the MC have the right to participate and vote. The agenda will include the introduction to the Community Group Structure, reports from the Community Groups (Communication, Ethics, Education, Industrial Applications) , and a final round table with introductions and indications of interest.</li>
-    
+
     <li><strong>Registration:</strong> Sign up by sending an
     e-mail to <a href=\"mailto:cwb@groenbruun.eu\">
     MC Board Member Christian Walther Bruun</a> from Grøn/Bruun
@@ -54,7 +99,7 @@
     "link": "https://www.eventbrite.it/e/biglietti-lunch-learn-ballerina-os-cloud-native-programming-language-134412004925",
     "date": "February 5<sup>th</sup>, 2021, 13:00&ndash;14:00",
     "longtext": "<ul style=\"margin-left:-2em;\">
-    
+
     <li><strong>Description:</strong> In this joint event with
     <a href=\"https://www.imolainformatica.it/home-en/\">Imola Informatica</a>, you will learn about Ballerina, a cloud-native
     programming language. Developers spend more time integrating cloud-native technologies to their programming language,
@@ -62,13 +107,13 @@
     built-in services concept, communication resilience, observability, and deployment technology awareness, such as Kubernetes.
     It's an open source project, Apache 2 licensed.
     </li>
-    
+
     <li><strong>Registration:</strong> The event is <b>free of charge</b> and <b>open to everyone</b>. Please follow
     <a href=\"https://www.eventbrite.it/e/biglietti-lunch-learn-ballerina-os-cloud-native-programming-language-134412004925\">
     this link
     </a> to sign up for the event.
     </li>
-    
+
     </ul>",
     "status" : "past"
   },
@@ -77,7 +122,7 @@
     "link": "https://www.crit-research.it/en/eventi/microservies-based-architectures-for-next-gen-industrial-applications/",
     "date": "January 20<sup>th</sup>, 2021, 14:30&ndash;16:00",
     "longtext": "<ul style=\"margin-left:-2em;\">
-    
+
     <li><strong>Description:</strong> In this joint event with
     <a href=\"https://www.crit-research.it\">CRIT</a>, members of
     the Microservices Community will learn about
@@ -87,12 +132,12 @@
     <li>Next-Generation Programming Languages: Jolie and Ballerina</li>
     </ul>
     </li>
-    
+
     <li><strong>Registration:</strong> Members of the Microservices
     Community can sign up for the seminar by sending an e-mail to
     MC Council member <a href=\"mailto:cguidi@italianasoftware.com\">Claudio Guidi</a>.
     </li>
-    
+
     </ul>",
     "status" : "past"
   },
@@ -101,7 +146,7 @@
     "link": "https://www.microservices.community/events/horizon_europe2020.html",
     "date": "December 15<sup>th</sup>, 2020, 10:00&ndash;11:30",
     "longtext" : "<ul style=\"margin-left:-2em;\">
-    
+
     <li><strong>Description:</strong> Microservice Community
     members and non-members will get insight into the opportunities
     of obtaining EU funding via the upcoming framework programme
@@ -110,15 +155,15 @@
     innovation activities for companies, universities and
     organisations interested in developing joint European projects.
     </li>
-    
+
     <li><strong>Cost:</strong> Free of charge.</li>
-    
+
     <li><strong>Registration:</strong> Sign up by sending an
     e-mail to <a href=\"mailto:cwb@groenbruun.eu\">
     MC Board Member Christian Walther Bruun</a> from Grøn/Bruun
     no later than December 10<sup>th</sup>, 2020, 12:00.
     </li>
-    
+
     </ul>",
     "status" : "past"
   },
