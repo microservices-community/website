@@ -1,16 +1,61 @@
 [
   {
+    "title": "Inaugural Meeting of the MC Community Group on Education",
+    "date": "September 8<sup>th</sup>, 2021, 16:30&ndash;18:00",
+    "longtext" : "<ul style=\"margin-left:-2em;\">
+                    <li><strong>Description:</strong>
+                    The <strong>Microservices Community</strong> has recently
+                    launched a
+                    <a href=\"https://microservices.sdu.dk/community-groups/education.html\"><strong>Community Group on Education</strong></a>, MCGE.
+                    The MCGE will hold an <strong>inaugural meeting</strong>,
+                    open to all interested parties, on
+                    <strong>Wednesday, 8 September, 16:30-18:00 CEST</strong>,
+                    on Zoom.
+                    In order to receive notice of the meeting coordinates,
+                    please contact the convener, Tullio Vardanega, <strong>before</strong>
+                    Tuesday 7-Sep at 18:00 hours CEST, at
+                    <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
+                    Personalized notification will soon follow that deadline.
+                    <br/>
+                    The group’s primary goal is to promote the sharing of
+                    teaching-and-learning practices in the &quot;Microservices
+                    sphere&quot;, drawing insight from both instructor and the
+                    practitioner perspectives. Desirable outcomes of such effort
+                    should be outlines of open-source student projects, catalogues
+                    of candidate technologies, skill profiles and body of
+                    knowledge, experience reports and data collections that
+                    could feed scientific publications and white books.
+                    <br/>
+                    <li><strong>Agenda:</strong>
+                    The inaugural meeting will consist of four elements:
+                    <ol>
+                        <li>coordinator’s introduction to MCGE goals and plans</li>
+                        <li>tour-de-table, with brief self-presentation by each
+                        participant, with focus on motivations and expectations</li>
+                        <li>open discussion on groups’ goals and plans</li>
+                        <li>schedule of future activities</li>
+                    </ol>
+                    </li>
+                    </li>
+                    <li><strong>Registration:</strong> Sign up by sending an
+                    e-mail before Tuesday 7-Sep at 18:00 hours CEST to
+                    <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
+                    </li>
+                    </ul>",
+    "status" : "past"
+  },
+  {
     "title": "23rd International Conference on Coordination Models and Languages (COORDINATION 2021)",
     "link": "https://www.discotec.org/2021/coordination",
     "date": "June 14<sup>th</sup>&ndash;18<sup>th</sup> 2021",
-    "status" : "upcoming"
+    "status" : "past"
   },
   {
     "title": "International Workshop on Agility with Microservices Programming (AMP 2021)",
     "link": "https://amp.fe.up.pt/2021/",
     "date": "June 14<sup>th</sup>, 2021, 15:00&ndash;18:30",
     "comment" : "affiliated with <a href=\"https://www.agilealliance.org/xp2021/\">XP 2021</a>",
-    "status" : "upcoming"
+    "status" : "past"
   },
   {
     "title": " The Jolie programming language: reducing the distance between service models and code.",
