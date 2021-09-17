@@ -26,8 +26,16 @@ permalink: /
         {% endif %}
       </a>
       <div class="caption">
+        {% if event.status %}
+          {% assign event_status = event.status | strip | downcase %}
+        {% else %}
+          {% assign event_status = "" %}
+        {% endif %}
+        {% capture event_title_prefix %}
+          {% if event.status == "upcoming" %}Upcoming: {% else %}{% endif %}
+        {% endcapture %}
         <a target="_blank" href="{{ event.link }}">
-          <h5>{{ event.title }}</h5>
+          <h5>{{ event_title_prefix }}{{ event.title }}</h5>
         </a>
         <p><b>{{ event.date }}{% if event.timezone %}, {{ event.timezone }}{% endif %}</b>
         </p>
