@@ -1,4 +1,33 @@
 {
+  "upcoming": [
+    {
+      "title": "Technical Meeting of the MC Community Group on Education.",
+      "date": "October 11<sup>th</sup>, 2021, 16:30&ndash;17:30 CEST",
+      "longtext" : "<ul style=\"margin-left:-2em;\">
+                    <li><strong>Description:</strong>
+                    At its inaugural meeting on 8-September, the MCEG decided to
+                    schedule two technical events, one month apart from each
+                    other, this side of the end of 2021,
+                    to begin <strong>an exploration of initiatives into the</strong>
+                    <strong>teaching and learning of microservices</strong>.
+                    The group chose to schedule such events on <strong>Mondays, at 16:30 CEST</strong>,
+                    at Zoom.
+                    Each such event will be constituted by two 20-minute guest
+                    talks, followed by 20-minute group discussion, for a total
+                    duration of 1 hour.
+                    The first event will take place on <strong>11 October</strong>,
+                    with Henrik Christensen and Jacopo Mauro as guest speakers.
+                    In order to receive notice of the meeting coordinates,
+                    please contact the convener, Tullio Vardanega at
+                    <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
+                    </li>
+
+                    <li><strong>Registration:</strong> Sign up by sending an e-mail to
+                    <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
+                    </li>
+                    </ul>"
+    }
+  ],
   "past": [
     {
       "title": "Inaugural Meeting of the MC Community Group on Education.",
