@@ -4,6 +4,7 @@ _site
 Gemfile.lock
 .DS_Store
 .vscode
+web/vendor
 vendor
 .jekyll-cache
 web/.~lock*

@@ -1,4 +1,6 @@
 name: "Education"
+short_name: Education
+logo: mc_education.jpg
 mission:
   short: |
     To share learning practices and lessons learned from them, related with the exposure and the practice of
