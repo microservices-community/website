@@ -8,13 +8,58 @@ permalink: /
     <p class="lead"><b>We are the Microservices Community</b> &ndash; a European-based international community interested in the software paradigm of <a herf="https://en.wikipedia.org/wiki/Microservices" target="_blank">Microservices</a>.</p>
   </div>
 </section>
+
+<style>
+.badge-notify {
+    background: green;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+</style>
+
+<section style="margin-bottom:15px;">
+  <div class="container">
+    <div style="margin-bottom: 2em;" class="section-title">
+    <h2>COMMUNITY GROUPS</h2>
+    </div>
+  <div class="row align-center">
+    {% for group in site.data.groups %}
+    <a href="/community-groups/{{ group[0] }}.html">
+    <div class="col-xs-2" style="padding:1em;">
+    <img class="img-responsive thumbnail" 
+    alt="{{ group[1].short_name }}" 
+    src="/assets/images/groups/{{group[1].logo}}">
+    {% if group[1].badge %}
+    <span class="badge badge-notify">{{ group[1].badge }}</span>
+    {% endif %}
+    </div>
+    </a>
+    {% endfor %}
+  </div>
+  </div>
+
+</section>
+
 <section style="margin-bottom:15px;">
   <div class="container">
     <div style="margin-bottom: 2em;" class="section-title">
     <h2>Featured Events</h2>
     </div>
+    {% comment %}
     Please find below our featured events...
-    <div class="row">
+    {% endcomment %}
+<style>
+.equal, .equal > div[class*='col-'] {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto;
+}
+</style>
+<div class="row equal">
 {% for event in site.data.events limit: 3 %}
 <div class="col-xs-3">
 <div class="thumbnail" style="margin-left: -10px; margin-right: -10px;">
@@ -35,27 +80,36 @@ permalink: /
           {% if event.status == "upcoming" %}Upcoming: {% else %}{% endif %}
         {% endcapture %}
         <a target="_blank" href="{{ event.link }}">
-          <h5>{{ event_title_prefix }}{{ event.title }}</h5>
+          {% capture text %}
+          {{ event_title_prefix }}{{ event.title }}
+          {% endcapture %}
+          <h5>{{ text | truncate: 128 }}</h5>
         </a>
         <p><b>{{ event.date }}{% if event.timezone %}, {{ event.timezone }}{% endif %}</b>
         </p>
         <p>
           {% capture text %}
-            {% if event.abstract %} event.abstact {% else %} Suspendisse potenti. Sed auctor neque at venenatis posuere. Donec porttitor aliquam metus, sit amet pulvinar lacus cursus eget. Suspendisse id accumsan mauris, eu sagittis justo. Suspendisse potenti. Etiam luctus vestibulum mi nec viverra. Morbi ligula massa, porta a egestas non, dictum ut est. Nam scelerisque aliquet nisi, quis bibendum sem laoreet ut. Suspendisse interdum molestie lacus vel sagittis. Nulla lectus elit, pretium a felis auctor, imperdiet sagittis felis. Etiam mollis scelerisque blandit. Fusce et purus iaculis, condimentum nibh accumsan, facilisis odio. Praesent iaculis faucibus diam, a rutrum libero sodales a. Suspendisse augue massa, scelerisque at venenatis ut, malesuada a orci. {% endif %}
+            {% if event.abstract %} event.abstact {% endif %}
           {% endcapture %}
           {{ text | truncate: 128 }}
           {% capture event_link %}
             {% if event.id %}events/#{{ event.id }}{% else %}{{ event.link }}{% endif %}
           {% endcapture %}
-          <a target="_blank" href="{{ event_link }}"><button type="button" class="btn btn-primary" style="margin-top:6px; float: right;">Read more</button></a>
+          <a target="_blank" href="{{ event_link }}"><button type="button" class="btn btn-primary" style="margin-top:6px; position: absolute;right:20px;bottom:34px;">Read more</button></a>
         </p>
       </div>
     </div>
     </div>
 {% endfor %}
-<div class="col-xs-3 thumbnail" style="text-align: center; margin-right: -48px; padding-top:4.85em;padding-bottom: 4.85em; padding-left: .5em; padding-right: .5em;">
-  <p>To know more about the events supported by the Microservices Community visit our</p>
+<div class="col-xs-3">
+  <div class="thumbnail" style="margin-left: -10px; margin-right: -10px; text-align: center; padding-top:4.85em;padding-bottom: 4.85em; padding-left: .5em; padding-right: .5em;">
+  <div class="row">
+  <div class="col-xs-12">To know more about the events supported by the Microservices Community visit our</div>
+  <div class="col-xs-12">
   <a target="_blank" href="/events/"><div class="btn btn-primary" style="text-align: center; padding: 1em;"><p style="font-size:large;">Events page</p></div></a>
+  </div>
+  </div>
+  </div>
 </div>
 </div>
 </div>
@@ -80,7 +134,7 @@ permalink: /
   </div>
 <div class="col-xs-6">
 <h2>Social Media</h2>
-<div class="col-xs-12" style="height:565px; overflow:scroll;"><a class="twitter-timeline" data-tweet-limit="10" href="https://twitter.com/c_microservices">Latest Tweet from the Microservices Community</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+<div class="col-xs-12" style="height:587px; overflow:scroll;"><a class="twitter-timeline" data-tweet-limit="10" href="https://twitter.com/c_microservices">Latest Tweet from the Microservices Community</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 </div>
 <div class="col-xs-12" style="margin-top:2em; text-align: center;">
   <h2>Follow the community on: &nbsp;<a href="https://twitter.com/c_microservices"><img src="assets/images/media/twitter.png" alt=""></a>

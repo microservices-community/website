@@ -1,4 +1,6 @@
 name: "Security for Microservices"
+short_name: Security
+logo: mc_security.jpg
 mission:
   short: |
     The goal of the Security for Microservices Group is to stimulate discussion about current security trends regarding the design, development and

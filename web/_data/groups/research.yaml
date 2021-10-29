@@ -1,4 +1,7 @@
 name: "Research"
+short_name: Research
+logo: mc_research.jpg
+badge: "propose a <br> webinar"
 mission:
   short: |
     The Research Community Group aims at structuring a research community on microservices, which comprises both researchers and practitioners
