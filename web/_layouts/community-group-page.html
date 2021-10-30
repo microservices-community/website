@@ -16,6 +16,13 @@ layout: page
     You can contact the {{ page.title }} Group at the address <a href="mailto:{{ page.contact_email }}?subject=Inquiry to the {{ page.title }} Group of the Microservices Community">{{ page.contact_email }}</a>.
     {%- endif -%}
 
+    {%- if page.important_messages.size > 0 -%}
+        {%- for message in page.important_messages -%}
+            <h3><span class="text-info"><span class="fa fa-bullhorn"></span> {{ message.title }}</span></h3>
+            {{ message.content }}
+        {%- endfor -%}
+    {%- endif -%}
+
     {%- if page.members.size > 0 -%}
     <h3>Members</h3>
     <table class="table text-left">
