@@ -12,6 +12,19 @@ mission:
     force of the community group is focused on a specific microservices-related research topic, and all task forces interoperate to achieve common
     research results.
 contact_email: "research@microservices.community"
+important_messages:
+    - title: Propose a Webinar
+      content: |
+        <p>Have you recently <b>published an interesting result related on microservices</b>? Would you like to <b>open a discussion on blue-sky microservices-related
+        research</b>? These are just two of the possible reasons for holding a webinar in the <b>MC Research Group monthly webinars</b>.</p>        
+        <p>The goal of MC Research Webinars is to <b>disseminate and cross-fertilize results and best practices</b> among researchers and practitioners working with
+        microservices. Webinars are intended to include 30-45 minutes of presentation, plus a session of Q&A. Provided your explicit consent, we can record the presentation 
+        and Q&A and later post it on the <a href="https://www.youtube.com/channel/UCvq51rztJ6LETiCa30PNlzQ">MC's YouTube channel</a>, hence giving more possibilities to the presented
+        research and discussion to get visible to people interested in microservices.</p>
+        <p>In case you would like to share ideas, best practices, or recent results on any topic related microservices, <b>please feel free to contact Jacopo Soldani
+        (MC Research Group Coordinator)</b> using <a href="
+            mailto:research@microservices.community?subject=MC Research Group Webinar Proposal&body=In the following, please provide these information concerning the proposed webinar: Intended Title, Desired Month of Presentation, Abstract (250 words max.)">
+                our email template</a>.</p>
 members:
   - name: Jacopo Soldani
     affiliation: University of Pisa, IT
