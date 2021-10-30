@@ -24,17 +24,19 @@ permalink: /
     <h2>COMMUNITY GROUPS</h2>
     </div>
   <div class="row align-center">
-    {% for group in site.data.groups %}
-    <a href="/community-groups/{{ group[0] }}.html">
-    <div class="col-xs-2" style="padding:1em;">
-    <img class="img-responsive thumbnail" 
-    alt="{{ group[1].short_name }}" 
-    src="/assets/images/groups/{{group[1].logo}}">
-    {% if group[1].badge %}
-    <span class="badge badge-notify">{{ group[1].badge }}</span>
-    {% endif %}
-    </div>
-    </a>
+    {% assign groups = site.data.groups | sort %}
+    {%- for group_hash in groups -%}
+      {% assign group = group_hash[1] %}
+      <a href="/community-groups/{{ group.name | slugify }}.html">
+      <div class="col-xs-2" style="padding:1em;">
+      <img class="img-responsive thumbnail" 
+      alt="{{ group.short_name }}" 
+      src="/assets/images/groups/{{group.logo}}">
+      {% if group.badge %}
+      <span class="badge badge-notify">{{ group.badge }}</span>
+      {% endif %}
+      </div>
+      </a>
     {% endfor %}
   </div>
   </div>
