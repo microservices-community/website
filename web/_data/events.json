@@ -1,5 +1,113 @@
 [
   {
+    "title": "Second Technical Meeting of the MC Community Group on Education",
+    "date": "November 8<sup>th</sup>, 2021, 16:30&ndash;17:30",
+    "timezone": "CET",
+    "place": "Virtual",
+    "longtext" : "<ul style=\"margin-left:-2em;\">
+                  <li><strong>Description:</strong>
+                  At its inaugural meeting on 8-September, the MCEG decided to
+                  schedule two technical events, one month apart from each
+                  other, this side of the end of 2021,
+                  to begin <strong>an exploration of initiatives into the</strong>
+                  <strong>teaching and learning of microservices</strong>.
+                  The group chose to schedule such events on <strong>Mondays, at 16:30 CET</strong>,
+                  at Zoom.
+                  Each such event will be constituted by two 20-minute guest
+                  talks, followed by 20-minute group discussion, for a total
+                  duration of 1 hour.
+                  The second event will take place on <strong>8 November</strong>,
+                  with Kay Bromose and Tullio Vardanega as guest speakers.
+                  In order to receive notice of the meeting coordinates,
+                  please contact the convener, Tullio Vardanega at
+                  <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
+                  </li>
+
+                  <li><strong>Registration:</strong> Sign up by sending an e-mail to
+                  <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
+                  </li>
+                  </ul>",
+    "status" : "upcoming"
+  },
+  {
+    "title": "9th European Conference on Service-Oriented and Cloud Computing (ESOCC 2022)",
+    "link": "https://esocc-conf.eu",
+    "date": "March 22<sup>nd</sup>&ndash;24<sup>th</sup> 2022",
+    "timezone": "CET",
+    "place": "Lutherstadt Wittenberg, Germany",
+    "longtext" : "The European Conference on Service-Oriented and Cloud Computing (ESOCC) is the premier
+                  conference on advances in the state of the art and practice of Service-Oriented Computing
+                  and Cloud Computing in Europe. The main objectives of this conference are to facilitate the
+                  exchange between researchers and practitioners in the areas of Service-oriented Computing
+                  and Cloud Computing and to foster future collaborations in Europe and beyond.",
+    "status" : "upcoming"
+  },
+  {
+    "title": "Taming Complexity: On Studying the Application of MDE to the Design, Development, and Operation of Microservice Architectures",
+    "date": "October 20<sup>th</sup>, 2021, 14:30&ndash;15:30",
+    "timezone": "CEST",
+    "longtext" : "<ul style=\"margin-left:-2em;\">
+                  <li><strong>Description:</strong>
+                  First open webinar of the Microservice Community's
+                  <a href=\"microservices.community/community-groups/research.html\">Research Group</a>.
+                  </li>
+
+                  <li><strong>Invited Speaker:</strong>
+                  Florian Rademacher (University of Applied Sciences and Arts, Dortmund, DE)
+                  </li>
+
+                  <li><strong>Talk Abstract:</strong>
+                  Microservice Architecture (MSA) is an approach to the realization of software architectures that aims to foster scalability,
+                  maintainability, and robustness. To this end, MSA proposes architecture decomposition into microservices, i.e., software
+                  components that (i) provide distinct capabilities; (ii) are as independent as possible from other components; and (iii) are
+                  solely responsible for their interactions with other components. However, when compared to monolithic software systems, the
+                  adoption of MSA usually results in a significant complexity increase concerning architecture design, development, and operation.
+                  <br/><br/>
+                  In our current line of research, we pursue the goal to mitigate this complexity by investigating the application of
+                  Model-driven Engineering (MDE) to MSA engineering and introducing supportive abstractions to certain activities of the latter. In
+                  our webinar talk, we will (i) motivate our research on MDE for MSA; (ii) present an ecosystem of modeling languages, which aims to
+                  enable stakeholders in MSA engineering to express their specific concerns towards a microservice architecture in a concise and
+                  efficient manner; (iii) demonstrate the ecosystem’s practical applicability; and (iv) summarize the most recent insights from our
+                  ongoing research. In addition, we will give an outlook on potential future research activities, including both the reconstruction and
+                  collaborative specification of microservice architectures in a model-driven fashion.
+                  </li>
+
+                  <li><strong>Registration:</strong> Sign up by sending an e-mail to
+                  <a href=\"mailto:research@microservices.community\">research@microservices.community</a>.
+                  </li>
+                  </ul>",
+    "status" : "past"
+  },
+  {
+    "title": "Technical Meeting of the MC Community Group on Education.",
+    "date": "October 11<sup>th</sup>, 2021, 16:30&ndash;17:30",
+    "timezone": "CEST",
+    "longtext" : "<ul style=\"margin-left:-2em;\">
+                  <li><strong>Description:</strong>
+                  At its inaugural meeting on 8-September, the MCEG decided to
+                  schedule two technical events, one month apart from each
+                  other, this side of the end of 2021,
+                  to begin <strong>an exploration of initiatives into the</strong>
+                  <strong>teaching and learning of microservices</strong>.
+                  The group chose to schedule such events on <strong>Mondays, at 16:30 CEST</strong>,
+                  at Zoom.
+                  Each such event will be constituted by two 20-minute guest
+                  talks, followed by 20-minute group discussion, for a total
+                  duration of 1 hour.
+                  The first event will take place on <strong>11 October</strong>,
+                  with Henrik Christensen and Jacopo Mauro as guest speakers.
+                  In order to receive notice of the meeting coordinates,
+                  please contact the convener, Tullio Vardanega at
+                  <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
+                  </li>
+
+                  <li><strong>Registration:</strong> Sign up by sending an e-mail to
+                  <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
+                  </li>
+                  </ul>",
+    "status" : "past"
+  },
+  {
     "id": "mcge-meeting-2021",
     "title": "Inaugural Meeting of the MC Community Group on Education",
     "date": "September 8<sup>th</sup>, 2021, 16:30&ndash;18:00",
