@@ -120,34 +120,45 @@ permalink: /
 <section style="margin-bottom:25px;">
 <div class="container">
 <div class="row">
-  <div class="col-xs-6">
-  <h2>Instant Messaging</h2>
-  <div class="col-xs-12"><h2><img style="margin-top:-.25em; width:250px;" src="assets/images/media/discord.png" alt=""> Channels</h2></div>
-  <div class="clearfix"></div>
-  <div style="background-color: #f2f3f5; font-weight: bold; font-size: x-large; border-radius: 6px; margin-left: 6px; padding: 10px;">
-    <div>
-      <ul style="list-style: none;">
-      {% for channel in site.data.discord_channels %}
-      <a style="color: #858e99 !important;" href="{% if channel.link %}{{ channel.link }}{% else %}https://discord.gg/BmsrHMC{% endif %}"><li style="margin-top: .7em; margin-bottom: .7em;"># {{ channel.name }}</li></a>
-      {% endfor %}
-      </ul>
+  <div class="col-xs-6" id="block_im">
+    <h2>Instant Messaging</h2>
+    <div class="col-xs-12"><h2><img style="margin-top:-.25em; width:250px;" src="assets/images/media/discord.png" alt=""> Channels</h2></div>
+    <div class="clearfix"></div>
+    <div style="background-color: #f2f3f5; font-weight: bold; font-size: x-large; border-radius: 6px; margin-left: 6px; padding: 10px;">
+      <div>
+        <ul style="list-style: none;">
+        {% for channel in site.data.discord_channels %}
+        <a style="color: #858e99 !important;" href="{% if channel.link %}{{ channel.link }}{% else %}https://discord.gg/BmsrHMC{% endif %}"><li style="margin-top: .7em; margin-bottom: .7em;"># {{ channel.name }}</li></a>
+        {% endfor %}
+        </ul>
+      </div>
     </div>
   </div>
+  <div class="col-xs-6" style="overflow: hidden;">
+    <div id="block_sm_f" class="col-xs-12" style="text-align: center;">
+    <h2>Social Media</h2>
+    <h2>Follow the community on: &nbsp;<a href="https://twitter.com/c_microservices"><img src="assets/images/media/twitter.png" alt=""></a>
+      <a target="_blank" href="https://www.facebook.com/MicroservicesCommunity/"><img src="assets/images/media/facebook.png" alt=""></a>
+      <a target="_blank" href="https://www.linkedin.com/company/microservices-community"><img src="assets/images/media/linkedin.png" alt=""></a>
+    </h2>
+    </div>
+    <div class="col-xs-12" id="block_sm_s" style="height: 596px; overflow:scroll;"><a class="twitter-timeline" data-tweet-limit="10" href="https://twitter.com/c_microservices">Latest Tweet from the Microservices Community</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
   </div>
-<div class="col-xs-6">
-<h2>Social Media</h2>
-<div class="col-xs-12" style="height:587px; overflow:scroll;"><a class="twitter-timeline" data-tweet-limit="10" href="https://twitter.com/c_microservices">Latest Tweet from the Microservices Community</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-</div>
-<div class="col-xs-12" style="margin-top:2em; text-align: center;">
-  <h2>Follow the community on: &nbsp;<a href="https://twitter.com/c_microservices"><img src="assets/images/media/twitter.png" alt=""></a>
-  <a target="_blank" href="https://www.facebook.com/MicroservicesCommunity/"><img src="assets/images/media/facebook.png" alt=""></a>
-  <a target="_blank" href="https://www.linkedin.com/company/microservices-community"><img src="assets/images/media/linkedin.png" alt=""></a>
-</h2>
-</div>
 </div>
 </div>
 </section>
-
+<script>
+  const resizeFn = ( event ) => {
+    const h = document.querySelector( "#block_im" ).offsetHeight;
+    console.log( "block_im:" + h );
+    const hoffset = document.querySelector( "#block_sm_f" ).clientHeight;
+    console.log( "block_sm_f:" + hoffset );
+    // document.querySelector( "#block_sm_s" ).style.height = ( h - hoffset ) + "px";
+    document.querySelector( "#block_sm_s" ).parentNode.style.height = ( h ) + "px";
+  };
+  window.addEventListener( 'readystatechange', resizeFn, true );
+  window.addEventListener( 'resize', resizeFn, true );
+</script>
 
 <section style="margin-bottom:50px;">
 <div class="container">
