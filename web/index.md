@@ -151,7 +151,6 @@ permalink: /
   const resizeFn = ( event ) => {
     const h = document.querySelector( "#block_im" ).offsetHeight;
     const hoffset = document.querySelector( "#block_sm_f" ).clientHeight;
-    // document.querySelector( "#block_sm_s" ).style.height = ( h - hoffset ) + "px";
     document.querySelector( "#block_sm_s" ).parentNode.style.height = ( h ) + "px";
   };
   window.addEventListener( 'readystatechange', resizeFn, true );
