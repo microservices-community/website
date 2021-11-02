@@ -150,7 +150,7 @@ permalink: /
 <script>
   const resizeFn = ( event ) => {
     const h = document.querySelector( "#block_im" ).offsetHeight;
-    document.querySelector( "#block_sm_s" ).parentNode.style.height = ( h ) + "px";
+    document.querySelector( "#block_sm_s" ).parentNode.style.height = h + "px";
   };
   window.addEventListener( 'readystatechange', resizeFn, true );
   window.addEventListener( 'resize', resizeFn, true );
