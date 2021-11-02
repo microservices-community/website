@@ -6,6 +6,9 @@ layout: page
   <div class="container">
     <div class="section-title">
       <h2>{{page.title}} Group</h2>
+      {% if page.logo %}
+        <img class="col-xs-2 pull-right thumbnail" style="margin: 1em;" src="/assets/images/groups/{{ page.logo }}" alt="">
+      {% endif %}
     </div>
 
     <h3>Mission</h3>
