@@ -28,13 +28,14 @@ permalink: /
     {%- for group_hash in groups -%}
       {% assign group = group_hash[1] %}
       <a href="/community-groups/{{ group.name | slugify }}.html">
-      <div class="col-xs-2" style="padding:1em;">
+      <div class="col-xs-2 text-center" style="padding:1em;">
       <img class="img-responsive thumbnail" 
       alt="{{ group.short_name }}" 
       src="/assets/images/groups/{{group.logo}}">
       {% if group.badge %}
       <span class="badge badge-notify">{{ group.badge }}</span>
       {% endif %}
+      <div style="margin: -1em;">{{ group.short_name }}</div>
       </div>
       </a>
     {% endfor %}
