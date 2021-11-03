@@ -116,7 +116,7 @@ permalink: /
   <div class="row">
   <div class="col-xs-12">To know more about the events supported by the Microservices Community visit our</div>
   <div class="col-xs-12">
-  <a target="_blank" href="/events/"><div class="btn btn-primary" style="text-align: center; padding: 1em;"><p style="font-size:large;">Events page</p></div></a>
+  <a target="_blank" href="/events/"><div class="btn btn-primary" style="text-align: center; padding: 1em;"><p style="font-size:large;margin-top: 5px;">Events page</p></div></a>
   </div>
   </div>
   </div>
