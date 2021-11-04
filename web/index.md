@@ -128,7 +128,7 @@ permalink: /
 <section style="margin-bottom:25px;">
 <div class="container">
 <div class="row">
-  <div class="col-xs-6" id="block_im">
+  <div class="col-xs-12 col-md-6" id="block_im">
     <h2>Instant Messaging</h2>
     <div class="col-xs-12"><h2><img style="margin-top:-.25em; width:250px;" src="assets/images/media/discord.png" alt=""> Channels</h2></div>
     <div class="clearfix"></div>
@@ -142,7 +142,7 @@ permalink: /
       </div>
     </div>
   </div>
-  <div class="col-xs-6" style="overflow: hidden;">
+  <div class="col-xs-12 col-md-6" style="overflow: hidden;">
     <div id="block_sm_f" class="col-xs-12" style="text-align: center;">
     <h2>Social Media</h2>
     <h2>Follow the community on: &nbsp;<a href="https://twitter.com/c_microservices"><img src="assets/images/media/twitter.png" alt=""></a>
