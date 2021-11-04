@@ -28,7 +28,7 @@ permalink: /
     {%- for group_hash in groups -%}
       {% assign group = group_hash[1] %}
       <a href="/community-groups/{{ group.name | slugify }}.html">
-      <div class="col-xs-2 text-center" style="padding:1em;">
+      <div class="col-md-2 col-xs-4 text-center" style="padding:1em;">
       <img class="img-responsive thumbnail" 
       alt="{{ group.short_name }}" 
       src="/assets/images/groups/{{group.logo}}">
@@ -52,24 +52,14 @@ permalink: /
     {% comment %}
     Please find below our featured events...
     {% endcomment %}
-<style>
-.equal, .equal > div[class*='col-'] {  
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex:1 1 auto;
-}
-</style>
-<div class="row equal">
+<div class="row" id="events" >
 {% for event in site.data.events limit: 3 %}
 {% capture event_link %}
   {% if event.link %}{{ event.link }}
   {% elsif event.id %}events/#{{ event.id }}
   {% else %}events{% endif %}
 {% endcapture %}
-<div class="col-xs-3">
+<div class="col-md-3 col-xs-6">
 <div class="thumbnail" style="margin-left: -10px; margin-right: -10px;">
       <a target="_blank" href="{{ event_link }}">
         {% if event.thumbnail %}
@@ -111,7 +101,7 @@ permalink: /
     </div>
     </div>
 {% endfor %}
-<div class="col-xs-3">
+<div class="col-md-3 col-xs-6">
   <div class="thumbnail" style="margin-left: -10px; margin-right: -10px; text-align: center; padding-top:4.85em;padding-bottom: 4.85em; padding-left: .5em; padding-right: .5em;">
   <div class="row">
   <div class="col-xs-12">To know more about the events supported by the Microservices Community visit our</div>
@@ -157,6 +147,19 @@ permalink: /
 </section>
 <script>
   const resizeFn = ( event ) => {
+    const events = Array.from( document.querySelectorAll( "#events > div > div" ) );
+    const h_events = events.reduce( 
+      ( result, item ) => {
+        this_h = item.clientHeight;
+        if( ! result ){
+          return this_h;
+        } else if( result < this_h ) {
+          return this_h; 
+        } else {
+          return result;
+        }
+    }, 0);
+    events.forEach( e => e.style.height = h_events + "px" );
     const h = document.querySelector( "#block_im" ).offsetHeight;
     document.querySelector( "#block_sm_s" ).parentNode.style.height = h + "px";
   };
