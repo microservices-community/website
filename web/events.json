@@ -1,4 +1,4 @@
 ---
   permalink: /events.json
 ---
-microservices_community_events({"upcoming":[{{ site.data.events | where:"status","upcoming" | jsonify }}],"past":[{{ site.data.events | where:"status","past" | jsonify }}]})
+microservices_community_events({"upcoming":{{ site.data.events | where:"status","upcoming" | jsonify }},"past":{{ site.data.events | where:"status","past" | jsonify }}})
