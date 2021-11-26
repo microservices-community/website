@@ -75,7 +75,7 @@ permalink: /
           {% assign event_status = "" %}
         {% endif %}
         {% capture event_title_prefix %}
-          {% if event.status == "upcoming" %}Upcoming: {% else %}{% endif %}
+          {% if event.status == "upcoming" %}<span class="badge alert-info"> Upcoming</span> {% else %}{% endif %}
         {% endcapture %}
         <a target="_blank" href="{{ event_link }}">
           {% capture text %}
