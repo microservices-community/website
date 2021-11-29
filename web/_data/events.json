@@ -1,9 +1,40 @@
 [
   {
-    "title": "24th International Conference on Coordination Models and Languages (COORDINATION 2021)",
-    "link": "https://www.discotec.org/2021/coordination",
-    "date": "June 13<sup>th</sup>&ndash;17<sup>th</sup> 2022",
-    "longtext" : "The International Conference on Coordination Models and Languages (COORDINATION) is a well-established forum for the growing community of researchers interested in models, languages, architectures, and implementation techniques for coordination.",
+    "title": "Microservices Security: A Systematic Literature Review",
+    "date": "December 22<sup>nd</sup>, 2021, 14:30&ndash;15:30",
+    "timezone": "CET",
+    "longtext" : "<ul style=\"margin-left:-2em;\">
+                  <li><strong>Description:</strong>
+                  Open webinar of the Microservice Community's
+                  <a href=\"microservices.community/community-groups/research.html\">Research Group</a>.
+                  </li>
+
+                  <li><strong>Invited Speakers:</strong>
+                  Andrea Melis and Davide Berardi (University of Bologna, IT)
+                  </li>
+
+                  <li><strong>Talk Abstract:</strong>
+                  Microservices is an emerging paradigm for developing distributed systems that is rapidly
+                  approaching widespread adoption. In response to this adoption, an increasing body of work
+                  has investigated the relation between microservices and security. Unfortunately, the literature
+                  on this subject does not form a well-defined corpus: it is spread over many venues, and it
+                  consists of contributions that mainly address specific scenarios or needs. In this webinar we will
+                  show our latest work, where we conducted a systematic review of the field, gathering 290 relevant
+                  publications&ndash;at the time of writing, the largest curated dataset on the topic. We analysed our dataset
+                  through (i) publication metadata, which allows us to chart publication outlets, communities, approaches, and
+                  tackled issues; and (ii) through 20 research questions, which we used to provide an aggregated overview of the
+                  literature and to identify gaps left open. Our study leads to a call for action to address the main open
+                  challenges.
+                  </li>
+
+                  <li><strong>Registration:</strong> Sign up by sending an e-mail to
+                  <a href=\"mailto:research@microservices.community\">research@microservices.community</a>.
+                  </li>
+                  <li><strong>
+                  Please note that the event will be recorded for subsequent publication on the
+                  <a href=\"https://www.youtube.com/channel/UCvq51rztJ6LETiCa30PNlzQ\">MC's YouTube channel</a>.
+                  </strong></li>
+                  </ul>",
     "status" : "upcoming"
   },
   {
@@ -17,6 +48,13 @@
                   and Cloud Computing in Europe. The main objectives of this conference are to facilitate the
                   exchange between researchers and practitioners in the areas of Service-oriented Computing
                   and Cloud Computing and to foster future collaborations in Europe and beyond.",
+    "status" : "upcoming"
+  },
+  {
+    "title": "24th International Conference on Coordination Models and Languages (COORDINATION 2021)",
+    "link": "https://www.discotec.org/2021/coordination",
+    "date": "June 13<sup>th</sup>&ndash;17<sup>th</sup> 2022",
+    "longtext" : "The International Conference on Coordination Models and Languages (COORDINATION) is a well-established forum for the growing community of researchers interested in models, languages, architectures, and implementation techniques for coordination.",
     "status" : "upcoming"
   },
   {
