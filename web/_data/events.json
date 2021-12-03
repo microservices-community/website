@@ -1,7 +1,8 @@
 [
   {
-    "title": "Microservices Security: A Systematic Literature Review",
+    "title": "Microservice Research Group Seminars: &quot;Microservices Security: A Systematic Literature Review&quot;",
     "date": "December 22<sup>nd</sup>, 2021, 14:30&ndash;15:30",
+    "link": "https://www.microservices.community/events/",
     "timezone": "CET",
     "longtext" : "<ul style=\"margin-left:-2em;\">
                   <li><strong>Description:</strong>
@@ -61,6 +62,7 @@
     "title": "Second Technical Meeting of the MC Community Group on Education",
     "date": "November 8<sup>th</sup>, 2021, 16:30&ndash;17:30",
     "timezone": "CET",
+    "link": "https://www.microservices.community/events/",
     "place": "Virtual",
     "longtext" : "<ul style=\"margin-left:-2em;\">
                   <li><strong>Description:</strong>
@@ -88,7 +90,8 @@
     "status" : "past"
   },
   {
-    "title": "Taming Complexity: On Studying the Application of MDE to the Design, Development, and Operation of Microservice Architectures",
+    "title": "Microservice Research Group Seminars: &quot;Taming Complexity: On Studying the Application of MDE to the Design, Development, and Operation of Microservice Architectures&quot;",
+    "link": "https://www.microservices.community/events/",
     "date": "October 20<sup>th</sup>, 2021, 14:30&ndash;15:30",
     "timezone": "CEST",
     "longtext" : "<ul style=\"margin-left:-2em;\">
@@ -126,6 +129,7 @@
   {
     "title": "Technical Meeting of the MC Community Group on Education.",
     "date": "October 11<sup>th</sup>, 2021, 16:30&ndash;17:30",
+    "link": "https://www.microservices.community/events/",
     "timezone": "CEST",
     "longtext" : "<ul style=\"margin-left:-2em;\">
                   <li><strong>Description:</strong>
@@ -197,6 +201,7 @@
                     <a href=\"mailto:education@microservices.community\">education@microservices.community</a>.
                     </li>
                     </ul>",
+    "link": "https://www.microservices.community/events/",
     "status" : "past"
   },
   {
@@ -214,6 +219,7 @@
   },
   {
     "title": " The Jolie programming language: reducing the distance between service models and code.",
+    "link": "https://www.microservices.community/events/",
     "date": "June 9<sup>th</sup>, 2021, 09:00&ndash;10:30",
     "longtext" : "<ul style=\"margin-left:-2em;\">
     <li><strong>Description:</strong>

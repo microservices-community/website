@@ -5,3 +5,4 @@ gemspec
 gem "liquid-c"
 gem "webrick", "~> 1.7"
 gem "jekyll-datapage-generator"
+gem "json-schema", "~> 2.8"
