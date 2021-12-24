@@ -1,5 +1,25 @@
 [
   {
+    "title": "9th European Conference on Service-Oriented and Cloud Computing (ESOCC 2022)",
+    "link": "https://esocc-conf.eu",
+    "date": "March 22<sup>nd</sup>&ndash;24<sup>th</sup> 2022",
+    "timezone": "CET",
+    "place": "Lutherstadt Wittenberg, Germany",
+    "longtext" : "The European Conference on Service-Oriented and Cloud Computing (ESOCC) is the premier
+                  conference on advances in the state of the art and practice of Service-Oriented Computing
+                  and Cloud Computing in Europe. The main objectives of this conference are to facilitate the
+                  exchange between researchers and practitioners in the areas of Service-oriented Computing
+                  and Cloud Computing and to foster future collaborations in Europe and beyond.",
+    "status" : "upcoming"
+  },
+  {
+    "title": "24th International Conference on Coordination Models and Languages (COORDINATION 2022)",
+    "link": "https://www.discotec.org/2022/coordination",
+    "date": "June 13<sup>th</sup>&ndash;17<sup>th</sup> 2022",
+    "longtext" : "The International Conference on Coordination Models and Languages (COORDINATION) is a well-established forum for the growing community of researchers interested in models, languages, architectures, and implementation techniques for coordination.",
+    "status" : "upcoming"
+  },
+  {
     "title": "Microservice Research Group Seminars: &quot;Microservices Security: A Systematic Literature Review&quot;",
     "date": "December 22<sup>nd</sup>, 2021, 14:30&ndash;15:30",
     "link": "https://www.microservices.community/events/",
@@ -36,27 +56,7 @@
                   <a href=\"https://www.youtube.com/channel/UCvq51rztJ6LETiCa30PNlzQ\">MC's YouTube channel</a>.
                   </strong></li>
                   </ul>",
-    "status" : "upcoming"
-  },
-  {
-    "title": "9th European Conference on Service-Oriented and Cloud Computing (ESOCC 2022)",
-    "link": "https://esocc-conf.eu",
-    "date": "March 22<sup>nd</sup>&ndash;24<sup>th</sup> 2022",
-    "timezone": "CET",
-    "place": "Lutherstadt Wittenberg, Germany",
-    "longtext" : "The European Conference on Service-Oriented and Cloud Computing (ESOCC) is the premier
-                  conference on advances in the state of the art and practice of Service-Oriented Computing
-                  and Cloud Computing in Europe. The main objectives of this conference are to facilitate the
-                  exchange between researchers and practitioners in the areas of Service-oriented Computing
-                  and Cloud Computing and to foster future collaborations in Europe and beyond.",
-    "status" : "upcoming"
-  },
-  {
-    "title": "24th International Conference on Coordination Models and Languages (COORDINATION 2022)",
-    "link": "https://www.discotec.org/2022/coordination",
-    "date": "June 13<sup>th</sup>&ndash;17<sup>th</sup> 2022",
-    "longtext" : "The International Conference on Coordination Models and Languages (COORDINATION) is a well-established forum for the growing community of researchers interested in models, languages, architectures, and implementation techniques for coordination.",
-    "status" : "upcoming"
+    "status" : "past"
   },
   {
     "title": "Second Technical Meeting of the MC Community Group on Education",
