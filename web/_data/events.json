@@ -1,5 +1,42 @@
 [
   {
+    "title": "Microservice Research Group Seminars: &quot;Design, monitoring, and testing of microservices systems: The practitioners’ perspective&quot;",
+    "date": "January 26<sup>th</sup>, 2022, 14:30&ndash;15:30",
+    "link": "https://www.microservices.community/events/",
+    "timezone": "CET",
+    "longtext" : "<ul style=\"margin-left:-2em;\">
+                  <li><strong>Description:</strong>
+                  Open webinar of the Microservice Community's
+                  <a href=\"microservices.community/community-groups/research.html\">Research Group</a>.
+                  </li>
+
+                  <li><strong>Invited Speaker:</strong>
+                  Muhammad Waseem (Wuhan University, CN)
+                  </li>
+
+                  <li><strong>Talk Abstract:</strong>
+                  Microservices Architecture (MSA) has received significant attention in the software industry.
+                  However, little empirical evidence exists on the design, monitoring, and testing of microservices systems.
+                  This research aims to gain a deep understanding of how microservices systems are designed, monitored, and
+                  tested in the industry. A mixed-methods study was conducted with 106 survey responses and 6 interviews from
+                  microservices practitioners. The main findings are: (1) a combination of domain-driven design and business
+                  capability is the most used strategy to decompose an application into microservices, (2) over half of the
+                  participants used architecture evaluation and architecture implementation when designing microservices systems,
+                  (3) API gateway and Backend for frontend patterns are the most used MSA patterns, (4) resource usage and load balancing
+                  as monitoring metrics, log management, and exception tracking as monitoring practices are widely used, (5) unit and
+                  end-to-end testing are the most used testing strategies, and (6) the complexity of microservices systems poses challenges
+                  for their design, monitoring, and testing, for which there are no dedicated solutions. Our findings reveal that more research
+                  is needed to (1) deal with microservices complexity at the design level, (2) handle security in microservices systems, and
+                  (3) address the monitoring and testing challenges through dedicated solutions.
+                  </li>
+
+                  <li><strong>Registration:</strong> Sign up by sending an e-mail to
+                  <a href=\"mailto:research@microservices.community\">research@microservices.community</a>.
+                  </li>
+                  </ul>",
+    "status" : "upcoming"
+  },
+  {
     "title": "9th European Conference on Service-Oriented and Cloud Computing (ESOCC 2022)",
     "link": "https://esocc-conf.eu",
     "date": "March 22<sup>nd</sup>&ndash;24<sup>th</sup> 2022",
