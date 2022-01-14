@@ -9,6 +9,20 @@ permalink: /
   </div>
 </section>
 
+<section style="font-size:18px; margin-bottom:15px;">
+    <div class="container">
+        <div class="row align-center">
+            <div class="alert alert-info" role="alert">
+                <h3 class="alert-heading"><span class="fa fa-bullhorn" aria-hidden="true"></span> Microservices 2022: Call for Papers</h3>
+                The <a href="https://www.conf-micro.services/2022/"><strong>Fourth International Conference on Microservices (Microservices 2022)</strong></a> is going to be held as a hybrid meeting in
+                <strong>Paris, May 10&ndash;12, 2022</strong>.
+                Please consider submitting your latest insights about the <strong>adoption and study of Microservices in industry or academia</strong> for presentation at the conference by
+                <strong>February 18th, 2022 (AoE)</strong> (see the <a href="https://www.conf-micro.services/2022/cfp.txt"><strong>Call for Papers</strong></a> for all submission-related information).
+            </div>
+        </div>
+    </div>
+</section>
+
 <style>
 .badge-notify {
     background: green;
@@ -29,8 +43,8 @@ permalink: /
       {% assign group = group_hash[1] %}
       <a href="/community-groups/{{ group.name | slugify }}.html">
       <div class="col-md-2 col-xs-4 text-center" style="padding:1em;">
-      <img class="img-responsive thumbnail" 
-      alt="{{ group.short_name }}" 
+      <img class="img-responsive thumbnail"
+      alt="{{ group.short_name }}"
       src="/assets/images/groups/{{group.logo}}">
       {% if group.badge %}
       <span class="badge badge-notify">{{ group.badge }}</span>
@@ -148,13 +162,13 @@ permalink: /
 <script>
   const resizeFn = ( event ) => {
     const events = Array.from( document.querySelectorAll( "#events > div > div" ) );
-    const h_events = events.reduce( 
+    const h_events = events.reduce(
       ( result, item ) => {
         this_h = item.clientHeight;
         if( ! result ){
           return this_h;
         } else if( result < this_h ) {
-          return this_h; 
+          return this_h;
         } else {
           return result;
         }
