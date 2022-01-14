@@ -10,6 +10,18 @@ mission:
     * It maintains media assets of the Community.
 
     Until the creation of the [Ethics Group](ethics.html), this committee was also tasked with the creation of the [Code of Ethics and Conduct](/coc/) of the Community.
+
+    ### Get in touch with the Communication Group
+    <style>
+    .alert-discord { color: #5a5d85; background-color: #d0c6e9; border-color: #503c7640; }
+    </style>
+    <div class="row text-center" style="display:flex;align-items:center; gap: 10px;gap: 10px 20px;row-gap: 10px;column-gap: 20px;">
+      <div style="align-items:space-around;"><a href="https://forms.gle/QzVx6WH8rsr6mFcz6"><div class="alert alert-info" role="alert">Become an <strong>MC-supported event</strong></div></a></div>
+      <div style="align-items:space-around;"><a href="https://forms.gle/vrtUBEcP6UnhUJsT7"><div class="alert alert-discord" role="alert">Post on the <strong>Discord</strong> MC Server</div></a></div>
+      <div style="align-items:space-around;"><a href="https://forms.gle/4P8Eb1CQb8cP8btu8"><div class="alert alert-success" role="alert">Post a video on the MC <strong>Video</strong> Channels <br> <span class="small">(requires a Google account)</span></div></a></div>
+      <div style="align-items:space-around;"><a href="https://forms.gle/AjhPQrk4bfa3ZeBNA"><div class="alert alert-warning" role="alert">Post on the MC <strong>Social Channels</strong></div></a></div>
+      <div style="align-items:space-around;"><a href="https://forms.gle/ArDGGZWSiAtDZj3w8"><div class="alert alert-danger" role="alert">Post on the MC <strong>Mailing List</strong></div></a></div>
+    </div>
 contact_email: "communication@microservices.community"
 members:
   - name: Florian Rademacher
