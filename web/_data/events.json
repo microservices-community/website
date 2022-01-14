@@ -50,6 +50,19 @@
     "status" : "upcoming"
   },
   {
+    "title": "International Conference on Microservices (Microservices 2022)",
+    "link": "http://conf-micro.services/2022/index.html",
+    "date": "May 10<sup>th</sup>-12<sup>th</sup> 2022",
+    "longtext": "The International Conference on Microservices is a forum for the discussion of all aspects of
+                microservices: their design, programming, and operations. The 2022 edition of the conference
+                (Microservices 2022) will take place in Paris, France.
+                <br/>
+                <strong>Please consider submitting your latest insights about the design, programming, and operation of
+                Microservices in industry or academia:</strong> <a href=\"https://www.conf-micro.services/2022/cfp.txt\">Call for Papers</a>.
+                ",
+    "status" : "upcoming"
+  },
+  {
     "title": "24th International Conference on Coordination Models and Languages (COORDINATION 2022)",
     "link": "https://www.discotec.org/2022/coordination",
     "date": "June 13<sup>th</sup>&ndash;17<sup>th</sup> 2022",
