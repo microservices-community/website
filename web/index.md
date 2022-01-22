@@ -35,6 +35,34 @@ permalink: /
 <section style="margin-bottom:15px;">
   <div class="container">
     <div style="margin-bottom: 2em;" class="section-title">
+    <h2>GET IN TOUCH</h2>
+    </div>
+    <div class="row align-center">
+        <style>
+            .alert-sponsor { color: #5a5d85; background-color: #d0c6e9; border-color: #503c7640; }
+            .alert-event { color: #383d41; background-color: #e2e3e5; border-color: #d6d8db; }
+            .alert-discord { color:#0c5460; background-color: #d1ecf1; border-color: #bee5eb; }
+        </style>
+        <div class="row text-center" style="display:flex;align-items:center; gap: 10px;gap: 10px 20px;row-gap: 10px;column-gap: 15px;">
+            <div style="align-items:space-around;"><a href="join"><div class="alert alert-info" role="alert">Become an <strong>MC Member</strong></div></a></div>
+            <div style="align-items:space-around;">
+                <a href="mailto:council@microservices.community?subject=Sponsorship Inquiry to the Microservices Community&body=Your Name:%0D%0A%0D%0AYour Motivation to Become a Sponsor:">
+                    <div class="alert alert-sponsor" role="alert">Become an <strong>MC Sponsor</strong></div>
+                </a>
+            </div>
+            <div style="align-items:space-around;"><a href="https://forms.gle/QzVx6WH8rsr6mFcz6"><div class="alert alert-event" role="alert">Host an <strong>MC-Supported Event</strong></div></a></div>
+            <div style="align-items:space-around;"><a href="https://forms.gle/vrtUBEcP6UnhUJsT7"><div class="alert alert-discord" role="alert">Post on the <strong>MC Discord</strong></div></a></div>
+            <div style="align-items:space-around;"><a href="https://forms.gle/4P8Eb1CQb8cP8btu8"><div class="alert alert-success" role="alert">Post a video on the <strong>MC Video Channels</strong></div></a></div>
+            <div style="align-items:space-around;"><a href="https://forms.gle/AjhPQrk4bfa3ZeBNA"><div class="alert alert-warning" role="alert">Post on the <strong>MC Social Channels</strong></div></a></div>
+            <div style="align-items:space-around;"><a href="https://forms.gle/ArDGGZWSiAtDZj3w8"><div class="alert alert-danger" role="alert">Post on the <strong>MC Mailing List</strong></div></a></div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section style="margin-bottom:15px;">
+  <div class="container">
+    <div style="margin-bottom: 2em;" class="section-title">
     <h2>COMMUNITY GROUPS</h2>
     </div>
   <div class="row align-center">
