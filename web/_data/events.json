@@ -1,7 +1,7 @@
 [
   {
-    "title": "Microservice Research Group Seminars: &quot;Design, monitoring, and testing of microservices systems: The practitioners’ perspective&quot;",
-    "date": "January 26<sup>th</sup>, 2022, 14:30&ndash;15:30",
+    "title": "Microservice Research Group Seminars: &quot;Ensuring Eventual Consistency in a Microservices Architecture&quot;",
+    "date": "February 9<sup>th</sup>, 2022, 14:30&ndash;15:30",
     "link": "https://www.microservices.community/events/",
     "timezone": "CET",
     "longtext" : "<ul style=\"margin-left:-2em;\">
@@ -11,23 +11,27 @@
                   </li>
 
                   <li><strong>Invited Speaker:</strong>
-                  Muhammad Waseem (Wuhan University, CN)
+                  Kaj Steen Bromose (UCL University College, UK)
                   </li>
 
                   <li><strong>Talk Abstract:</strong>
-                  Microservices Architecture (MSA) has received significant attention in the software industry.
-                  However, little empirical evidence exists on the design, monitoring, and testing of microservices systems.
-                  This research aims to gain a deep understanding of how microservices systems are designed, monitored, and
-                  tested in the industry. A mixed-methods study was conducted with 106 survey responses and 6 interviews from
-                  microservices practitioners. The main findings are: (1) a combination of domain-driven design and business
-                  capability is the most used strategy to decompose an application into microservices, (2) over half of the
-                  participants used architecture evaluation and architecture implementation when designing microservices systems,
-                  (3) API gateway and Backend for frontend patterns are the most used MSA patterns, (4) resource usage and load balancing
-                  as monitoring metrics, log management, and exception tracking as monitoring practices are widely used, (5) unit and
-                  end-to-end testing are the most used testing strategies, and (6) the complexity of microservices systems poses challenges
-                  for their design, monitoring, and testing, for which there are no dedicated solutions. Our findings reveal that more research
-                  is needed to (1) deal with microservices complexity at the design level, (2) handle security in microservices systems, and
-                  (3) address the monitoring and testing challenges through dedicated solutions.
+                  How can the architecture of transaction oriented business systems be transformed to a
+                  microservices architecture in a &quot;transaction safe&quot; way, where it can be ensured that the system
+                  ends up in consistent state? The foundation of our work is the CAP theorem. The CAP theorem states
+                  that it is impossible for distributed systems to simultaneously provide more than two out of the following
+                  three guarantees: Consistency, Availability, Partition tolerance. With respect to the CAP theorem, microservice
+                  architectures are in the AP category, leaving the system to deal with eventual consistency. This is a major issue to
+                  handle in some business systems, where database consistency is an absolute must. One solution is the use of the SAGA
+                  pattern, where compensating transactions handles inconsistency and eventually ensures consistency. However, there is a
+                  serious issue with compensating transactions – they require transactions to be reversible. Yet, many business transactions
+                  are irreversible by nature – for example an automated teller machine transaction, where reclaiming the out handed money cannot
+                  be guaranteed to be honored. This webinar will introduce a way to ensure eventual consistency in a microservices architecture with
+                  irreversible transactions. The webinar will promote using a dynamic CAP approach, where the CAP positioning of the system is
+                  dynamic based on the concrete business event. The will webinar present a microservice architectural pattern where the transactional
+                  business events are encapsulated in modular micro monoliths. The dynamic CAP approach and the use of modular micro monoliths has been
+                  formulated and developed as a joint effort between a Bankdata and UCL University College. Bankdata has a long history of handling
+                  eventual consistency with a proven record of success. The dynamic CAP approach is based on these concrete experiences and a more
+                  theoretical approach is taken from a CAP perspective.
                   </li>
 
                   <li><strong>Registration:</strong> Sign up by sending an e-mail to
@@ -68,6 +72,43 @@
     "date": "June 13<sup>th</sup>&ndash;17<sup>th</sup> 2022",
     "longtext" : "The International Conference on Coordination Models and Languages (COORDINATION) is a well-established forum for the growing community of researchers interested in models, languages, architectures, and implementation techniques for coordination.",
     "status" : "upcoming"
+  },
+  {
+    "title": "Microservice Research Group Seminars: &quot;Design, monitoring, and testing of microservices systems: The practitioners’ perspective&quot;",
+    "date": "January 26<sup>th</sup>, 2022, 14:30&ndash;15:30",
+    "link": "https://www.microservices.community/events/",
+    "timezone": "CET",
+    "longtext" : "<ul style=\"margin-left:-2em;\">
+                  <li><strong>Description:</strong>
+                  Open webinar of the Microservice Community's
+                  <a href=\"microservices.community/community-groups/research.html\">Research Group</a>.
+                  </li>
+
+                  <li><strong>Invited Speaker:</strong>
+                  Muhammad Waseem (Wuhan University, CN)
+                  </li>
+
+                  <li><strong>Talk Abstract:</strong>
+                  Microservices Architecture (MSA) has received significant attention in the software industry.
+                  However, little empirical evidence exists on the design, monitoring, and testing of microservices systems.
+                  This research aims to gain a deep understanding of how microservices systems are designed, monitored, and
+                  tested in the industry. A mixed-methods study was conducted with 106 survey responses and 6 interviews from
+                  microservices practitioners. The main findings are: (1) a combination of domain-driven design and business
+                  capability is the most used strategy to decompose an application into microservices, (2) over half of the
+                  participants used architecture evaluation and architecture implementation when designing microservices systems,
+                  (3) API gateway and Backend for frontend patterns are the most used MSA patterns, (4) resource usage and load balancing
+                  as monitoring metrics, log management, and exception tracking as monitoring practices are widely used, (5) unit and
+                  end-to-end testing are the most used testing strategies, and (6) the complexity of microservices systems poses challenges
+                  for their design, monitoring, and testing, for which there are no dedicated solutions. Our findings reveal that more research
+                  is needed to (1) deal with microservices complexity at the design level, (2) handle security in microservices systems, and
+                  (3) address the monitoring and testing challenges through dedicated solutions.
+                  </li>
+
+                  <li><strong>Registration:</strong> Sign up by sending an e-mail to
+                  <a href=\"mailto:research@microservices.community\">research@microservices.community</a>.
+                  </li>
+                  </ul>",
+    "status" : "past"
   },
   {
     "title": "Microservice Research Group Seminars: &quot;Microservices Security: A Systematic Literature Review&quot;",
