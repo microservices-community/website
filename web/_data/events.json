@@ -76,8 +76,9 @@
   {
     "title": "Microservice Research Group Seminars: &quot;Design, monitoring, and testing of microservices systems: The practitioners’ perspective&quot;",
     "date": "January 26<sup>th</sup>, 2022, 14:30&ndash;15:30",
-    "link": "https://www.microservices.community/events/",
+    "link": "https://youtu.be/IhkwgNHnfmY",
     "timezone": "CET",
+    "heading_addendum": "<a href=\"https://youtu.be/IhkwgNHnfmY\">Find the Recording on YouTube</a>",
     "longtext" : "<ul style=\"margin-left:-2em;\">
                   <li><strong>Description:</strong>
                   Open webinar of the Microservice Community's
@@ -113,8 +114,9 @@
   {
     "title": "Microservice Research Group Seminars: &quot;Microservices Security: A Systematic Literature Review&quot;",
     "date": "December 22<sup>nd</sup>, 2021, 14:30&ndash;15:30",
-    "link": "https://www.microservices.community/events/",
+    "link": "https://youtu.be/sBA4rYaEBf0",
     "timezone": "CET",
+    "heading_addendum": "<a href=\"https://youtu.be/sBA4rYaEBf0\">Find the Recording on YouTube</a>",
     "longtext" : "<ul style=\"margin-left:-2em;\">
                   <li><strong>Description:</strong>
                   Open webinar of the Microservice Community's
@@ -182,9 +184,10 @@
   },
   {
     "title": "Microservice Research Group Seminars: &quot;Taming Complexity: On Studying the Application of MDE to the Design, Development, and Operation of Microservice Architectures&quot;",
-    "link": "https://www.microservices.community/events/",
+    "link": "https://youtu.be/365Llih6i00",
     "date": "October 20<sup>th</sup>, 2021, 14:30&ndash;15:30",
     "timezone": "CEST",
+    "heading_addendum": "<a href=\"https://youtu.be/365Llih6i00\">Find the Recording on YouTube</a>",
     "longtext" : "<ul style=\"margin-left:-2em;\">
                   <li><strong>Description:</strong>
                   First open webinar of the Microservice Community's

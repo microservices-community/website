@@ -41,7 +41,7 @@ redirect_from:
   {% if event.comment %}
   <span class="small">{{ event.comment }}</span>
   {% endif %}
-  - {{ event.date }}{% if event.timezone %} {{ event.timezone }}{% endif %}{% if event.place %}, {{ event.place }}{% endif %}
+  - {{ event.date }}{% if event.timezone %} {{ event.timezone }}{% endif %}{% if event.place %}, {{ event.place }}{% endif %}{% if event.heading_addendum %}, {{ event.heading_addendum }}{% endif %}
   {% if event.longtext %}
   <br/>
   <div style="font-size: 1.4rem;">{{ event.longtext }}</div>
@@ -63,7 +63,7 @@ redirect_from:
   {% if event.comment %}
   <span class="small">{{ event.comment }}</span>
   {% endif %}
-  - {{ event.date }}{% if event.timezone %} {{ event.timezone }}{% endif %}{% if event.place %}, {{ event.place }}{% endif %}
+  - {{ event.date }}{% if event.timezone %} {{ event.timezone }}{% endif %}{% if event.place %}, {{ event.place }}{% endif %}{% if event.heading_addendum %}, {{ event.heading_addendum }}{% endif %}
 </li>
 {% endif %}
 {% endfor %}
