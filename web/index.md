@@ -17,7 +17,8 @@ permalink: /
                 The <a href="https://www.conf-micro.services/2022/"><strong>Fourth International Conference on Microservices (Microservices 2022)</strong></a> is going to be held as a hybrid meeting in
                 <strong>Paris, May 10&ndash;12, 2022</strong>.
                 Please consider submitting your latest insights about the <strong>adoption and study of Microservices in industry or academia</strong> for presentation at the conference by
-                <strong>February 18th, 2022 (AoE)</strong> (see the <a href="https://www.conf-micro.services/2022/cfp.txt"><strong>Call for Papers</strong></a> for all submission-related information).
+                <s>February 18th, 2022 (AoE)</s>
+                <strong>March 4th, 2022 (AoE)</strong> (see the <a href="https://www.conf-micro.services/2022/cfp.txt"><strong>Call for Papers</strong></a> for all submission-related information).
             </div>
         </div>
     </div>
