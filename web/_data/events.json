@@ -1,28 +1,11 @@
 [  
   {
-    "title": "9th European Conference on Service-Oriented and Cloud Computing (ESOCC 2022)",
-    "link": "https://esocc-conf.eu",
-    "date": "March 22<sup>nd</sup>&ndash;24<sup>th</sup> 2022",
-    "timezone": "CET",
-    "place": "Lutherstadt Wittenberg, Germany",
-    "longtext" : "The European Conference on Service-Oriented and Cloud Computing (ESOCC) is the premier
-                  conference on advances in the state of the art and practice of Service-Oriented Computing
-                  and Cloud Computing in Europe. The main objectives of this conference are to facilitate the
-                  exchange between researchers and practitioners in the areas of Service-oriented Computing
-                  and Cloud Computing and to foster future collaborations in Europe and beyond.",
-    "status" : "upcoming"
-  },
-  {
     "title": "International Conference on Microservices (Microservices 2022)",
     "link": "http://conf-micro.services/2022/index.html",
     "date": "May 10<sup>th</sup>-12<sup>th</sup> 2022",
     "longtext": "The International Conference on Microservices is a forum for the discussion of all aspects of
                 microservices: their design, programming, and operations. The 2022 edition of the conference
-                (Microservices 2022) will take place in Paris, France.
-                <br/>
-                <strong>Please consider submitting your latest insights about the design, programming, and operation of
-                Microservices in industry or academia:</strong> <a href=\"https://www.conf-micro.services/2022/cfp.txt\">Call for Papers</a>.
-                ",
+                (Microservices 2022) will take place in Paris, France.",
     "status" : "upcoming"
   },
   {
@@ -38,6 +21,19 @@
     "date": "June 13<sup>th</sup>&ndash;17<sup>th</sup> 2022",
     "longtext" : "The International Conference on Coordination Models and Languages (COORDINATION) is a well-established forum for the growing community of researchers interested in models, languages, architectures, and implementation techniques for coordination.",
     "status" : "upcoming"
+  },
+  {
+    "title": "9th European Conference on Service-Oriented and Cloud Computing (ESOCC 2022)",
+    "link": "https://esocc-conf.eu",
+    "date": "March 22<sup>nd</sup>&ndash;24<sup>th</sup> 2022",
+    "timezone": "CET",
+    "place": "Lutherstadt Wittenberg, Germany",
+    "longtext" : "The European Conference on Service-Oriented and Cloud Computing (ESOCC) is the premier
+                  conference on advances in the state of the art and practice of Service-Oriented Computing
+                  and Cloud Computing in Europe. The main objectives of this conference are to facilitate the
+                  exchange between researchers and practitioners in the areas of Service-oriented Computing
+                  and Cloud Computing and to foster future collaborations in Europe and beyond.",
+    "status" : "past"
   },
   {
     "title": "Microservice Research Group Seminars: &quot;Ensuring Eventual Consistency in a Microservices Architecture&quot;",
