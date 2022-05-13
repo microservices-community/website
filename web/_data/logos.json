@@ -60,5 +60,20 @@
     "link": "https://inria.fr",
     "alt": "INRIA",
     "category": "individual"
+  },{
+    "logo": "ecb.png",
+    "link": "https://www.ecb.europa.eu/",
+    "alt": "European Central Bank",
+    "category": "individual"
+  },{
+    "logo": "ucl.png",
+    "link": "https://www.ucl.dk/",
+    "alt": "UCL University College",
+    "category": "individual"
+  },{
+    "logo": "university-of-stuttgart.png",
+    "link": "https://www.uni-stuttgart.de/en/",
+    "alt": "University of Stuttgart",
+    "category": "individual"
   }
 ]
