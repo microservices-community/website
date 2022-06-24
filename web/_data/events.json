@@ -1,4 +1,4 @@
-[  
+[
   {
     "title": "International Conference on Microservices (Microservices 2022)",
     "link": "http://conf-micro.services/2022/index.html",
@@ -6,21 +6,21 @@
     "longtext": "The International Conference on Microservices is a forum for the discussion of all aspects of
                 microservices: their design, programming, and operations. The 2022 edition of the conference
                 (Microservices 2022) will take place in Paris, France.",
-    "status" : "upcoming"
+    "status" : "past"
   },
   {
     "title": "Third International Workshop on Agility with Microservices Programming (AMP 2022)",
     "link": "https://amp.fe.up.pt/2022",
     "date": "June 13<sup>th</sup> or 17<sup>th</sup> 2022",
     "longtext" : "The AMP workshop series aims at collecting original work on the science and engineering of Microservices Programming using Agile principles and practices and/or with the goal of supporting Agility.",
-    "status" : "upcoming"
+    "status" : "past"
   },
   {
     "title": "24th International Conference on Coordination Models and Languages (COORDINATION 2022)",
     "link": "https://www.discotec.org/2022/coordination",
     "date": "June 13<sup>th</sup>&ndash;17<sup>th</sup> 2022",
     "longtext" : "The International Conference on Coordination Models and Languages (COORDINATION) is a well-established forum for the growing community of researchers interested in models, languages, architectures, and implementation techniques for coordination.",
-    "status" : "upcoming"
+    "status" : "past"
   },
   {
     "title": "9th European Conference on Service-Oriented and Cloud Computing (ESOCC 2022)",
