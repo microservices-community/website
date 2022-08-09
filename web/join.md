@@ -26,7 +26,7 @@ If you are interested in becoming a member of the Microservices Community as an 
 - [Membership Form (OpenDocument)](/forms/MC_Membership_Form_v2.odt)
 - [Membership Form (Microsoft Word)](/forms/MC_Membership_Form_v2.docs)
 
-Send a <b>completed and signed form</b> to <a href="mailto:{{ site.emails.balint }}">{{ site.emails.balint }}</a>.
+Send a <b>completed and signed form</b> to <a href="mailto:{{ site.emails.join }}">{{ site.emails.join }}</a>.
 
 After the receipt of your membership request, the [Council](/boards/#Council) of the Microservices Community will decide upon it within two weeks after receipt.
 We will continuously inform you about the progress of your membership request.
