@@ -1,5 +1,37 @@
 [
   {
+    "title": "A Declarative Approach to Topology-Aware Serverless Function-Execution Scheduling",
+    "date": "September 27<sup>th</sup>, 2022, 14:00&ndash;15:00",
+    "link": "https://www.microservices.community/events/",
+    "timezone": "CEST",
+    "longtext" : "<ul style=\"margin-left:-2em;\">
+                  <li><strong>Description:</strong>
+                  Open webinar of the Microservice Community's
+                  <a href=\"microservices.community/community-groups/research.html\">Research Group</a>.
+                  </li>
+
+                  <li><strong>Invited Speaker:</strong>
+                  Giuseppe De Palma (University of Bologna, IT)
+                  </li>
+
+                  <li><strong>Talk Abstract:</strong>
+                  State-of-the-art serverless platforms use hard-coded scheduling policies that are unaware of the
+                  possible topological constraints of functions. Considering these constraints when scheduling functions
+                  leads to sensible performance improvements, e.g., minimising failures, loading times or data-access latencies.
+                  This issue becomes more pressing when considered in the emerging multi-cloud and edge-cloud-continuum systems,
+                  where only specific nodes can access specialised, local resources. To address this problem, we present a declarative
+                  language for defining serverless scheduling policies to express constraints on topologies of schedulers and execution
+                  nodes. We implement our approach as an extension of the OpenWhisk platform and show relevant scenarios where our extension
+                  is on par with or outperforms vanilla OpenWhisk.
+                  </li>
+
+                  <li><strong>Join via Microsoft Teams:</strong>
+                  <a href=\"https://teams.microsoft.com/l/meetup-join/19:640b05400da24c148b1abcacd37564d6@thread.tacv2/1662714342769?context={%22Tid%22:%22c7456b31-a220-47f5-be52-473828670aa1%22,%22Oid%22:%22958423a9-8e9c-442f-8839-9937b59b062d%22}\">Link</a>.
+                  </li>
+                  </ul>",
+    "status" : "upcoming"
+  },
+  {
     "title": "International Conference on Microservices (Microservices 2022)",
     "link": "http://conf-micro.services/2022/index.html",
     "date": "May 10<sup>th</sup>-12<sup>th</sup> 2022",
