@@ -24,7 +24,7 @@ Members can join as individuals, organisations (corporate and academia), or spec
 
 If you are interested in becoming a member of the Microservices Community as an individual or organisation, please fill out our membership form:
 - [Membership Form (OpenDocument)](/forms/MC_Membership_Form_v2.odt)
-- [Membership Form (Microsoft Word)](/forms/MC_Membership_Form_v2.docs)
+- [Membership Form (Microsoft Word)](/forms/MC_Membership_Form_v2.docx)
 
 Send a <b>completed and signed form</b> to <a href="mailto:{{ site.emails.join }}">{{ site.emails.join }}</a>.
 
