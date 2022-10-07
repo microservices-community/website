@@ -60,7 +60,7 @@ permalink: /governance/
     </tr>
     <tr>
       <td>Balint Maschio</td>
-      <td>Pixis.co, FR</td>
+      <td>ItalianaSoftware S.r.l., IT</td>
       <td>Vice-President</td>
     </tr>
     <tr>
