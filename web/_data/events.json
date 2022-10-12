@@ -1,5 +1,38 @@
 [
   {
+    "title": "Should microservices’ security smells stay or get refactored? Towards a trade-off analysis",
+    "date": "October 27<sup>th</sup>, 2022, 14:30&ndash;15:30",
+    "link": "https://www.microservices.community/events/",
+    "timezone": "CEST",
+    "longtext" : "<ul style=\"margin-left:-2em;\">
+                  <li><strong>Description:</strong>
+                  Open webinar of the Microservice Community's
+                  <a href=\"microservices.community/community-groups/research.html\">Research Group</a>.
+                  </li>
+
+                  <li><strong>Invited Speaker:</strong>
+                  Francisco Ponce (Universidad Tecnica Federico Santa Maria, CL)
+                  </li>
+
+                  <li><strong>Talk Abstract:</strong>
+                  Security smells, i.e. possible symptoms of (often unintentional) bad design decisions,
+                  can occur in microservice-based applications, resulting in violations of key security
+                  properties as well as design soundness (i.e. adherence to microservice design principles).
+                  However, it is non-trivial to decide in each case whether to apply a refactoring to mitigate
+                  the effects of a smell, or whether it is more convenient to keep the smell in the application,
+                  so a careful trade-off analysis must be carried out. To enact such trade-off analysis, we propose a
+                  method base on Softgoal Interdependency Graphs (SIGs), a visual formalism that provides a holistic
+                  view of the positive/negative impacts of, in our case, security smells and refactorings on software
+                  quality attributes and design soundness.
+                  </li>
+
+                  <li><strong>Join via Microsoft Teams:</strong>
+                  <a href=\"https://teams.microsoft.com/l/meetup-join/19:640b05400da24c148b1abcacd37564d6@thread.tacv2/1665490105330?context={%22Tid%22:%22c7456b31-a220-47f5-be52-473828670aa1%22,%22Oid%22:%22958423a9-8e9c-442f-8839-9937b59b062d%22}\">Link</a>.
+                  </li>
+                  </ul>",
+    "status" : "upcoming"
+  },
+  {
     "title": "A Declarative Approach to Topology-Aware Serverless Function-Execution Scheduling",
     "date": "September 27<sup>th</sup>, 2022, 14:00&ndash;15:00",
     "link": "https://www.microservices.community/events/",
