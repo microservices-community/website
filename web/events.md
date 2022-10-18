@@ -33,24 +33,30 @@ redirect_from:
 <strong>Upcoming Events</strong>
 <ul>
 {% for event in site.data.events %}
-{% if event.status == "upcoming" %}
+{% if event.status == "upcoming" or event.status == "upcoming-meet-greet" %}
 <li id="{{ event.id }}">
   <a href="{{ event.link }}">
+  {% if event.status == "upcoming-meet-greet" %}<span class="fa fa-star"></span>{% endif %}
   {{ event.title }}
   </a>
   {% if event.comment %}
   <span class="small">{{ event.comment }}</span>
   {% endif %}
-  - {{ event.date }}{% if event.timezone %} {{ event.timezone }}{% endif %}{% if event.place %}, {{ event.place }}{% endif %}{% if event.heading_addendum %}, {{ event.heading_addendum }}{% endif %}
+  {% if event.status != "upcoming-meet-greet" %}
+    - {{ event.date }}{% if event.timezone %} {{ event.timezone }}{% endif %}{% if event.place %}, {{ event.place }}{% endif %}{% if event.heading_addendum %}, {{ event.heading_addendum }}{% endif %}
+  {% else %}
+    - {{ event.date }}, {{ site.meet_greet.time }}
+  {% endif %}
   {% if event.longtext %}
-  <br/>
-  <div style="font-size: 1.4rem;">{{ event.longtext }}</div>
+    <br/>
+    <div style="font-size: 1.4rem;">{{ event.longtext }}</div>
+  {% elsif event.status == "upcoming-meet-greet" %}
+    <div style="font-size: 1.4rem;">{{ site.meet_greet.longtext }} <strong>Zoom Meeting:</strong> <a href="{{ site.meet_greet.link }}">Link</a>.</div>
   {% endif %}
 </li>
 {% endif %}
 {% endfor %}
 </ul>
-
 
 <strong>Past Events</strong>
 <ul>

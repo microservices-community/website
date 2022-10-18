@@ -3,9 +3,14 @@ layout: page
 title: Microservices Community
 permalink: /
 ---
+{% assign next_meet_greet = site.data.events | where: "status", "upcoming-meet-greet" %}
+{% assign next_meet_greet = next_meet_greet | first %}
 <section class="jumbotron text-center">
   <div class="container">
-    <p class="lead"><b>We are the Microservices Community</b> &ndash; a European-based international community interested in the software paradigm of <a herf="https://en.wikipedia.org/wiki/Microservices" target="_blank">Microservices</a>.</p>
+    <p class="lead"><b>We are the Microservices Community</b> &ndash; a European-based international community interested in the software paradigm of <a href="https://en.wikipedia.org/wiki/Microservices" target="_blank">Microservices</a>.</p>
+    {% if next_meet_greet %}
+        <p><a href="{{ next_meet_greet.link }}" target="_blank"><span class="fa fa-star" aria-hidden="true"></span> Get in touch at our next Virtual Meet & Greet on {{ next_meet_greet.date }}, {{ site.meet_greet.time }} via <strong>Zoom</strong></a></p>
+    {% endif %}
   </div>
 </section>
 

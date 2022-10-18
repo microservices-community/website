@@ -63,5 +63,9 @@ navigation_header:
       Statutes: /statutes
       Code of Ethics and Conduct: /coc
 
+meet_greet:
+  time: "15:00&ndash;15:30 CEST"
+  longtext: "Monthly Meet & Greet of the Microservices Community. Feel free to join and get in touch with fellow microservices enthusiasts."
+
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
