@@ -12,6 +12,6 @@ permalink: /meet_and_greet/
 ## Meet and Greet
 </div>
 
-Join the innovators, professionals, and experts on Microservices in our monthly Meet&Greet session.
+Join innovators, professionals, and experts on Microservices in our monthly Virtual Meet & Greet.
 
-The next event is scheduled for {% assign next_meet_greet = site.data.events | where: "status", "upcoming-meet-greet" %} {% assign next_meet_greet = next_meet_greet | first %} <a href="{{ next_meet_greet.link }}" target="_blank"> {{ next_meet_greet.date }}, {{ site.meet_greet.time }} via <strong>Zoom</strong></a>.
+The next Meet & Greet is scheduled for {% assign next_meet_greet = site.data.events | where: "status", "upcoming-meet-greet" %} {% assign next_meet_greet = next_meet_greet | first %} <a href="{{ next_meet_greet.link }}" target="_blank"> {{ next_meet_greet.date }}, {{ site.meet_greet.time }} at <strong>Zoom</strong></a>.
