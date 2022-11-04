@@ -51,7 +51,7 @@ redirect_from:
     <br/>
     <div style="font-size: 1.4rem;">{{ event.longtext }}</div>
   {% elsif event.status == "upcoming-meet-greet" %}
-    <div style="font-size: 1.4rem;">{{ site.meet_greet.longtext }} <strong>Zoom Meeting:</strong> <a href="{{ site.meet_greet.link }}">Link</a>.</div>
+    <div style="font-size: 1.4rem;">{{ site.meet_greet.longtext }} <strong>Zoom Meeting:</strong> <a href="{{ event.link }}">Link</a>.</div>
   {% endif %}
 </li>
 {% endif %}
