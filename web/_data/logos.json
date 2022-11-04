@@ -75,5 +75,10 @@
     "link": "https://www.uni-stuttgart.de/en/",
     "alt": "University of Stuttgart",
     "category": "individual"
+  },{
+    "logo": "uqar.png",
+    "link": "https://uqar.ca",
+    "alt": "Université du Québec à Rimouski",
+    "category": "corporate"
   }
 ]
