@@ -1,0 +1,6 @@
+FROM jolielang/leonardo
+ENV LEONARDO_WWW /web
+COPY web/_site $LEONARDO_WWW
+COPY app /leonardo
+# COPY --from=Source /git/app /leonardo
+# COPY --from=Build /site $LEONARDO_WWW

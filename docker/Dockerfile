@@ -15,4 +15,5 @@ RUN mv /srv/jekyll/_site /site
 
 FROM jolielang/leonardo
 ENV LEONARDO_WWW /web
+COPY --from=Source /git/app /leonardo
 COPY --from=Build /site $LEONARDO_WWW
