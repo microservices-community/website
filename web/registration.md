@@ -9,7 +9,7 @@ permalink: /registration-form/
       <h2>{{page.title}}</h2>
     </div>
     <div class="container">
-    <form method="POST" action="/resources/v1/contact/">
+    <form method="POST" action="/!/fh/!/submit">
         <h3>Personal information:</h3>
         <label>Name: </label><br />
         <input type="text" name="name" placeholder="Your name" required="required"><br />

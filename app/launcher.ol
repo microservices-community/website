@@ -15,9 +15,11 @@
 */
 
 from runtime import Runtime
+from exec import Exec
 
 service Launcher {
 	embed Runtime as Runtime
+	embed Exec as Exec
 	main {
 		if ( is_defined( args[0] ) ) {
 			dir = args[0]
@@ -31,6 +33,8 @@ service Launcher {
 
 		config.location = "socket://localhost:8080"
 		config.defaultPage = "index.html"
+
+		exec@Exec( "postfix" { args = "start", waitFor = 1 } )( )
 
 		loadEmbeddedService@Runtime( {
 			filepath = home + sep + "form_handler.ol"

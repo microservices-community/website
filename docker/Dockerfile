@@ -14,6 +14,9 @@ RUN bundle exec jekyll build
 RUN mv /srv/jekyll/_site /site
 
 FROM jolielang/leonardo
+# for the form emailing service
+RUN apk update && apk add postfix && apk add openrc
+RUN rc-update add postfix
 ENV LEONARDO_WWW /web
 COPY --from=Source /git/app /leonardo
 COPY --from=Build /site $LEONARDO_WWW

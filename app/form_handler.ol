@@ -16,22 +16,45 @@
 
 from console import Console
 from string_utils import StringUtils
+from exec import Exec
 
 service fh {
  inputPort in {
   location: "local"
-  requestResponse: test
+  requestResponse: submit
  }
 
  embed Console as console
  embed StringUtils as stringUtils
+ embed Exec as exec
 
  execution: concurrent
 
  main {
-  submit( a )( r ){
-   valueToPrettyString@stringUtils( a )( r )
-   println@console( t )()
+  submit( r )( "Request Submitted" ){
+   // valueToPrettyString@stringUtils( r )( r )
+  cnt = 
+   "Subject: Join Request from " + r.name + " @ Microservices Community\n"
+	  + "From: form-handler@microservices.community\n"
+	  + "Content-Type: text/html; charset=\"utf8\"\n"
+   + "\n\n"
+   + "<html>"
+	  + "<body>"
+   + "<ul>"
+   + "<li>Name: " + r.name + "</li>"
+   + "<li>Affiliation: " + r.affiliation + "</li>"
+   + "<li>Title: " + r.title + "</li>"
+   + "<li>Email: " + r.email + "</li>"
+	  + "</ul>"
+	  + "</body>"
+	  + "</html>"
+   cmd = "echo '" + cnt + "' | sendmail join@microservices.community"
+   exec@exec( "sh" { 
+    args[ 0 ] = "-c"
+    args[ 1 ] = cmd
+   } )()
+   // valueToPrettyString@stringUtils( a )( r )
+   // println@console( r )()
   }
  }
 

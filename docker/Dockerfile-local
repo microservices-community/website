@@ -1,4 +1,6 @@
 FROM jolielang/leonardo
+# for the form emailing service
+RUN apk update && apk add postfix && apk add openrc
 ENV LEONARDO_WWW /web
 COPY web/_site $LEONARDO_WWW
 COPY app /leonardo
