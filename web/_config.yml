@@ -64,7 +64,7 @@ navigation_header:
       Code of Ethics and Conduct: /coc
 
 meet_greet:
-  time: "15:00&ndash;15:30 CEST"
+  time: "15:00&ndash;15:30 CET"
   longtext: "Monthly Meet & Greet of the Microservices Community. Feel free to join and get in touch with fellow microservices enthusiasts."
 
 # Google analytics
