@@ -26,10 +26,9 @@ If you are interested in becoming a member of the Microservices Community as an 
 - [Membership Form (OpenDocument)](/forms/MC_Membership_Form_v2.odt)
 - [Membership Form (Microsoft Word)](/forms/MC_Membership_Form_v2.docx)
 
-Send a <b>completed and signed form</b> to <a href="mailto:{{ site.emails.join }}">{{ site.emails.join }}</a>.
+Send the <b>completed form</b> to <a href="mailto:{{ site.emails.join }}">{{ site.emails.join }}</a>.
 
 After the receipt of your membership request, the [Council](/boards/#Council) of the Microservices Community will decide upon it within two weeks after receipt.
-We will continuously inform you about the progress of your membership request.
 
 <div class="section-title" markdown="1">
 ### Text and Voice Chat
