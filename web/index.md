@@ -14,18 +14,6 @@ permalink: /
   </div>
 </section>
 
-<section style="font-size:18px; margin-bottom:15px;">
-    <div class="container">
-        <div class="row align-center">
-            <div class="alert alert-info" role="alert">
-                <h3 class="alert-heading"><span class="fa fa-bullhorn" aria-hidden="true"></span> Microservices 2023: Call for Locations</h3>
-                The Steering Committee of the Microservices Conference is seeking proposals for hosting and organizing the conference's 2023 edition.
-                The Call for Locations including the proposal template can be found at <a href="https://www.conf-micro.services">https://www.conf-micro.services</a>.
-            </div>
-        </div>
-    </div>
-</section>
-
 <style>
 .badge-notify {
     background: green;
