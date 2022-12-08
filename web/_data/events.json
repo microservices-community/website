@@ -1,5 +1,11 @@
 [
   {
+    "title": "Virtual Meet & Greet on Zoom",
+    "date": "January 11<sup>th</sup>, 2022",
+    "link": "https://us02web.zoom.us/j/87923373156?pwd=SEdaMENEMkkvZUVpTW1HY3hub01IQT09",
+    "status" : "upcoming-meet-greet"
+  },
+  {
     "title": "An Introduction to Structured Microservice Programming and the Jolie Programming Language",
     "date": "November 21<sup>st</sup>, 2022, 11:00",
     "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzEzOTdiOWEtMWE4ZS00OTg4LTk3MmQtMzBiMDY2NTMxZGRh%40thread.v2/0?context=%7b%22Tid%22%3a%22c7456b31-a220-47f5-be52-473828670aa1%22%2c%22Oid%22%3a%22958423a9-8e9c-442f-8839-9937b59b062d%22%7d",
@@ -27,13 +33,13 @@
                   <a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzEzOTdiOWEtMWE4ZS00OTg4LTk3MmQtMzBiMDY2NTMxZGRh%40thread.v2/0?context=%7b%22Tid%22%3a%22c7456b31-a220-47f5-be52-473828670aa1%22%2c%22Oid%22%3a%22958423a9-8e9c-442f-8839-9937b59b062d%22%7d\">Link</a>.
                   </li>
                   </ul>",
-    "status" : "upcoming"
+    "status" : "past"
   },
   {
     "title": "Virtual Meet & Greet on Zoom",
     "date": "December 2<sup>nd</sup>, 2022",
     "link": "https://us02web.zoom.us/j/87923373156?pwd=SEdaMENEMkkvZUVpTW1HY3hub01IQT09",
-    "status" : "upcoming-meet-greet"
+    "status" : "past"
   },
   {
     "title": "Virtual Meet & Greet on Zoom",
