@@ -1,5 +1,42 @@
 [
   {
+    "title": "An attempt to remove the need for experience in microservice granularity choices",
+    "date": "January 27<sup>th</sup>, 2023, 14:30&ndash;15:30",
+    "link": "https://www.microservices.community/events/",
+    "timezone": "CET",
+    "longtext" : "<ul style=\"margin-left:-2em;\">
+                  <li><strong>Description:</strong>
+                  Open webinar of the Microservice Community's
+                  <a href=\"microservices.community/community-groups/research.html\">Research Group</a>.
+                  </li>
+
+                  <li><strong>Invited Speaker:</strong>
+                  Famke Driessen (University of Twente)
+                  </li>
+
+                  <li><strong>Talk Abstract:</strong>
+                  A prominent research gap in the field of microservices is the lack of tooling to identify
+                  service boundaries and evaluate the granularity of a system. Currently, practitioners do this
+                  based on their experience and insight without making use of any frameworks or tools, except for
+                  some Domain-Driven Design (DDD) concepts. DDD is described often as an approach to determine microservice
+                  granularity, but neither DDD offers concrete decision support, as the guidance for determining service boundaries
+                  is not much more than to identify a bounded context for each domain concept. The necessary finetuning of service
+                  boundaries is still done based mainly on experience, which is not always available in teams new to microservice
+                  architecture. There is a need for approaches to monitor granularity metrics over time, to make the process of
+                  evaluating granularity more objective. The version control data of an application not only allows us to go back in
+                  time and assess the evolution of an application in terms of granularity, but also provides us with potential granularity
+                  metrics such as development coupling and deployment coupling. The research discussed in this webinar identifies several
+                  granularity metrics, and aims to investigate how based on those metrics the most optimal granularity of a microservice
+                  architecture can be achieved for a certain set of requirements.
+                  </li>
+
+                  <li><strong>Join via Microsoft Teams:</strong>
+                  <a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2VhZmE0YTItODZlNS00NjkyLWEwYzktODBmMWJkZTAxMTI1%40thread.v2/0?context=%7b%22Tid%22%3a%22c7456b31-a220-47f5-be52-473828670aa1%22%2c%22Oid%22%3a%22958423a9-8e9c-442f-8839-9937b59b062d%22%7d\">Link</a>.
+                  </li>
+                  </ul>",
+    "status" : "upcoming"
+  },
+  {
     "title": "Virtual Meet & Greet on Zoom",
     "date": "January 11<sup>th</sup>, 2023",
     "link": "https://us02web.zoom.us/j/87923373156?pwd=SEdaMENEMkkvZUVpTW1HY3hub01IQT09",
