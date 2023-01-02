@@ -80,5 +80,10 @@
     "link": "https://uqar.ca",
     "alt": "Université du Québec à Rimouski",
     "category": "corporate"
+  },{
+    "logo": "onteon.png",
+    "link": "https://onteon.com/",
+    "alt": "Onteon Tech Limited",
+    "category": "corporate"
   }
 ]
