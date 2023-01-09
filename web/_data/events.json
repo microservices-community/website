@@ -1,5 +1,18 @@
 [
   {
+    "title": "10th European Conference on Service-Oriented and Cloud Computing (ESOCC 2023)",
+    "link": "https://cyprusconferences.org/esocc2023/",
+    "date": "October 24<sup>nd</sup>&ndash;26<sup>th</sup> 2023",
+    "timezone": "CET",
+    "place": "Larnaca, Cyprus",
+    "longtext" : "The European Conference on Service-Oriented and Cloud Computing (ESOCC) is the premier
+                  conference on advances in the state of the art and practice of Service-Oriented Computing
+                  and Cloud Computing in Europe. The main objectives of this conference are to facilitate the
+                  exchange between researchers and practitioners in the areas of Service-oriented Computing
+                  and Cloud Computing and to foster future collaborations in Europe and beyond.",
+    "status" : "upcoming"
+  },
+  {
     "title": "An attempt to remove the need for experience in microservice granularity choices",
     "date": "January 27<sup>th</sup>, 2023, 14:30&ndash;15:30",
     "link": "https://www.microservices.community/events/",
