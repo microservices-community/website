@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 gemspec
 
-gem "liquid-c" # C liquid engine
 gem "webrick", "~> 1.7"
 gem "jekyll-datapage-generator"
 gem "json-schema", "~> 2.8"
