@@ -1,5 +1,11 @@
 [
   {
+    "title": "Virtual Meet & Greet on Zoom",
+    "date": "February 10<sup>th</sup>, 2023",
+    "link": "https://us02web.zoom.us/j/87923373156?pwd=SEdaMENEMkkvZUVpTW1HY3hub01IQT09",
+    "status" : "upcoming-meet-greet"
+  },
+  {
     "title": "10th European Conference on Service-Oriented and Cloud Computing (ESOCC 2023)",
     "link": "https://cyprusconferences.org/esocc2023/",
     "date": "October 24<sup>nd</sup>&ndash;26<sup>th</sup> 2023",
@@ -53,7 +59,7 @@
     "title": "Virtual Meet & Greet on Zoom",
     "date": "January 11<sup>th</sup>, 2023",
     "link": "https://us02web.zoom.us/j/87923373156?pwd=SEdaMENEMkkvZUVpTW1HY3hub01IQT09",
-    "status" : "upcoming-meet-greet"
+    "status" : "post"
   },
   {
     "title": "An Introduction to Structured Microservice Programming and the Jolie Programming Language",
