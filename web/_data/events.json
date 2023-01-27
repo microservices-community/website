@@ -1,26 +1,7 @@
 [
   {
-    "title": "Virtual Meet & Greet on Zoom",
-    "date": "February 10<sup>th</sup>, 2023",
-    "link": "https://us02web.zoom.us/j/87923373156?pwd=SEdaMENEMkkvZUVpTW1HY3hub01IQT09",
-    "status" : "upcoming-meet-greet"
-  },
-  {
-    "title": "10th European Conference on Service-Oriented and Cloud Computing (ESOCC 2023)",
-    "link": "https://cyprusconferences.org/esocc2023/",
-    "date": "October 24<sup>nd</sup>&ndash;26<sup>th</sup> 2023",
-    "timezone": "CET",
-    "place": "Larnaca, Cyprus",
-    "longtext" : "The European Conference on Service-Oriented and Cloud Computing (ESOCC) is the premier
-                  conference on advances in the state of the art and practice of Service-Oriented Computing
-                  and Cloud Computing in Europe. The main objectives of this conference are to facilitate the
-                  exchange between researchers and practitioners in the areas of Service-oriented Computing
-                  and Cloud Computing and to foster future collaborations in Europe and beyond.",
-    "status" : "upcoming"
-  },
-  {
     "title": "An attempt to remove the need for experience in microservice granularity choices",
-    "date": "January 27<sup>th</sup>, 2023, 14:30&ndash;15:30",
+    "date": "February 8<sup>th</sup>, 2023, 14:30&ndash;15:30",
     "link": "https://www.microservices.community/events/",
     "timezone": "CET",
     "longtext" : "<ul style=\"margin-left:-2em;\">
@@ -57,9 +38,34 @@
   },
   {
     "title": "Virtual Meet & Greet on Zoom",
+    "date": "February 10<sup>th</sup>, 2023",
+    "link": "https://us02web.zoom.us/j/87923373156?pwd=SEdaMENEMkkvZUVpTW1HY3hub01IQT09",
+    "status" : "upcoming-meet-greet"
+  },
+  {
+    "title": "10th European Conference on Service-Oriented and Cloud Computing (ESOCC 2023)",
+    "link": "https://cyprusconferences.org/esocc2023/",
+    "date": "October 24<sup>nd</sup>&ndash;26<sup>th</sup> 2023",
+    "timezone": "CET",
+    "place": "Larnaca, Cyprus",
+    "longtext" : "The European Conference on Service-Oriented and Cloud Computing (ESOCC) is the premier
+                  conference on advances in the state of the art and practice of Service-Oriented Computing
+                  and Cloud Computing in Europe. The main objectives of this conference are to facilitate the
+                  exchange between researchers and practitioners in the areas of Service-oriented Computing
+                  and Cloud Computing and to foster future collaborations in Europe and beyond.",
+    "status" : "upcoming"
+  },
+  {
+    "title": "Virtual Meet & Greet on Zoom",
     "date": "January 11<sup>th</sup>, 2023",
     "link": "https://us02web.zoom.us/j/87923373156?pwd=SEdaMENEMkkvZUVpTW1HY3hub01IQT09",
-    "status" : "post"
+    "status" : "past"
+  },
+  {
+    "title": "Virtual Meet & Greet on Zoom",
+    "date": "December 2<sup>nd</sup>, 2022",
+    "link": "https://us02web.zoom.us/j/87923373156?pwd=SEdaMENEMkkvZUVpTW1HY3hub01IQT09",
+    "status" : "past"
   },
   {
     "title": "An Introduction to Structured Microservice Programming and the Jolie Programming Language",
@@ -89,12 +95,6 @@
                   <a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzEzOTdiOWEtMWE4ZS00OTg4LTk3MmQtMzBiMDY2NTMxZGRh%40thread.v2/0?context=%7b%22Tid%22%3a%22c7456b31-a220-47f5-be52-473828670aa1%22%2c%22Oid%22%3a%22958423a9-8e9c-442f-8839-9937b59b062d%22%7d\">Link</a>.
                   </li>
                   </ul>",
-    "status" : "past"
-  },
-  {
-    "title": "Virtual Meet & Greet on Zoom",
-    "date": "December 2<sup>nd</sup>, 2022",
-    "link": "https://us02web.zoom.us/j/87923373156?pwd=SEdaMENEMkkvZUVpTW1HY3hub01IQT09",
     "status" : "past"
   },
   {
