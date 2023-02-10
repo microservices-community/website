@@ -1,8 +1,8 @@
 [
   {
-    "title": "Virtual Meet & Greet on Zoom",
-    "date": "February 10<sup>th</sup>, 2023",
-    "link": "https://us02web.zoom.us/j/87923373156?pwd=SEdaMENEMkkvZUVpTW1HY3hub01IQT09",
+    "title": "Virtual Meet & Greet at Teams",
+    "date": "March 10<sup>th</sup>, 2023",
+    "link": "https://teams.live.com/meet/9477726354404",
     "status" : "upcoming-meet-greet"
   },
   {
@@ -17,6 +17,12 @@
                   exchange between researchers and practitioners in the areas of Service-oriented Computing
                   and Cloud Computing and to foster future collaborations in Europe and beyond.",
     "status" : "upcoming"
+  },
+  {
+    "title": "Virtual Meet & Greet on Zoom",
+    "date": "February 10<sup>th</sup>, 2023",
+    "link": "https://us02web.zoom.us/j/87923373156?pwd=SEdaMENEMkkvZUVpTW1HY3hub01IQT09",
+    "status" : "past"
   },
   {
     "title": "An attempt to remove the need for experience in microservice granularity choices",
