@@ -21,13 +21,10 @@ Members of the Microservices Community have access to resources and a network of
 </div>
 Members can join as individuals, organisations (corporate and academia), or special nonprofit organisations (NPOs) like Open Source projects.
 
-
-If you are interested in becoming a member of the Microservices Community as an individual or organisation, please fill out our membership form:
-- [Membership Form (OpenDocument)](/forms/MC_Membership_Form_v2.odt)
-- [Membership Form (Microsoft Word)](/forms/MC_Membership_Form_v2.docx)
-
-Send the <b>completed form</b> to <a href="mailto:{{ site.emails.join }}">{{ site.emails.join }}</a>.
-
+If you are interested in becoming a member of the Microservices Community as an individual or organisation, please fill out our membership form following the link below.
+<div class="text-center" style="font-size:18px;margin-bottom:25px;margin-top:25px;">
+<a class="btn btn-primary" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfZI_kdxMnJWSH7le8oXxbN6z_fXszaQpIkdZeU0fa_FZRqfQ/viewform?usp=sharing">Membership Form <i class="fa fa-external-link" aria-hidden="true"></i></a>
+</div>
 After the receipt of your membership request, the [Council](/boards/#Council) of the Microservices Community will decide upon it within two weeks after receipt.
 
 <div class="section-title" markdown="1">
@@ -37,7 +34,8 @@ Get in touch with the Microservices Community on our [Discord server](https://di
 Everybody is welcome to join by following our open invitation link:
 
 <div class="text-center" style="font-size:18px;margin-bottom:25px;margin-top:25px;">
-<a href="https://discord.gg/BmsrHMC">https://discord.gg/BmsrHMC</a>
+<a class="btn btn-primary" target="_blank" href="https://discord.gg/BmsrHMC">Discord Server <i class="fa fa-external-link" aria-hidden="true"></i>
+</a>
 </div>
 
 <div class="section-title" markdown="1">
@@ -47,7 +45,8 @@ In addition to the Discord server, the Microservices Community operates a [maili
 Everybody is welcome to join by requesting an invitation at:
 
 <div class="text-center" style="font-size:18px;margin-bottom:25px;margin-top:25px;">
-<a href="https://groups.google.com/forum/#!forum/microservices-community">https://groups.google.com/forum/#!forum/microservices-community</a></div>
+<a  class="btn btn-primary" target="_blank" href="https://groups.google.com/forum/#!forum/microservices-community">Mailing List <i class="fa fa-external-link" aria-hidden="true"></i>
+</a></div>
 </div>
 </div>
 </div>
