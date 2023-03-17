@@ -33,28 +33,31 @@ service fh {
  main {
   submit( r )( "Request Submitted" ){
    // valueToPrettyString@stringUtils( r )( r )
+  _from = "join2@microservices.community"
   cnt = 
    "Subject: Join Request from " + r.name + " @ Microservices Community\n"
-	  + "From: form-handler@microservices.community\n"
-	  + "Content-Type: text/html; charset=\"utf8\"\n"
+	  + "To: " + r.email + "\n"
+	  + "From: " + _from + "\n"
+	  + "Bcc: " + _from + "\n"
+	  + "Content-Type: text/plain; charset=\"utf8\"\n"
    + "\n\n"
-   + "<html>"
-	  + "<body>"
-   + "<ul>"
-   + "<li>Name: " + r.name + "</li>"
-   + "<li>Affiliation: " + r.affiliation + "</li>"
-   + "<li>Title: " + r.title + "</li>"
-   + "<li>Email: " + r.email + "</li>"
-	  + "</ul>"
-	  + "</body>"
-	  + "</html>"
-   cmd = "echo '" + cnt + "' | sendmail join@microservices.community"
-   exec@exec( "sh" { 
+   + "Dear " + r.name + ",\n"
+   + "Thanks for your request to join the Microservices Community.\n"
+   + "Please find below the data of your request, which we will handle ASAP and contact you back promptly.\n"
+   + "\t- Name: " + r.name + "\n"
+   + "\t- Affiliation: " + r.affiliation + "\n"
+   + "\t- Title: " + r.title + "\n"
+   + "\t- Email: " + r.email + "\n\n"
+   + "In the meantime, do not hesitate to contact us at " + _from + " for any further question.\n\n"
+   + "Best regards,\n"
+   + "Your Onboarding Team at Microservices Community"
+   cmd = "echo '" + cnt + "' | sendmail -t "
+   exec@exec( "sh" {
     args[ 0 ] = "-c"
     args[ 1 ] = cmd
    } )()
-   // valueToPrettyString@stringUtils( a )( r )
-   // println@console( r )()
+   // valueToPrettyString@stringUtils( cnt )( r )
+   println@console( cnt )()
   }
  }
 
