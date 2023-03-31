@@ -9,7 +9,7 @@ permalink: /
   <div class="container">
     <p class="lead"><b>We are the Microservices Community</b> &ndash; a European-based international community interested in the software paradigm of <a href="https://en.wikipedia.org/wiki/Microservices" target="_blank">Microservices</a>.</p>
     {% if next_meet_greet %}
-        <p><a href="{{ next_meet_greet.link }}" target="_blank"><span class="fa fa-star" aria-hidden="true"></span> Get in touch at our next Virtual Meet & Greet on {{ next_meet_greet.date }}, {{ site.meet_greet.time }} via <strong>Zoom</strong></a></p>
+        <p><a href="{{ next_meet_greet.link }}" target="_blank"><span class="fa fa-star" aria-hidden="true"></span> Get in touch at our next Virtual Meet & Greet on {{ next_meet_greet.date }}, {{ site.meet_greet.time }} via <strong>{{ site.meet_greet.venue }}</strong></a></p>
     {% endif %}
   </div>
 </section>
