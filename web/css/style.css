@@ -32,3 +32,8 @@
 .post-area a:hover {
   color: #0D0017;
 }
+
+.iframe{
+  display:block; 
+  position: absolute;
+}
