@@ -14,6 +14,19 @@ permalink: /
   </div>
 </section>
 
+<section style="font-size:18px; margin-bottom:15px;">
+     <div class="container">
+         <div class="row align-center">
+             <div class="alert alert-info" role="alert">
+                 <h3 class="alert-heading"><span class="fa fa-bullhorn" aria-hidden="true"></span> Microservices 2023: Call for Papers</h3>
+                 The <a href="https://www.conf-micro.services/2023/"><strong>Fifth International Conference on Microservices (Microservices 2023)</strong></a> is going to be held in <strong>Pisa, October 10&ndash;12, 2023</strong>.
+                 Please consider submitting your latest insights about the <strong>adoption and study of Microservices in industry or academia</strong> for presentation at the conference by
+                 <strong>June 25th, 2023 (AoE)</strong> (see the <a href="https://www.conf-micro.services/2023/cfp.txt"><strong>Call for Papers</strong></a> for all submission-related information).
+             </div>
+         </div>
+     </div>
+ </section>
+
 <style>
 .badge-notify {
     background: green;
