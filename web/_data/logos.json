@@ -85,5 +85,10 @@
     "link": "https://onteon.com/",
     "alt": "Onteon Tech Limited",
     "category": "corporate"
+  },{
+    "logo": "brunel.png",
+    "link": "https://www.brunel.ac.uk/",
+    "alt": "Brunel University London",
+    "category": "individual"
   }
 ]
