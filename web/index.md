@@ -153,7 +153,7 @@ permalink: /
   <div class="col-xs-12 col-md-4" style="overflow: hidden;">
     <div id="block_sm_f" class="col-xs-12" style="text-align: center;">
     <h2>Social Media</h2>
-    <h2>Follow us on: &nbsp;<a href="https://twitter.com/c_microservices"><img src="assets/images/media/twitter.png" alt=""></a>
+    <h2>Follow us on: &nbsp;<a href="https://x.com/c_microservices"><img src="assets/images/media/x.png" alt=""></a>
       <a target="_blank" href="https://www.facebook.com/MicroservicesCommunity/"><img src="assets/images/media/facebook.png" alt=""></a>
       <a target="_blank" href="https://www.linkedin.com/company/microservices-community"><img src="assets/images/media/linkedin.png" alt=""></a>
     </h2>
