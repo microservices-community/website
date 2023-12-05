@@ -1,19 +1,26 @@
 [ 
   {
+    "title": "26th International Conference on Coordination Models and Languages (COORDINATION 2024)",
+    "link": "https://www.discotec.org/2024/coordination",
+    "date": "June 17<sup>th</sup>&ndash;21<sup>st</sup> 2024",
+    "longtext" : "The International Conference on Coordination Models and Languages (COORDINATION) is a well-established forum for the growing community of researchers interested in models, languages, architectures, and implementation techniques for coordination.",
+    "status" : "upcoming"
+  },
+  {
     "title": "International Conference on Microservices (Microservices 2023)",
     "link": "https://www.conf-micro.services/2023/",
     "date": "October 10<sup>th</sup>-12<sup>th</sup> 2023",
     "longtext": "The International Conference on Microservices is a forum for the discussion of all aspects of
                 microservices: their design, programming, and operations. The 2023 edition of the conference
                 (Microservices 2023) will take place in Pisa, Italy.",
-    "status" : "upcoming"
+    "status" : "past"
   },
   {
     "title": "Fourth International Workshop on Agility with Microservices Programming (AMP 2023)",
     "link": "https://amp.fe.up.pt/2023",
     "date": "September 18<sup>th</sup> 2023",
     "longtext" : "The AMP workshop series aims at collecting original work on the science and engineering of Microservices Programming using Agile principles and practices and/or with the goal of supporting Agility.",
-    "status" : "upcoming"
+    "status" : "past"
   },
   {
     "title": "10th European Conference on Service-Oriented and Cloud Computing (ESOCC 2023)",
@@ -26,7 +33,7 @@
                   and Cloud Computing in Europe. The main objectives of this conference are to facilitate the
                   exchange between researchers and practitioners in the areas of Service-oriented Computing
                   and Cloud Computing and to foster future collaborations in Europe and beyond.",
-    "status" : "upcoming"
+    "status" : "past"
   },
   {
     "title": "The MicroService Architecture Recovery Approach (MiSAR)",
