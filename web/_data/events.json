@@ -1,5 +1,12 @@
 [ 
   {
+    "title": "1st International Workshop on Choreographic Programming (CP 2024)",
+    "link": "https://pldi24.sigplan.org/home/cp-2024",
+    "date": "June 24<sup>th</sup> 2024",
+    "longtext" : "The 1st International Workshop on Choreographic Programming (CP 2024) is a co-located event at PLDI 2024. Choreographies are coordination plans for concurrent and distributed systems. A choreography defines the roles of the involved participants and how they are supposed to work together. In the emerging paradigm of choreographic programming, choreographies are programs that can be compiled to executable implementations. The aim of this workshop is to catalyse the community around Choreographic Programming.",
+    "status" : "upcoming"
+  },
+  {
     "title": "26th International Conference on Coordination Models and Languages (COORDINATION 2024)",
     "link": "https://www.discotec.org/2024/coordination",
     "date": "June 17<sup>th</sup>&ndash;21<sup>st</sup> 2024",
@@ -10,9 +17,7 @@
     "title": "International Conference on Microservices (Microservices 2023)",
     "link": "https://www.conf-micro.services/2023/",
     "date": "October 10<sup>th</sup>-12<sup>th</sup> 2023",
-    "longtext": "The International Conference on Microservices is a forum for the discussion of all aspects of
-                microservices: their design, programming, and operations. The 2023 edition of the conference
-                (Microservices 2023) will take place in Pisa, Italy.",
+    "longtext": "The International Conference on Microservices is a forum for the discussion of all aspects of microservices: their design, programming, and operations. The 2023 edition of the conference (Microservices 2023) will take place in Pisa, Italy.",
     "status" : "past"
   },
   {
