@@ -9,15 +9,16 @@ redirect_from:
   - /e/discotec2021/
   - /e/coordination2024/
   - /e/amp2020/
-  - /e/amp2020/
+  - /e/amp2020
   - /e/amp2021/
-  - /e/amp2021/
+  - /e/amp2021
   - /e/microservices2020/
-  - /e/microservices2020/
+  - /e/microservices2020
   - /e/microservices2019/
-  - /e/microservices2019/
+  - /e/microservices2019
   - /e/bigservices2021/
-  - /e/bigservices2021/
+  - /e/waca2025
+  - /e/waca2025/
 ---
 
 <section><div class="container"><div class="row"><div class="col-xs-12" markdown="1">

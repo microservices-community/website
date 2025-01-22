@@ -1,17 +1,24 @@
 [ 
   {
+    "title": "1st International Workshop on Adaptable Cloud Architectures (WACA 2025)",
+    "link": "https://thesave.github.io/waca-website/",
+    "date": "June 20<sup>th</sup> 2025",
+    "longtext" : "The Workshop on Adaptable Cloud Architectures (WACA 2025), taking place in Lille, France, brings together researchers and practitioners to explore innovative approaches to cloud architecture adaptation. Moving beyond conventional scaling methods, this workshop examines sophisticated architectural modifications that respond to various challenges, from changing user requirements to infrastructure failures.",
+    "status" : "past"
+  },
+  {
     "title": "1st International Workshop on Choreographic Programming (CP 2024)",
     "link": "https://pldi24.sigplan.org/home/cp-2024",
     "date": "June 24<sup>th</sup> 2024",
     "longtext" : "The 1st International Workshop on Choreographic Programming (CP 2024) is a co-located event at PLDI 2024. Choreographies are coordination plans for concurrent and distributed systems. A choreography defines the roles of the involved participants and how they are supposed to work together. In the emerging paradigm of choreographic programming, choreographies are programs that can be compiled to executable implementations. The aim of this workshop is to catalyse the community around Choreographic Programming.",
-    "status" : "upcoming"
+    "status" : "past"
   },
   {
     "title": "26th International Conference on Coordination Models and Languages (COORDINATION 2024)",
     "link": "https://www.discotec.org/2024/coordination",
     "date": "June 17<sup>th</sup>&ndash;21<sup>st</sup> 2024",
     "longtext" : "The International Conference on Coordination Models and Languages (COORDINATION) is a well-established forum for the growing community of researchers interested in models, languages, architectures, and implementation techniques for coordination.",
-    "status" : "upcoming"
+    "status" : "past"
   },
   {
     "title": "International Conference on Microservices (Microservices 2023)",
