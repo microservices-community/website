@@ -1,4 +1,10 @@
-[ 
+[   {
+  "title": "Fifth International Workshop on Agility with Microservices Programming (AMP 2025)",
+  "link": "https://amp-workshops.github.io/",
+  "date": "September 15/16<sup>th</sup> 2025",
+  "longtext" : "The AMP workshop series aims at collecting original work on the science and engineering of Microservices Programming using Agile principles and practices and/or with the goal of supporting Agility.",
+  "status" : "upcoming"
+  },
   {
     "title": "1st International Workshop on Adaptable Cloud Architectures (WACA 2025)",
     "link": "https://thesave.github.io/waca-website/",
